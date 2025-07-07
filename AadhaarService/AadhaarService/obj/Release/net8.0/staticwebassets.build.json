@@ -1,0 +1,640 @@
+{
+  "Version": 1,
+  "Hash": "rnSUbjlcLWIETSYVOmnvZmFuzDyu8X2WKsWoQ+gdEcE=",
+  "Source": "AadhaarService",
+  "BasePath": "_content/AadhaarService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AadhaarService\\wwwroot",
+      "Source": "AadhaarService",
+      "ContentRoot": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\wwwroot\\",
+      "BasePath": "_content/AadhaarService",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\obj\\Release\\net8.0\\scopedcss\\bundle\\AadhaarService.styles.css",
+      "SourceId": "AadhaarService",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\obj\\Release\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/AadhaarService",
+      "RelativePath": "AadhaarService#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "qgtshbx8n0",
+      "Integrity": "KlHXTTCfRz9uZOm4r37WwYK8jShQcIZDc0ZDEpCRtyo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\obj\\Release\\net8.0\\scopedcss\\bundle\\AadhaarService.styles.css"
+    },
+    {
+      "Identity": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\AadhaarService.bundle.scp.css",
+      "SourceId": "AadhaarService",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/AadhaarService",
+      "RelativePath": "AadhaarService#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "qgtshbx8n0",
+      "Integrity": "KlHXTTCfRz9uZOm4r37WwYK8jShQcIZDc0ZDEpCRtyo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\AadhaarService.bundle.scp.css"
+    },
+    {
+      "Identity": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\wwwroot\\certificates\\DCBX_certificate.cer",
+      "SourceId": "AadhaarService",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\wwwroot\\",
+      "BasePath": "_content/AadhaarService",
+      "RelativePath": "certificates/DCBX_certificate#[.{fingerprint}]?.cer",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "7a272xjlry",
+      "Integrity": "T91DdE6iPbMBexVTlxtDH+ciyvSDaqGngAAa5XrOUw4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\certificates\\DCBX_certificate.cer"
+    },
+    {
+      "Identity": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\wwwroot\\certificates\\JME.cer",
+      "SourceId": "AadhaarService",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\wwwroot\\",
+      "BasePath": "_content/AadhaarService",
+      "RelativePath": "certificates/JME#[.{fingerprint}]?.cer",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hyfg21mkkm",
+      "Integrity": "NwXinseC8xO2qfQwSSYU4YxTGHrUHXGJ8eWHriDVf7A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\certificates\\JME.cer"
+    },
+    {
+      "Identity": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\wwwroot\\certificates\\uidai_auth_preprod.cer",
+      "SourceId": "AadhaarService",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\wwwroot\\",
+      "BasePath": "_content/AadhaarService",
+      "RelativePath": "certificates/uidai_auth_preprod#[.{fingerprint}]?.cer",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nx4fd96jvx",
+      "Integrity": "u9czU1glLq5+MWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\certificates\\uidai_auth_preprod.cer"
+    },
+    {
+      "Identity": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\wwwroot\\certificates\\uidai_auth_prod.cer",
+      "SourceId": "AadhaarService",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\wwwroot\\",
+      "BasePath": "_content/AadhaarService",
+      "RelativePath": "certificates/uidai_auth_prod#[.{fingerprint}]?.cer",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nx4fd96jvx",
+      "Integrity": "u9czU1glLq5+MWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\certificates\\uidai_auth_prod.cer"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "AadhaarService.bundle.scp.css",
+      "AssetFile": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\AadhaarService.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KlHXTTCfRz9uZOm4r37WwYK8jShQcIZDc0ZDEpCRtyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 21:59:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KlHXTTCfRz9uZOm4r37WwYK8jShQcIZDc0ZDEpCRtyo="
+        }
+      ]
+    },
+    {
+      "Route": "AadhaarService.qgtshbx8n0.bundle.scp.css",
+      "AssetFile": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\AadhaarService.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KlHXTTCfRz9uZOm4r37WwYK8jShQcIZDc0ZDEpCRtyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 21:59:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qgtshbx8n0"
+        },
+        {
+          "Name": "label",
+          "Value": "AadhaarService.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KlHXTTCfRz9uZOm4r37WwYK8jShQcIZDc0ZDEpCRtyo="
+        }
+      ]
+    },
+    {
+      "Route": "AadhaarService.qgtshbx8n0.styles.css",
+      "AssetFile": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\obj\\Release\\net8.0\\scopedcss\\bundle\\AadhaarService.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KlHXTTCfRz9uZOm4r37WwYK8jShQcIZDc0ZDEpCRtyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 21:59:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qgtshbx8n0"
+        },
+        {
+          "Name": "label",
+          "Value": "AadhaarService.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KlHXTTCfRz9uZOm4r37WwYK8jShQcIZDc0ZDEpCRtyo="
+        }
+      ]
+    },
+    {
+      "Route": "AadhaarService.styles.css",
+      "AssetFile": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\obj\\Release\\net8.0\\scopedcss\\bundle\\AadhaarService.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KlHXTTCfRz9uZOm4r37WwYK8jShQcIZDc0ZDEpCRtyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 21:59:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KlHXTTCfRz9uZOm4r37WwYK8jShQcIZDc0ZDEpCRtyo="
+        }
+      ]
+    },
+    {
+      "Route": "certificates/DCBX_certificate.7a272xjlry.cer",
+      "AssetFile": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\wwwroot\\certificates\\DCBX_certificate.cer",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2570"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T91DdE6iPbMBexVTlxtDH+ciyvSDaqGngAAa5XrOUw4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 18:49:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7a272xjlry"
+        },
+        {
+          "Name": "label",
+          "Value": "certificates/DCBX_certificate.cer"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T91DdE6iPbMBexVTlxtDH+ciyvSDaqGngAAa5XrOUw4="
+        }
+      ]
+    },
+    {
+      "Route": "certificates/DCBX_certificate.cer",
+      "AssetFile": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\wwwroot\\certificates\\DCBX_certificate.cer",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2570"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T91DdE6iPbMBexVTlxtDH+ciyvSDaqGngAAa5XrOUw4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 18:49:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T91DdE6iPbMBexVTlxtDH+ciyvSDaqGngAAa5XrOUw4="
+        }
+      ]
+    },
+    {
+      "Route": "certificates/JME.cer",
+      "AssetFile": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\wwwroot\\certificates\\JME.cer",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2062"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NwXinseC8xO2qfQwSSYU4YxTGHrUHXGJ8eWHriDVf7A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 18:49:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NwXinseC8xO2qfQwSSYU4YxTGHrUHXGJ8eWHriDVf7A="
+        }
+      ]
+    },
+    {
+      "Route": "certificates/JME.hyfg21mkkm.cer",
+      "AssetFile": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\wwwroot\\certificates\\JME.cer",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2062"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NwXinseC8xO2qfQwSSYU4YxTGHrUHXGJ8eWHriDVf7A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 18:49:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hyfg21mkkm"
+        },
+        {
+          "Name": "label",
+          "Value": "certificates/JME.cer"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NwXinseC8xO2qfQwSSYU4YxTGHrUHXGJ8eWHriDVf7A="
+        }
+      ]
+    },
+    {
+      "Route": "certificates/uidai_auth_preprod.cer",
+      "AssetFile": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\wwwroot\\certificates\\uidai_auth_preprod.cer",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8104"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9czU1glLq5+MWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 18:49:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9czU1glLq5+MWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ="
+        }
+      ]
+    },
+    {
+      "Route": "certificates/uidai_auth_preprod.nx4fd96jvx.cer",
+      "AssetFile": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\wwwroot\\certificates\\uidai_auth_preprod.cer",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8104"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9czU1glLq5+MWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 18:49:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nx4fd96jvx"
+        },
+        {
+          "Name": "label",
+          "Value": "certificates/uidai_auth_preprod.cer"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9czU1glLq5+MWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ="
+        }
+      ]
+    },
+    {
+      "Route": "certificates/uidai_auth_prod.cer",
+      "AssetFile": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\wwwroot\\certificates\\uidai_auth_prod.cer",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8104"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9czU1glLq5+MWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 18:49:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9czU1glLq5+MWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ="
+        }
+      ]
+    },
+    {
+      "Route": "certificates/uidai_auth_prod.nx4fd96jvx.cer",
+      "AssetFile": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\AadhaarService\\AadhaarService\\wwwroot\\certificates\\uidai_auth_prod.cer",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8104"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9czU1glLq5+MWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 18:49:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nx4fd96jvx"
+        },
+        {
+          "Name": "label",
+          "Value": "certificates/uidai_auth_prod.cer"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9czU1glLq5+MWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ="
+        }
+      ]
+    }
+  ]
+}

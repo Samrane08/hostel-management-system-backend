@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/MasterService/MasterService.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\MasterService.hkvwc8l4k8.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-L5xGapkuqbuI7\u002BZDTDilwwEpk5t1uhxTYhkIbuPK3H8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022L5xGapkuqbuI7\u002BZDTDilwwEpk5t1uhxTYhkIbuPK3H8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 18:31:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/MasterService/MasterService.hkvwc8l4k8.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\MasterService.hkvwc8l4k8.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hkvwc8l4k8"},{"Name":"integrity","Value":"sha256-L5xGapkuqbuI7\u002BZDTDilwwEpk5t1uhxTYhkIbuPK3H8="},{"Name":"label","Value":"_content/MasterService/MasterService.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022L5xGapkuqbuI7\u002BZDTDilwwEpk5t1uhxTYhkIbuPK3H8=\u0022"},{"Name":"Last-Modified","Value":"Tue, 29 Apr 2025 18:31:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

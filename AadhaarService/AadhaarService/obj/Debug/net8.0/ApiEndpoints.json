@@ -1,0 +1,98 @@
+[
+  {
+    "ContainingType": "AadhaarService.Controllers.AadhaarController",
+    "Method": "Post",
+    "RelativePath": "v_aadhaar-service/api/Aadhaar/get-reference",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AadhaarNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AadhaarService.Controllers.AadhaarController",
+    "Method": "updateAadhardob",
+    "RelativePath": "v_aadhaar-service/api/Aadhaar/update-Aadhar-dob",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dob",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AadhaarService.Controllers.SendOTPController",
+    "Method": "Post",
+    "RelativePath": "v_aadhaar-service/api/SendOTP",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AadhaarNumber",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AadhaarService.Controllers.VerifyOTPController",
+    "Method": "ForgotUsernameVerifyOTP",
+    "RelativePath": "v_aadhaar-service/api/VerifyOTP/forgot-username-verify-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "AadhaarService.Model.Request.VerifyOTP",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AadhaarService.Controllers.VerifyOTPController",
+    "Method": "VerifyOTP",
+    "RelativePath": "v_aadhaar-service/api/VerifyOTP/verify-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "AadhaarService.Model.Request.VerifyOTP",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "AadhaarService.Controllers.VerifyOTPController",
+    "Method": "Post",
+    "RelativePath": "v_aadhaar-service/api/VerifyOTP/verify-otp-anonymous",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "AadhaarService.Model.Request.VerifyOTP",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

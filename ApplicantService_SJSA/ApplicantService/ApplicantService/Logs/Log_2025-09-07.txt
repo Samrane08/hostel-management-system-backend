@@ -1,0 +1,28 @@
+2025-09-07 17:06:45 - :
+Request GET /swagger executed in 4 ms
+2025-09-07 17:06:45 - :
+Request GET /swagger/index.html executed in 69 ms
+2025-09-07 17:06:49 - :
+Request GET /swagger/swagger-ui.css executed in 2279 ms
+2025-09-07 17:06:49 - :
+Request GET /swagger/swagger-ui-standalone-preset.js executed in 2702 ms
+2025-09-07 17:06:51 - :
+Request GET /swagger/ApplicantService/swagger.json executed in 29 ms
+2025-09-07 17:06:51 - :
+Request GET /swagger/favicon-32x32.png executed in 0 ms
+2025-09-07 17:12:13 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 3171 ms
+2025-09-07 17:12:13 - :
+Request GET /applicant-service/api/Application/payment-status executed in 3249 ms
+2025-09-07 17:12:13 - :
+Request GET /applicant-service/api/Account/check-verified-status executed in 3258 ms
+2025-09-07 17:12:20 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 83 ms
+2025-09-07 17:12:20 - :
+Request GET /applicant-service/api/CurrentCourse/GetQualificationByuserId executed in 82 ms
+2025-09-07 17:27:45 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 219 ms
+2025-09-07 17:27:49 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 82 ms
+2025-09-07 17:27:49 - :
+Request GET /applicant-service/api/CurrentCourse/GetQualificationByuserId executed in 124 ms

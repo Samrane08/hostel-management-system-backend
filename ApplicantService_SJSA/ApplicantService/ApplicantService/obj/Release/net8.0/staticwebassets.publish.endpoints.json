@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "ManifestType": "Publish",
+  "Endpoints": [
+    {
+      "Route": "ApplicantService.d13bmv3c53.styles.css",
+      "AssetFile": "ApplicantService.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1134"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IcZuBjatlTEP4OPrFfS4tjrQDckojDqBy2pnTYCCZkk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 09:26:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d13bmv3c53"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IcZuBjatlTEP4OPrFfS4tjrQDckojDqBy2pnTYCCZkk="
+        },
+        {
+          "Name": "label",
+          "Value": "ApplicantService.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "ApplicantService.styles.css",
+      "AssetFile": "ApplicantService.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1134"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IcZuBjatlTEP4OPrFfS4tjrQDckojDqBy2pnTYCCZkk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 28 May 2025 09:26:04 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IcZuBjatlTEP4OPrFfS4tjrQDckojDqBy2pnTYCCZkk="
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "Version": 1,
+  "Hash": "j9YjnZgbmcwGOzM/OHSl7txWwx/4Bg3PT0THKfEY1DE=",
+  "Source": "ApplicantService",
+  "BasePath": "_content/ApplicantService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [
+    {
+      "Identity": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\ApplicantService\\ApplicantService\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ApplicantService.styles.css",
+      "SourceId": "ApplicantService",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\ApplicantService\\ApplicantService\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/ApplicantService",
+      "RelativePath": "ApplicantService#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "d13bmv3c53",
+      "Integrity": "IcZuBjatlTEP4OPrFfS4tjrQDckojDqBy2pnTYCCZkk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\ApplicantService\\ApplicantService\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ApplicantService.styles.css"
+    },
+    {
+      "Identity": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\ApplicantService\\ApplicantService\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ApplicantService.bundle.scp.css",
+      "SourceId": "ApplicantService",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\ApplicantService\\ApplicantService\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/ApplicantService",
+      "RelativePath": "ApplicantService#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "d13bmv3c53",
+      "Integrity": "IcZuBjatlTEP4OPrFfS4tjrQDckojDqBy2pnTYCCZkk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\ApplicantService\\ApplicantService\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ApplicantService.bundle.scp.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "ApplicantService.bundle.scp.css",
+      "AssetFile": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\ApplicantService\\ApplicantService\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ApplicantService.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1134"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IcZuBjatlTEP4OPrFfS4tjrQDckojDqBy2pnTYCCZkk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 01:53:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IcZuBjatlTEP4OPrFfS4tjrQDckojDqBy2pnTYCCZkk="
+        }
+      ]
+    },
+    {
+      "Route": "ApplicantService.d13bmv3c53.bundle.scp.css",
+      "AssetFile": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\ApplicantService\\ApplicantService\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\ApplicantService.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1134"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IcZuBjatlTEP4OPrFfS4tjrQDckojDqBy2pnTYCCZkk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 01:53:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d13bmv3c53"
+        },
+        {
+          "Name": "label",
+          "Value": "ApplicantService.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IcZuBjatlTEP4OPrFfS4tjrQDckojDqBy2pnTYCCZkk="
+        }
+      ]
+    },
+    {
+      "Route": "ApplicantService.d13bmv3c53.styles.css",
+      "AssetFile": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\ApplicantService\\ApplicantService\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ApplicantService.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1134"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IcZuBjatlTEP4OPrFfS4tjrQDckojDqBy2pnTYCCZkk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 01:53:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "d13bmv3c53"
+        },
+        {
+          "Name": "label",
+          "Value": "ApplicantService.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IcZuBjatlTEP4OPrFfS4tjrQDckojDqBy2pnTYCCZkk="
+        }
+      ]
+    },
+    {
+      "Route": "ApplicantService.styles.css",
+      "AssetFile": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\ApplicantService\\ApplicantService\\obj\\Debug\\net8.0\\scopedcss\\bundle\\ApplicantService.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1134"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IcZuBjatlTEP4OPrFfS4tjrQDckojDqBy2pnTYCCZkk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 16 Apr 2025 01:53:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IcZuBjatlTEP4OPrFfS4tjrQDckojDqBy2pnTYCCZkk="
+        }
+      ]
+    }
+  ]
+}

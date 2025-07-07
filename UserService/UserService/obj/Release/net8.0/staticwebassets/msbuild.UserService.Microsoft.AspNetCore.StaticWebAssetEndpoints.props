@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/UserService/UserService.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\UserService.bykpffshji.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rb6a1wjcCL7ITTB2g4bzsRC8jyGdsnLJ5s3BHwYqcPM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022rb6a1wjcCL7ITTB2g4bzsRC8jyGdsnLJ5s3BHwYqcPM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 11:51:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/UserService/UserService.bykpffshji.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\UserService.bykpffshji.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bykpffshji"},{"Name":"integrity","Value":"sha256-rb6a1wjcCL7ITTB2g4bzsRC8jyGdsnLJ5s3BHwYqcPM="},{"Name":"label","Value":"_content/UserService/UserService.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022rb6a1wjcCL7ITTB2g4bzsRC8jyGdsnLJ5s3BHwYqcPM=\u0022"},{"Name":"Last-Modified","Value":"Tue, 13 May 2025 11:51:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

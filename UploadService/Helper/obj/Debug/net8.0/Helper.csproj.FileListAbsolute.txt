@@ -1,0 +1,13 @@
+E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\UploadService\Helper\bin\Debug\net8.0\Helper.deps.json
+E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\UploadService\Helper\bin\Debug\net8.0\Helper.dll
+E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\UploadService\Helper\bin\Debug\net8.0\Helper.pdb
+E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\UploadService\Helper\obj\Debug\net8.0\Helper.csproj.AssemblyReference.cache
+E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\UploadService\Helper\obj\Debug\net8.0\Helper.GeneratedMSBuildEditorConfig.editorconfig
+E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\UploadService\Helper\obj\Debug\net8.0\Helper.AssemblyInfoInputs.cache
+E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\UploadService\Helper\obj\Debug\net8.0\Helper.AssemblyInfo.cs
+E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\UploadService\Helper\obj\Debug\net8.0\Helper.csproj.CoreCompileInputs.cache
+E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\UploadService\Helper\obj\Debug\net8.0\Helper.sourcelink.json
+E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\UploadService\Helper\obj\Debug\net8.0\Helper.dll
+E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\UploadService\Helper\obj\Debug\net8.0\refint\Helper.dll
+E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\UploadService\Helper\obj\Debug\net8.0\Helper.pdb
+E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\UploadService\Helper\obj\Debug\net8.0\ref\Helper.dll

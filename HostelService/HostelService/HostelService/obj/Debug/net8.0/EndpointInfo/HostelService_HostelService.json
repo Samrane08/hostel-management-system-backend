@@ -1,0 +1,3455 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Hostel Service API",
+    "version": "v1"
+  },
+  "paths": {
+    "/v_hostel-service/api/Aadhaar/first-login-verify-otp": {
+      "post": {
+        "tags": [
+          "Aadhaar"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VerifyOTP"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VerifyOTP"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VerifyOTP"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Account/{Id}/{deptId}": {
+      "get": {
+        "tags": [
+          "Account"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "deptId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Account/Department/{Id}/{EntityRole}/{deptId}": {
+      "get": {
+        "tags": [
+          "Account"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "EntityRole",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "deptId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Account/verify-aadhaar-otp": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VerifyOTP"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VerifyOTP"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VerifyOTP"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Account/update-first-login": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Account/update-first-login-reset-password": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/AdminUtility/get-payment-status": {
+      "get": {
+        "tags": [
+          "AdminUtility"
+        ],
+        "parameters": [
+          {
+            "name": "applicationNo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/AdminUtility/verify-super-admin-mobile": {
+      "get": {
+        "tags": [
+          "AdminUtility"
+        ],
+        "parameters": [
+          {
+            "name": "MobileNo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/AdminUtility/get-application-id": {
+      "get": {
+        "tags": [
+          "AdminUtility"
+        ],
+        "parameters": [
+          {
+            "name": "applicationNo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/AdminUtility/get-application-by-Aadhar": {
+      "get": {
+        "tags": [
+          "AdminUtility"
+        ],
+        "parameters": [
+          {
+            "name": "aadharNo",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/AdminUtility/get-application-by-Email": {
+      "get": {
+        "tags": [
+          "AdminUtility"
+        ],
+        "parameters": [
+          {
+            "name": "email",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/AdminUtility/get-application-by-Mobile": {
+      "get": {
+        "tags": [
+          "AdminUtility"
+        ],
+        "parameters": [
+          {
+            "name": "mobile",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/AdminUtility/sync-dbt-course-data": {
+      "get": {
+        "tags": [
+          "AdminUtility"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/AdminUtility/sync-dbt-college-data": {
+      "get": {
+        "tags": [
+          "AdminUtility"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/AdminUtility/sync-dbt-college-course-mapping-updation-data": {
+      "get": {
+        "tags": [
+          "AdminUtility"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/AdminUtility/update-closing-date": {
+      "post": {
+        "tags": [
+          "AdminUtility"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ClosingDateModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ClosingDateModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ClosingDateModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/AdminUtility/get-servicetype-dropdown": {
+      "get": {
+        "tags": [
+          "AdminUtility"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/AdminUtility/get-update-closing-date": {
+      "get": {
+        "tags": [
+          "AdminUtility"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/AdminUtility/get-parentid-menumapping-dropdown": {
+      "get": {
+        "tags": [
+          "AdminUtility"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/AdminUtility/insert-menu-btn": {
+      "post": {
+        "tags": [
+          "AdminUtility"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MenuInsertModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MenuInsertModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MenuInsertModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/AdminUtility/get-rolelist-dept-dropdown": {
+      "get": {
+        "tags": [
+          "AdminUtility"
+        ],
+        "parameters": [
+          {
+            "name": "departmentid",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/AdminUtility/get-menuList-dropdown": {
+      "get": {
+        "tags": [
+          "AdminUtility"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/AdminUtility/insert-menumapping-btn": {
+      "post": {
+        "tags": [
+          "AdminUtility"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MenuMappingInsert"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MenuMappingInsert"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MenuMappingInsert"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Admission/update-application-status": {
+      "post": {
+        "tags": [
+          "Admission"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateAdmissionStatusRequestModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateAdmissionStatusRequestModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateAdmissionStatusRequestModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/AdmittedApplicant": {
+      "post": {
+        "tags": [
+          "AdmittedApplicant"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdmittedRegistrationModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdmittedRegistrationModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AdmittedRegistrationModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Allotment/by-course": {
+      "get": {
+        "tags": [
+          "Allotment"
+        ],
+        "parameters": [
+          {
+            "name": "HostelId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "CourseId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Allotment/by-category": {
+      "get": {
+        "tags": [
+          "Allotment"
+        ],
+        "parameters": [
+          {
+            "name": "HostelId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "CourseId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Allotment/by-caste": {
+      "get": {
+        "tags": [
+          "Allotment"
+        ],
+        "parameters": [
+          {
+            "name": "HostelId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "CourseId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "CasteId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Allotment": {
+      "post": {
+        "tags": [
+          "Allotment"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchAllotmentStatusModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchAllotmentStatusModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchAllotmentStatusModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Allotment/list": {
+      "post": {
+        "tags": [
+          "Allotment"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchAllotmentStatusModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchAllotmentStatusModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchAllotmentStatusModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Allotment/hostel-list": {
+      "get": {
+        "tags": [
+          "Allotment"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Application": {
+      "post": {
+        "tags": [
+          "Application"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchApplicationModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchApplicationModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchApplicationModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Application/search-offline-scrutiny": {
+      "post": {
+        "tags": [
+          "Application"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchApplicationOfflineModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchApplicationOfflineModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchApplicationOfflineModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Application/{Id}": {
+      "get": {
+        "tags": [
+          "Application"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Application/{Id}/{Param}": {
+      "get": {
+        "tags": [
+          "Application"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          },
+          {
+            "name": "Param",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": -1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Application/Validate": {
+      "post": {
+        "tags": [
+          "Application"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FilePathValidateModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FilePathValidateModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/FilePathValidateModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/BenefitAllowanceRegion": {
+      "get": {
+        "tags": [
+          "BenefitAllowanceRegion"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "BenefitAllowanceRegion"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BenefitAloowanceCategoryInsertModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BenefitAloowanceCategoryInsertModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/BenefitAloowanceCategoryInsertModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Department": {
+      "get": {
+        "tags": [
+          "Department"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Department"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeskProfileModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeskProfileModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DeskProfileModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/DirectWardenVacancy/Get_Direct_warden_data": {
+      "get": {
+        "tags": [
+          "DirectWardenVacancy"
+        ],
+        "parameters": [
+          {
+            "name": "HostelId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/DirectWardenVacancy/Post_Direct_warden_data": {
+      "post": {
+        "tags": [
+          "DirectWardenVacancy"
+        ],
+        "parameters": [
+          {
+            "name": "HostelId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DirectWardenVacancyModel"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DirectWardenVacancyModel"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/DirectWardenVacancyModel"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/DirectWardenVacancy/Get_priority_Quota": {
+      "get": {
+        "tags": [
+          "DirectWardenVacancy"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Hostel": {
+      "get": {
+        "tags": [
+          "Hostel"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Hostel"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HostelProfileModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HostelProfileModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/HostelProfileModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/HostelDashboard": {
+      "get": {
+        "tags": [
+          "HostelDashboard"
+        ],
+        "parameters": [
+          {
+            "name": "ServiceType",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "Installment",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/HostelDashboard/dashboard-ba-application-count": {
+      "get": {
+        "tags": [
+          "HostelDashboard"
+        ],
+        "parameters": [
+          {
+            "name": "division",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "district",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "applicationServiceType",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/HostelDashboard/get-ba-tile-count": {
+      "post": {
+        "tags": [
+          "HostelDashboard"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ApplicationServiceType"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ApplicationServiceType"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ApplicationServiceType"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/HostelDashboard/get-application-filters": {
+      "get": {
+        "tags": [
+          "HostelDashboard"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/HostelDashboard/get-scrutiny-filter": {
+      "get": {
+        "tags": [
+          "HostelDashboard"
+        ],
+        "parameters": [
+          {
+            "name": "IsServiceType",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "IsApplicantnewExisting",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/HostelDashboard/dashboard-ba-application-count_1": {
+      "post": {
+        "tags": [
+          "HostelDashboard"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchFilter"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchFilter"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchFilter"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/HostelDashboard/dashboard-ba-application-counted_data": {
+      "post": {
+        "tags": [
+          "HostelDashboard"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchFilter1"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchFilter1"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchFilter1"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Lottery": {
+      "get": {
+        "tags": [
+          "Lottery"
+        ],
+        "parameters": [
+          {
+            "name": "DistrictId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "CourseId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "HostelId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Lottery"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GenerateLotteryModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/GenerateLotteryModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/GenerateLotteryModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Lottery/department/current-district": {
+      "get": {
+        "tags": [
+          "Lottery"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Lottery/department/merit-generation-status": {
+      "get": {
+        "tags": [
+          "Lottery"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Lottery/department/merit-generation-report": {
+      "get": {
+        "tags": [
+          "Lottery"
+        ],
+        "parameters": [
+          {
+            "name": "CourseId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Lottery/department/merit-approve-list": {
+      "post": {
+        "tags": [
+          "Lottery"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MeritApproveModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MeritApproveModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MeritApproveModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Lottery/department/submit-merit-approve-list": {
+      "post": {
+        "tags": [
+          "Lottery"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/MeritResponseModel"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/MeritResponseModel"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/MeritResponseModel"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Lottery/department/merit-asst-reject-list": {
+      "post": {
+        "tags": [
+          "Lottery"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MeritRejectModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/MeritRejectModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/MeritRejectModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Lottery/department/submit-merit-asst-reject-list": {
+      "post": {
+        "tags": [
+          "Lottery"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/MeritResponseModel"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/MeritResponseModel"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/MeritResponseModel"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Notice": {
+      "get": {
+        "tags": [
+          "Notice"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Notice"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReqNoticeModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReqNoticeModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReqNoticeModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Notice/delete": {
+      "post": {
+        "tags": [
+          "Notice"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "integer",
+                "format": "int64"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "integer",
+                "format": "int64"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "integer",
+                "format": "int64"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/OfflineRegistration/{Id}": {
+      "get": {
+        "tags": [
+          "OfflineRegistration"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/OfflineRegistration": {
+      "post": {
+        "tags": [
+          "OfflineRegistration"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OfflineRegistrationModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OfflineRegistrationModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OfflineRegistrationModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/OfflineRegistration/ExistingAadharData": {
+      "post": {
+        "tags": [
+          "OfflineRegistration"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OfflineRegistrationModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OfflineRegistrationModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OfflineRegistrationModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/OfflineRegistration/ExistingAadharDataList": {
+      "post": {
+        "tags": [
+          "OfflineRegistration"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchExistingAadharDataModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchExistingAadharDataModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchExistingAadharDataModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/OfflineRegistration/EncrypAadharData": {
+      "post": {
+        "tags": [
+          "OfflineRegistration"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Report": {
+      "post": {
+        "tags": [
+          "Report"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReportFilterModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReportFilterModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReportFilterModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Report/export-to-excel": {
+      "get": {
+        "tags": [
+          "Report"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Report/get-daily-reports": {
+      "get": {
+        "tags": [
+          "Report"
+        ],
+        "parameters": [
+          {
+            "name": "reportId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Scrutiny/{Id}": {
+      "get": {
+        "tags": [
+          "Scrutiny"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Scrutiny/History/{Id}": {
+      "get": {
+        "tags": [
+          "Scrutiny"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Scrutiny": {
+      "post": {
+        "tags": [
+          "Scrutiny"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ScrutinyModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ScrutinyModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ScrutinyModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/SetVacency": {
+      "get": {
+        "tags": [
+          "SetVacency"
+        ],
+        "parameters": [
+          {
+            "name": "TypeOfCourseId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "SetVacency"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VacencySetModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VacencySetModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VacencySetModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/SetVacency/get-quota-type-vacancy": {
+      "get": {
+        "tags": [
+          "SetVacency"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/SetVacency/set-quota-type-vacancy": {
+      "post": {
+        "tags": [
+          "SetVacency"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuotaTypeVacancyModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuotaTypeVacancyModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuotaTypeVacancyModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/SetVacency/get-all-quota-vacancies": {
+      "get": {
+        "tags": [
+          "SetVacency"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/SetVacency/fetch-course-type-vacancies": {
+      "get": {
+        "tags": [
+          "SetVacency"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/SetVacency/set-coursetype-vacancies": {
+      "post": {
+        "tags": [
+          "SetVacency"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CourseTypeSetVacancyModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CourseTypeSetVacancyModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CourseTypeSetVacancyModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/SetVacency/check-if-capacities-set": {
+      "get": {
+        "tags": [
+          "SetVacency"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/SetVacency/check-if-capacities-set-vjnt": {
+      "get": {
+        "tags": [
+          "SetVacency"
+        ],
+        "parameters": [
+          {
+            "name": "hostelId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/SetVacency/get-quota-type-vacancy-vjnt": {
+      "get": {
+        "tags": [
+          "SetVacency"
+        ],
+        "parameters": [
+          {
+            "name": "hostelId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/SetVacency/fetch-course-type-vacancies-vjnt": {
+      "get": {
+        "tags": [
+          "SetVacency"
+        ],
+        "parameters": [
+          {
+            "name": "hostelId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/SetVacency/view-vacancy-vjnt": {
+      "get": {
+        "tags": [
+          "SetVacency"
+        ],
+        "parameters": [
+          {
+            "name": "hostelId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "TypeOfCourseId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/SetVacency/set-quota-type-vacancy-vjnt": {
+      "post": {
+        "tags": [
+          "SetVacency"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuotaTypeVacancyModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuotaTypeVacancyModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/QuotaTypeVacancyModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/SetVacency/set-coursetype-vacancies-vjnt": {
+      "post": {
+        "tags": [
+          "SetVacency"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CourseTypeSetVacancyModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CourseTypeSetVacancyModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CourseTypeSetVacancyModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/SetVacency/setvacancy_vjnt": {
+      "post": {
+        "tags": [
+          "SetVacency"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VacencySetModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VacencySetModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VacencySetModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Warden": {
+      "get": {
+        "tags": [
+          "Warden"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Warden"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WardenProfileModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WardenProfileModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/WardenProfileModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_hostel-service/api/Warden/warden-map": {
+      "post": {
+        "tags": [
+          "Warden"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WardenMapModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WardenMapModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/WardenMapModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AdmittedAadhharList": {
+        "type": "object",
+        "properties": {
+          "UIDNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "UIDNoref": {
+            "type": "string",
+            "nullable": true
+          },
+          "EncryptedAadhar": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "AdmittedRegistrationModel": {
+        "type": "object",
+        "properties": {
+          "aadhaarData": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/AdmittedAadhharList"
+            },
+            "nullable": true
+          },
+          "courseType": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ApplicationServiceType": {
+        "type": "object",
+        "properties": {
+          "division": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "district": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "serviceType": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "flag": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "BenefitAloowanceCategoryInsertModel": {
+        "type": "object",
+        "properties": {
+          "CategoryId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "VillegeIds": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CasteVacancyListModel": {
+        "type": "object",
+        "properties": {
+          "CasteVacancyId": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "CasteVacancy": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ClosingDateModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "closingDate": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CourseTypeSetVacancyModel": {
+        "type": "object",
+        "properties": {
+          "HostelId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "CourseTypeVacancies": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CourseTypeVacancySetListModel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CourseTypeVacancySetListModel": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "Vacancy": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DeskProfileModel": {
+        "type": "object",
+        "properties": {
+          "Mobile": {
+            "type": "string",
+            "nullable": true
+          },
+          "Email": {
+            "type": "string",
+            "nullable": true
+          },
+          "EmergencyContact": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DirectWardenVacancyModel": {
+        "type": "object",
+        "properties": {
+          "QPID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Percentage": {
+            "type": "string",
+            "nullable": true
+          },
+          "ExistingStudent": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "AvlSeats": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "AvlForSecondary": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "AvlHigherSecondary": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "AvlForNonProfessional": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "AvlForProfessional": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "AdmtSeatsForSecondary": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "AdmtSeatsForHigher": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "AdmtForNonProfessional": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "AdmtForProfessional": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "VacntForSecondary": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "VacantForHigher": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "VacantForNonProfessional": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "VacantForProfessional": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "VacantMantralayaSpecial": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "VacantCollectorSpecial": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "VacantTotalSpecial": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "DSVP": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "msg": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "WorkFlowId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "FilePathValidateModel": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "FileId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "GenerateLotteryModel": {
+        "type": "object",
+        "properties": {
+          "DistrictId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "HostelId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "CourseId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "HostelProfileModel": {
+        "type": "object",
+        "properties": {
+          "HostelID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Hostel": {
+            "type": "string",
+            "nullable": true
+          },
+          "DivisionId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "District": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Taluka": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Address": {
+            "type": "string",
+            "nullable": true
+          },
+          "PIN": {
+            "type": "string",
+            "nullable": true
+          },
+          "Mobile": {
+            "type": "string",
+            "nullable": true
+          },
+          "Landline": {
+            "type": "string",
+            "nullable": true
+          },
+          "Email": {
+            "type": "string",
+            "nullable": true
+          },
+          "Capacity": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "BuildingCapacity": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "HostelType": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "IsScholarship": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "IsFirstLogin": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MenuInsertModel": {
+        "type": "object",
+        "properties": {
+          "menuName": {
+            "type": "string",
+            "nullable": true
+          },
+          "menuNameMr": {
+            "type": "string",
+            "nullable": true
+          },
+          "parentId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "url": {
+            "type": "string",
+            "nullable": true
+          },
+          "icon": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "sort": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MenuMappingInsert": {
+        "type": "object",
+        "properties": {
+          "EntityMappingId": {
+            "type": "string",
+            "nullable": true
+          },
+          "MenuId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MeritApproveModel": {
+        "type": "object",
+        "properties": {
+          "PageIndex": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "PageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "HostelId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "CourseType": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MeritRejectModel": {
+        "type": "object",
+        "properties": {
+          "PageIndex": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "PageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "CourseType": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MeritResponseModel": {
+        "type": "object",
+        "properties": {
+          "ApplicationId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ApplicantName": {
+            "type": "string",
+            "nullable": true
+          },
+          "Percentage": {
+            "type": "string",
+            "nullable": true
+          },
+          "Category": {
+            "type": "string",
+            "nullable": true
+          },
+          "Caste": {
+            "type": "string",
+            "nullable": true
+          },
+          "HostelName": {
+            "type": "string",
+            "nullable": true
+          },
+          "ApplicationNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "Status": {
+            "type": "string",
+            "nullable": true
+          },
+          "Gender": {
+            "type": "string",
+            "nullable": true
+          },
+          "Districtname": {
+            "type": "string",
+            "nullable": true
+          },
+          "serviceType": {
+            "type": "string",
+            "nullable": true
+          },
+          "ApplicationType": {
+            "type": "string",
+            "nullable": true
+          },
+          "Course": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OfflineAadhharList": {
+        "type": "object",
+        "properties": {
+          "UIDNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "ApplicantName": {
+            "type": "string",
+            "nullable": true
+          },
+          "CourseType": {
+            "type": "string",
+            "nullable": true
+          },
+          "EncryptedAadhar": {
+            "type": "string",
+            "nullable": true
+          },
+          "Message": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OfflineRegistrationModel": {
+        "type": "object",
+        "properties": {
+          "aadhaarData": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OfflineAadhharList"
+            },
+            "nullable": true
+          },
+          "FilePath": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "QuotaTypeVacancyModel": {
+        "type": "object",
+        "properties": {
+          "HostelId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "QuotaTypeVacancies": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/QuotaTypeVacancySetListModel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "QuotaTypeVacancySetListModel": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "Vacancy": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReportFilterModel": {
+        "type": "object",
+        "properties": {
+          "PageIndex": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "PageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "AcademicYear": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "HostelId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Caste": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "CasteCategory": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "DistrictId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "StartDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "EndDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "Print": {
+            "type": "boolean",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReqNoticeModel": {
+        "type": "object",
+        "properties": {
+          "NotificationText": {
+            "type": "string",
+            "nullable": true
+          },
+          "NotificationHeader": {
+            "type": "string",
+            "nullable": true
+          },
+          "DocumentId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ScrutinyModel": {
+        "type": "object",
+        "properties": {
+          "ApplicationId": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "ActionId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Remark": {
+            "type": "string",
+            "nullable": true
+          },
+          "RejectionId": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SearchAllotmentStatusModel": {
+        "type": "object",
+        "properties": {
+          "PageIndex": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "PageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "HostelId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "CourseType": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "CasteCategory": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "CasteId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "QuotaId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SearchApplicationModel": {
+        "type": "object",
+        "properties": {
+          "PageIndex": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "PageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "AcademicYear": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "CourseType": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "CasteCategory": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Caste": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Status": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "CourseYear": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ApplicationNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "CasteId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ServiceType": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "IsNewApplicant": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "InstallmentNo": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SearchApplicationOfflineModel": {
+        "type": "object",
+        "properties": {
+          "PageIndex": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "PageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "AcademicYear": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ApplicationNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "Name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SearchExistingAadharDataModel": {
+        "type": "object",
+        "properties": {
+          "PageIndex": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "PageSize": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "HostelId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SearchFilter": {
+        "type": "object",
+        "properties": {
+          "division": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "district": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "serviceType": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "applicationType": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "courseType": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "scrutinyLevel": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "hostelName": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "SearchFilter1": {
+        "type": "object",
+        "properties": {
+          "division": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "district": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "serviceType": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "applicationType": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "courseType": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "scrutinyLevel": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "hostelName": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "flag": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateAdmissionStatusRequestModel": {
+        "type": "object",
+        "properties": {
+          "AppAllotmentId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "AdmissionStatus": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Remarks": {
+            "type": "string",
+            "nullable": true
+          },
+          "RejectReasonsIds": {
+            "type": "array",
+            "items": {
+              "type": "integer",
+              "format": "int32"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "VacencySetListModel": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "Vacancy": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "VacancyListCasteWise": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CasteVacancyListModel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "VacencySetModel": {
+        "type": "object",
+        "properties": {
+          "HostelId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "CourseTypeId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ActualVacancy": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Vacancies": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/VacencySetListModel"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "VerifyOTP": {
+        "type": "object",
+        "properties": {
+          "AadhaarNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "OTP": {
+            "type": "string",
+            "nullable": true
+          },
+          "OTPTxn": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WardenMapModel": {
+        "type": "object",
+        "properties": {
+          "HostelId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "UserIdentity": {
+            "type": "string",
+            "nullable": true
+          },
+          "Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "Mobile": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WardenProfileModel": {
+        "type": "object",
+        "properties": {
+          "Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "Gender": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Designation": {
+            "type": "string",
+            "nullable": true
+          },
+          "Mobile": {
+            "type": "string",
+            "nullable": true
+          },
+          "Email": {
+            "type": "string",
+            "nullable": true
+          },
+          "DOB": {
+            "type": "string",
+            "nullable": true
+          },
+          "WardenCharge": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "EmergencyContact": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Please enter token",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

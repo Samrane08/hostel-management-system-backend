@@ -1,0 +1,20 @@
+2025-06-24 17:24:40 - :
+Request GET /swagger executed in 5 ms
+2025-06-24 17:24:40 - :
+Request GET /swagger/index.html executed in 57 ms
+2025-06-24 17:24:40 - :
+Request GET /swagger/swagger-ui-standalone-preset.js executed in 42 ms
+2025-06-24 17:24:40 - :
+Request GET /swagger/swagger-ui-bundle.js executed in 147 ms
+2025-06-24 17:24:41 - :
+Request GET /swagger/ApplicantService/swagger.json executed in 485 ms
+2025-06-24 17:24:48 - :
+Request GET / executed in 37 ms
+2025-06-24 17:24:48 - :
+Request GET /css/site.css executed in 3 ms
+2025-06-24 17:24:48 - :
+Request GET /favicon.ico executed in 1 ms
+2025-06-24 17:24:50 - :
+Request GET /swagger/index.html executed in 0 ms
+2025-06-24 17:24:50 - :
+Request GET /swagger/ApplicantService/swagger.json executed in 29 ms

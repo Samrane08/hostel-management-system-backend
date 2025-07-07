@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/HostelService/HostelService.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HostelService.npf3w7c6dt.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-S07swuiE4EAVbRzVIXaH9cG/KJVqpMg7CWHXxde7XUc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022S07swuiE4EAVbRzVIXaH9cG/KJVqpMg7CWHXxde7XUc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Jun 2025 13:09:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/HostelService/HostelService.npf3w7c6dt.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\HostelService.npf3w7c6dt.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"npf3w7c6dt"},{"Name":"integrity","Value":"sha256-S07swuiE4EAVbRzVIXaH9cG/KJVqpMg7CWHXxde7XUc="},{"Name":"label","Value":"_content/HostelService/HostelService.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1131"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022S07swuiE4EAVbRzVIXaH9cG/KJVqpMg7CWHXxde7XUc=\u0022"},{"Name":"Last-Modified","Value":"Tue, 24 Jun 2025 13:09:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

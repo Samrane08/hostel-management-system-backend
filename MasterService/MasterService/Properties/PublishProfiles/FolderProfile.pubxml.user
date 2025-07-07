@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>E:\Publish\VJNT\MasterService</_PublishTargetUrl>
+    <History>True|2025-06-25T05:12:09.7921906Z||;True|2025-06-24T18:41:43.9241798+05:30||;True|2025-06-23T13:05:09.2971266+05:30||;True|2025-06-23T12:58:11.6746132+05:30||;True|2025-06-23T12:39:14.1904292+05:30||;True|2025-06-23T12:38:42.8461315+05:30||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

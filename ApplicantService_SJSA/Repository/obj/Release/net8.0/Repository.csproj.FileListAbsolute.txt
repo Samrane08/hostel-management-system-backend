@@ -1,0 +1,13 @@
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Repository\bin\Release\net8.0\Repository.deps.json
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Repository\bin\Release\net8.0\Repository.dll
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Repository\bin\Release\net8.0\Repository.pdb
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Repository\obj\Release\net8.0\Repository.csproj.AssemblyReference.cache
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Repository\obj\Release\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Repository\obj\Release\net8.0\Repository.AssemblyInfoInputs.cache
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Repository\obj\Release\net8.0\Repository.AssemblyInfo.cs
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Repository\obj\Release\net8.0\Repository.csproj.CoreCompileInputs.cache
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Repository\obj\Release\net8.0\Repository.sourcelink.json
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Repository\obj\Release\net8.0\Repository.dll
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Repository\obj\Release\net8.0\refint\Repository.dll
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Repository\obj\Release\net8.0\Repository.pdb
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Repository\obj\Release\net8.0\ref\Repository.dll

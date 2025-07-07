@@ -1,0 +1,416 @@
+{
+  "Version": 1,
+  "ManifestType": "Publish",
+  "Endpoints": [
+    {
+      "Route": "AadhaarService.qgtshbx8n0.styles.css",
+      "AssetFile": "AadhaarService.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KlHXTTCfRz9uZOm4r37WwYK8jShQcIZDc0ZDEpCRtyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 21:59:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "qgtshbx8n0"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KlHXTTCfRz9uZOm4r37WwYK8jShQcIZDc0ZDEpCRtyo="
+        },
+        {
+          "Name": "label",
+          "Value": "AadhaarService.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "AadhaarService.styles.css",
+      "AssetFile": "AadhaarService.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1132"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KlHXTTCfRz9uZOm4r37WwYK8jShQcIZDc0ZDEpCRtyo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 21:59:54 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KlHXTTCfRz9uZOm4r37WwYK8jShQcIZDc0ZDEpCRtyo="
+        }
+      ]
+    },
+    {
+      "Route": "certificates/DCBX_certificate.7a272xjlry.cer",
+      "AssetFile": "certificates/DCBX_certificate.cer",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2570"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T91DdE6iPbMBexVTlxtDH+ciyvSDaqGngAAa5XrOUw4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 18:49:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "7a272xjlry"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T91DdE6iPbMBexVTlxtDH+ciyvSDaqGngAAa5XrOUw4="
+        },
+        {
+          "Name": "label",
+          "Value": "certificates/DCBX_certificate.cer"
+        }
+      ]
+    },
+    {
+      "Route": "certificates/DCBX_certificate.cer",
+      "AssetFile": "certificates/DCBX_certificate.cer",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2570"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T91DdE6iPbMBexVTlxtDH+ciyvSDaqGngAAa5XrOUw4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 18:49:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T91DdE6iPbMBexVTlxtDH+ciyvSDaqGngAAa5XrOUw4="
+        }
+      ]
+    },
+    {
+      "Route": "certificates/JME.cer",
+      "AssetFile": "certificates/JME.cer",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2062"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NwXinseC8xO2qfQwSSYU4YxTGHrUHXGJ8eWHriDVf7A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 18:49:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NwXinseC8xO2qfQwSSYU4YxTGHrUHXGJ8eWHriDVf7A="
+        }
+      ]
+    },
+    {
+      "Route": "certificates/JME.hyfg21mkkm.cer",
+      "AssetFile": "certificates/JME.cer",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2062"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NwXinseC8xO2qfQwSSYU4YxTGHrUHXGJ8eWHriDVf7A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 18:49:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hyfg21mkkm"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NwXinseC8xO2qfQwSSYU4YxTGHrUHXGJ8eWHriDVf7A="
+        },
+        {
+          "Name": "label",
+          "Value": "certificates/JME.cer"
+        }
+      ]
+    },
+    {
+      "Route": "certificates/uidai_auth_preprod.cer",
+      "AssetFile": "certificates/uidai_auth_preprod.cer",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8104"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9czU1glLq5+MWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 18:49:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9czU1glLq5+MWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ="
+        }
+      ]
+    },
+    {
+      "Route": "certificates/uidai_auth_preprod.nx4fd96jvx.cer",
+      "AssetFile": "certificates/uidai_auth_preprod.cer",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8104"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9czU1glLq5+MWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 18:49:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nx4fd96jvx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9czU1glLq5+MWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ="
+        },
+        {
+          "Name": "label",
+          "Value": "certificates/uidai_auth_preprod.cer"
+        }
+      ]
+    },
+    {
+      "Route": "certificates/uidai_auth_prod.cer",
+      "AssetFile": "certificates/uidai_auth_prod.cer",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8104"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9czU1glLq5+MWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 18:49:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9czU1glLq5+MWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ="
+        }
+      ]
+    },
+    {
+      "Route": "certificates/uidai_auth_prod.nx4fd96jvx.cer",
+      "AssetFile": "certificates/uidai_auth_prod.cer",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8104"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u9czU1glLq5+MWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 09 Apr 2025 18:49:06 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nx4fd96jvx"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u9czU1glLq5+MWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ="
+        },
+        {
+          "Name": "label",
+          "Value": "certificates/uidai_auth_prod.cer"
+        }
+      ]
+    }
+  ]
+}

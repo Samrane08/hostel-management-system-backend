@@ -1,0 +1,1432 @@
+[
+  {
+    "ContainingType": "HostelService.Controllers.AadhaarController",
+    "Method": "ForgotUsernameVerifyOTP",
+    "RelativePath": "v_hostel-service/api/Aadhaar/first-login-verify-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HostelService.Model.VerifyOTP",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AccountController",
+    "Method": "Get",
+    "RelativePath": "v_hostel-service/api/Account/{Id}/{deptId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "deptId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AccountController",
+    "Method": "Department",
+    "RelativePath": "v_hostel-service/api/Account/Department/{Id}/{EntityRole}/{deptId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "EntityRole",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "deptId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AccountController",
+    "Method": "UpdateFirstLogin",
+    "RelativePath": "v_hostel-service/api/Account/update-first-login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AccountController",
+    "Method": "UpdateFirstLoginResetPassword",
+    "RelativePath": "v_hostel-service/api/Account/update-first-login-reset-password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AccountController",
+    "Method": "VerifyOTP",
+    "RelativePath": "v_hostel-service/api/Account/verify-aadhaar-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HostelService.Model.VerifyOTP",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AdminUtilityController",
+    "Method": "GetApplicationDetailByAadhar",
+    "RelativePath": "v_hostel-service/api/AdminUtility/get-application-by-Aadhar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "aadharNo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AdminUtilityController",
+    "Method": "GetApplicationDetailByEmail",
+    "RelativePath": "v_hostel-service/api/AdminUtility/get-application-by-Email",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AdminUtilityController",
+    "Method": "GetApplicationDetailByMobile",
+    "RelativePath": "v_hostel-service/api/AdminUtility/get-application-by-Mobile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mobile",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AdminUtilityController",
+    "Method": "GetApplicationId",
+    "RelativePath": "v_hostel-service/api/AdminUtility/get-application-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "applicationNo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AdminUtilityController",
+    "Method": "GetMenuList",
+    "RelativePath": "v_hostel-service/api/AdminUtility/get-menuList-dropdown",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AdminUtilityController",
+    "Method": "GetParentIdMenuMapping",
+    "RelativePath": "v_hostel-service/api/AdminUtility/get-parentid-menumapping-dropdown",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AdminUtilityController",
+    "Method": "GetPaymentStatus",
+    "RelativePath": "v_hostel-service/api/AdminUtility/get-payment-status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "applicationNo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AdminUtilityController",
+    "Method": "rolelistdeptid",
+    "RelativePath": "v_hostel-service/api/AdminUtility/get-rolelist-dept-dropdown",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentid",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AdminUtilityController",
+    "Method": "ClosingDateServiceType",
+    "RelativePath": "v_hostel-service/api/AdminUtility/get-servicetype-dropdown",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AdminUtilityController",
+    "Method": "GetupdateExpiredate",
+    "RelativePath": "v_hostel-service/api/AdminUtility/get-update-closing-date",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AdminUtilityController",
+    "Method": "Post",
+    "RelativePath": "v_hostel-service/api/AdminUtility/insert-menu-btn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.MenuInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AdminUtilityController",
+    "Method": "insertmenumapping",
+    "RelativePath": "v_hostel-service/api/AdminUtility/insert-menumapping-btn",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.MenuMappingInsert",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AdminUtilityController",
+    "Method": "syncDbtCourseCollegeData",
+    "RelativePath": "v_hostel-service/api/AdminUtility/sync-dbt-college-course-mapping-updation-data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AdminUtilityController",
+    "Method": "syncDbtCollegeData",
+    "RelativePath": "v_hostel-service/api/AdminUtility/sync-dbt-college-data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AdminUtilityController",
+    "Method": "syncDbtCourseData",
+    "RelativePath": "v_hostel-service/api/AdminUtility/sync-dbt-course-data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AdminUtilityController",
+    "Method": "updateexpiredate",
+    "RelativePath": "v_hostel-service/api/AdminUtility/update-closing-date",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.ClosingDateModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AdminUtilityController",
+    "Method": "VerifySuperAdminMobile",
+    "RelativePath": "v_hostel-service/api/AdminUtility/verify-super-admin-mobile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MobileNo",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AdmissionController",
+    "Method": "Post",
+    "RelativePath": "v_hostel-service/api/Admission/update-application-status",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.UpdateAdmissionStatusRequestModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AdmittedApplicantController",
+    "Method": "Post",
+    "RelativePath": "v_hostel-service/api/AdmittedApplicant",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.AdmittedRegistrationModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AllotmentController",
+    "Method": "PendingList",
+    "RelativePath": "v_hostel-service/api/Allotment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.SearchAllotmentStatusModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AllotmentController",
+    "Method": "ByCaste",
+    "RelativePath": "v_hostel-service/api/Allotment/by-caste",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "HostelId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CourseId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CasteId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AllotmentController",
+    "Method": "ByCategory",
+    "RelativePath": "v_hostel-service/api/Allotment/by-category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "HostelId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CourseId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AllotmentController",
+    "Method": "ByCourse",
+    "RelativePath": "v_hostel-service/api/Allotment/by-course",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "HostelId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CourseId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AllotmentController",
+    "Method": "HostelList",
+    "RelativePath": "v_hostel-service/api/Allotment/hostel-list",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.AllotmentController",
+    "Method": "List",
+    "RelativePath": "v_hostel-service/api/Allotment/list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.SearchAllotmentStatusModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.ApplicationController",
+    "Method": "Post",
+    "RelativePath": "v_hostel-service/api/Application",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.SearchApplicationModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.ApplicationController",
+    "Method": "Get",
+    "RelativePath": "v_hostel-service/api/Application/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.ApplicationController",
+    "Method": "Get",
+    "RelativePath": "v_hostel-service/api/Application/{Id}/{Param}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      },
+      {
+        "Name": "Param",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.ApplicationController",
+    "Method": "Post",
+    "RelativePath": "v_hostel-service/api/Application/search-offline-scrutiny",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.SearchApplicationOfflineModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.ApplicationController",
+    "Method": "Validate",
+    "RelativePath": "v_hostel-service/api/Application/Validate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "HostelService.Model.FilePathValidateModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.BenefitAllowanceRegionController",
+    "Method": "Get",
+    "RelativePath": "v_hostel-service/api/BenefitAllowanceRegion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.BenefitAllowanceRegionController",
+    "Method": "Post",
+    "RelativePath": "v_hostel-service/api/BenefitAllowanceRegion",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.BenefitAloowanceCategoryInsertModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.DepartmentController",
+    "Method": "GetProfile",
+    "RelativePath": "v_hostel-service/api/Department",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.DepartmentController",
+    "Method": "SaveProfile",
+    "RelativePath": "v_hostel-service/api/Department",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.DeskProfileModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.DirectWardenVacancyController",
+    "Method": "Get",
+    "RelativePath": "v_hostel-service/api/DirectWardenVacancy/Get_Direct_warden_data",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "HostelId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.DirectWardenVacancyController",
+    "Method": "Get_priority_Quota",
+    "RelativePath": "v_hostel-service/api/DirectWardenVacancy/Get_priority_Quota",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.DirectWardenVacancyController",
+    "Method": "Post",
+    "RelativePath": "v_hostel-service/api/DirectWardenVacancy/Post_Direct_warden_data",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "System.Collections.Generic.List\u00601[[Model.LotteryModel.DirectWardenVacancyModel, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "HostelId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.HostelController",
+    "Method": "Get",
+    "RelativePath": "v_hostel-service/api/Hostel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.HostelController",
+    "Method": "Post",
+    "RelativePath": "v_hostel-service/api/Hostel",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.HostelProfileModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.HostelDashboardController",
+    "Method": "Get",
+    "RelativePath": "v_hostel-service/api/HostelDashboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ServiceType",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "Installment",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.HostelDashboardController",
+    "Method": "Get",
+    "RelativePath": "v_hostel-service/api/HostelDashboard/dashboard-ba-application-count",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "division",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "district",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "applicationServiceType",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.HostelDashboardController",
+    "Method": "Post",
+    "RelativePath": "v_hostel-service/api/HostelDashboard/dashboard-ba-application-count_1",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.SearchFilter",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.HostelDashboardController",
+    "Method": "GetBASearchFilterCountdata",
+    "RelativePath": "v_hostel-service/api/HostelDashboard/dashboard-ba-application-counted_data",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.SearchFilter1",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.HostelDashboardController",
+    "Method": "GetApplicationFilters",
+    "RelativePath": "v_hostel-service/api/HostelDashboard/get-application-filters",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.HostelDashboardController",
+    "Method": "GetBATileCourseTypeCount",
+    "RelativePath": "v_hostel-service/api/HostelDashboard/get-ba-tile-count",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.ApplicationServiceType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.HostelDashboardController",
+    "Method": "GetscrutinylevelFilters",
+    "RelativePath": "v_hostel-service/api/HostelDashboard/get-scrutiny-filter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IsServiceType",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsApplicantnewExisting",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.LotteryController",
+    "Method": "Get",
+    "RelativePath": "v_hostel-service/api/Lottery",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DistrictId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "CourseId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "HostelId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.LotteryController",
+    "Method": "Post",
+    "RelativePath": "v_hostel-service/api/Lottery",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.LotteryModel.GenerateLotteryModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.LotteryController",
+    "Method": "CurrentDistrict",
+    "RelativePath": "v_hostel-service/api/Lottery/department/current-district",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.LotteryController",
+    "Method": "GetMeritApproveList",
+    "RelativePath": "v_hostel-service/api/Lottery/department/merit-approve-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.LotteryModel.MeritApproveModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.LotteryController",
+    "Method": "GetMeritAsstRejectList",
+    "RelativePath": "v_hostel-service/api/Lottery/department/merit-asst-reject-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.LotteryModel.MeritRejectModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.LotteryController",
+    "Method": "meritgenerationreport",
+    "RelativePath": "v_hostel-service/api/Lottery/department/merit-generation-report",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CourseId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.LotteryController",
+    "Method": "GetMeritGenerationStatus",
+    "RelativePath": "v_hostel-service/api/Lottery/department/merit-generation-status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.LotteryController",
+    "Method": "SubmitMeritApproveList",
+    "RelativePath": "v_hostel-service/api/Lottery/department/submit-merit-approve-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "System.Collections.Generic.List\u00601[[Model.LotteryModel.MeritResponseModel, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.LotteryController",
+    "Method": "SubmitMeritAsstRejectList",
+    "RelativePath": "v_hostel-service/api/Lottery/department/submit-merit-asst-reject-list",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "System.Collections.Generic.List\u00601[[Model.LotteryModel.MeritResponseModel, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.NoticeController",
+    "Method": "Get",
+    "RelativePath": "v_hostel-service/api/Notice",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.NoticeController",
+    "Method": "Post",
+    "RelativePath": "v_hostel-service/api/Notice",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.ReqNoticeModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.NoticeController",
+    "Method": "Delete",
+    "RelativePath": "v_hostel-service/api/Notice/delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.OfflineRegistrationController",
+    "Method": "Post",
+    "RelativePath": "v_hostel-service/api/OfflineRegistration",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.OfflineRegistrationModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.OfflineRegistrationController",
+    "Method": "Get",
+    "RelativePath": "v_hostel-service/api/OfflineRegistration/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.OfflineRegistrationController",
+    "Method": "EncrypAadharData",
+    "RelativePath": "v_hostel-service/api/OfflineRegistration/EncrypAadharData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.OfflineRegistrationController",
+    "Method": "ExistingAadharData",
+    "RelativePath": "v_hostel-service/api/OfflineRegistration/ExistingAadharData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.OfflineRegistrationModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.OfflineRegistrationController",
+    "Method": "Post",
+    "RelativePath": "v_hostel-service/api/OfflineRegistration/ExistingAadharDataList",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.SearchExistingAadharDataModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.ReportController",
+    "Method": "Post",
+    "RelativePath": "v_hostel-service/api/Report",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.ReportFilterModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.ReportController",
+    "Method": "ExportToExcel",
+    "RelativePath": "v_hostel-service/api/Report/export-to-excel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.ReportController",
+    "Method": "GetDailyReports",
+    "RelativePath": "v_hostel-service/api/Report/get-daily-reports",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reportId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.ScrutinyController",
+    "Method": "Post",
+    "RelativePath": "v_hostel-service/api/Scrutiny",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.ScrutinyModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.ScrutinyController",
+    "Method": "Get",
+    "RelativePath": "v_hostel-service/api/Scrutiny/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.ScrutinyController",
+    "Method": "History",
+    "RelativePath": "v_hostel-service/api/Scrutiny/History/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.SetVacencyController",
+    "Method": "Get",
+    "RelativePath": "v_hostel-service/api/SetVacency",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "TypeOfCourseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.SetVacencyController",
+    "Method": "Post",
+    "RelativePath": "v_hostel-service/api/SetVacency",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.VacencySetModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.SetVacencyController",
+    "Method": "CheckIfCapacitiesSet",
+    "RelativePath": "v_hostel-service/api/SetVacency/check-if-capacities-set",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.SetVacencyController",
+    "Method": "CheckIfCapacitiesSetVjnt",
+    "RelativePath": "v_hostel-service/api/SetVacency/check-if-capacities-set-vjnt",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hostelId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.SetVacencyController",
+    "Method": "GetCourseTypeVacancies",
+    "RelativePath": "v_hostel-service/api/SetVacency/fetch-course-type-vacancies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.SetVacencyController",
+    "Method": "GetCourseTypeVacanciesVjnt",
+    "RelativePath": "v_hostel-service/api/SetVacency/fetch-course-type-vacancies-vjnt",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hostelId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.SetVacencyController",
+    "Method": "GetAllQuotaVacancies",
+    "RelativePath": "v_hostel-service/api/SetVacency/get-all-quota-vacancies",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.SetVacencyController",
+    "Method": "GetQuotaType",
+    "RelativePath": "v_hostel-service/api/SetVacency/get-quota-type-vacancy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.SetVacencyController",
+    "Method": "GetQuotaTypeVjnt",
+    "RelativePath": "v_hostel-service/api/SetVacency/get-quota-type-vacancy-vjnt",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hostelId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.SetVacencyController",
+    "Method": "PostCourseTypeVacancies",
+    "RelativePath": "v_hostel-service/api/SetVacency/set-coursetype-vacancies",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.CourseTypeSetVacancyModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.SetVacencyController",
+    "Method": "PostCourseTypeVacanciesVjnt",
+    "RelativePath": "v_hostel-service/api/SetVacency/set-coursetype-vacancies-vjnt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.CourseTypeSetVacancyModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.SetVacencyController",
+    "Method": "PostSetQuotaTypeVancies",
+    "RelativePath": "v_hostel-service/api/SetVacency/set-quota-type-vacancy",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.QuotaTypeVacancyModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.SetVacencyController",
+    "Method": "PostSetQuotaTypeVanciesVjnt",
+    "RelativePath": "v_hostel-service/api/SetVacency/set-quota-type-vacancy-vjnt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.QuotaTypeVacancyModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.SetVacencyController",
+    "Method": "PostVjnt",
+    "RelativePath": "v_hostel-service/api/SetVacency/setvacancy_vjnt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.VacencySetModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.SetVacencyController",
+    "Method": "GetViewVacancyVjnt",
+    "RelativePath": "v_hostel-service/api/SetVacency/view-vacancy-vjnt",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hostelId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "TypeOfCourseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.WardenController",
+    "Method": "GetProfile",
+    "RelativePath": "v_hostel-service/api/Warden",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.WardenController",
+    "Method": "SaveProfile",
+    "RelativePath": "v_hostel-service/api/Warden",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.WardenProfileModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HostelService.Controllers.WardenController",
+    "Method": "WardenMap",
+    "RelativePath": "v_hostel-service/api/Warden/warden-map",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.WardenMapModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,1177 @@
+[
+  {
+    "ContainingType": "ApplicantService.Controllers.AadhaarController",
+    "Method": "ForgotUsernameVerifyOTP",
+    "RelativePath": "applicant-service/api/Aadhaar/forgot-username-verify-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ApplicantService.Model.VerifyOTP",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.AadhaarController",
+    "Method": "VerifyOTP",
+    "RelativePath": "applicant-service/api/Aadhaar/verify-otp",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "ApplicantService.Model.VerifyOTP",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.AccountController",
+    "Method": "VerifiedStatus",
+    "RelativePath": "applicant-service/api/Account/check-verified-status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.AccountController",
+    "Method": "GetLoginDetails",
+    "RelativePath": "applicant-service/api/Account/get-login-details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Int64",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.AccountController",
+    "Method": "SaveLoginDetails",
+    "RelativePath": "applicant-service/api/Account/save-login-details",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.WebServiceUserModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.AddressController",
+    "Method": "Get",
+    "RelativePath": "applicant-service/api/Address",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IsPreOrPost",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.AddressController",
+    "Method": "Post",
+    "RelativePath": "applicant-service/api/Address",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.AddressDetailsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.AddressController",
+    "Method": "GetParentAddress",
+    "RelativePath": "applicant-service/api/Address/parent-address",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IsPreOrPost",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.AddressController",
+    "Method": "SaveParentAddress",
+    "RelativePath": "applicant-service/api/Address/parent-address",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.ParentAddressModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.ApplicationController",
+    "Method": "Get",
+    "RelativePath": "applicant-service/api/Application",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.ApplicationController",
+    "Method": "Acceptallocation",
+    "RelativePath": "applicant-service/api/Application/accept-allocation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.HostelAcceptanceModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.ApplicationController",
+    "Method": "CancelApplication",
+    "RelativePath": "applicant-service/api/Application/cancel-application",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ApplicationNo",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.ApplicationController",
+    "Method": "DownloadCallLetter",
+    "RelativePath": "applicant-service/api/Application/download-call-letter",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "applnId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.ApplicationController",
+    "Method": "GetApplicationInstallmentDetails",
+    "RelativePath": "applicant-service/api/Application/get-application-installment-details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.ApplicationController",
+    "Method": "GetapplicationstatusAtDesk",
+    "RelativePath": "applicant-service/api/Application/get-application-status-AtDesk",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "appln",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.ApplicationController",
+    "Method": "PaymentStatus",
+    "RelativePath": "applicant-service/api/Application/payment-status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.AttendanceDetailsController",
+    "Method": "Get",
+    "RelativePath": "applicant-service/api/AttendanceDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.AttendanceDetailsController",
+    "Method": "saveAttendanceDetails",
+    "RelativePath": "applicant-service/api/AttendanceDetails/saveAttendanceDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.AttendanceDetailsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.BankAccountController",
+    "Method": "CheckIfSwadharAppExist",
+    "RelativePath": "applicant-service/api/BankAccount/CheckIfSwadharAppExist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.BankAccountController",
+    "Method": "DecryptAllreadyAvailBankAccountNo",
+    "RelativePath": "applicant-service/api/BankAccount/DecryptAllreadyAvailBankAccountNo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.BankAccountController",
+    "Method": "UpdateBankAccountNoToEncryptAccountNo",
+    "RelativePath": "applicant-service/api/BankAccount/EncryptAllreadyAvailBankAccountNo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.BankAccountController",
+    "Method": "GetBankAccountDetails",
+    "RelativePath": "applicant-service/api/BankAccount/GetBankAccountDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.BankAccountController",
+    "Method": "GetBranchName",
+    "RelativePath": "applicant-service/api/BankAccount/GetBranchName",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "m",
+        "Type": "System.ComponentModel.pfmsreqmodel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.BankAccountController",
+    "Method": "MaskedAllreadyAvailBankAccountNo",
+    "RelativePath": "applicant-service/api/BankAccount/MaskedAllreadyAvailBankAccountNo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "data",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.BankAccountController",
+    "Method": "saveBankAccountDetails",
+    "RelativePath": "applicant-service/api/BankAccount/saveBankAccountDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.BankAccountNoReq",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.BankAccountController",
+    "Method": "TaskUtility",
+    "RelativePath": "applicant-service/api/BankAccount/TaskUtility",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "text",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.CurrentCourseController",
+    "Method": "CalculateYearGap",
+    "RelativePath": "applicant-service/api/CurrentCourse/CalculateYearGap",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseYr",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "selectedYear",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.CurrentCourseController",
+    "Method": "CheckIsCurrentAvailable",
+    "RelativePath": "applicant-service/api/CurrentCourse/CheckIsCurrentAvailable",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.CurrentCourseController",
+    "Method": "CheckIsDatainYearOrder",
+    "RelativePath": "applicant-service/api/CurrentCourse/CheckIsDatainOrder",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CourseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "YearStudy",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.CurrentCourseController",
+    "Method": "GetCourseStartYear",
+    "RelativePath": "applicant-service/api/CurrentCourse/current-GetCourseStartYear",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.CurrentCourseController",
+    "Method": "deletecoursebyid",
+    "RelativePath": "applicant-service/api/CurrentCourse/deletecoursebyid",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "m",
+        "Type": "System.ComponentModel.reqModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.CurrentCourseController",
+    "Method": "deletePreSchoolRecord",
+    "RelativePath": "applicant-service/api/CurrentCourse/deletePreSchoolRecord",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "m",
+        "Type": "System.ComponentModel.reqModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.CurrentCourseController",
+    "Method": "district",
+    "RelativePath": "applicant-service/api/CurrentCourse/district",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "state",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "lang",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.CurrentCourseController",
+    "Method": "GetCourseStatus",
+    "RelativePath": "applicant-service/api/CurrentCourse/GetCourseStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "_preOrPot",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "_standardId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.CurrentCourseController",
+    "Method": "GetCourseResult",
+    "RelativePath": "applicant-service/api/CurrentCourse/GetCourseStatusYearByUserId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "yearId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.CurrentCourseController",
+    "Method": "GetCurrentQualificationYear",
+    "RelativePath": "applicant-service/api/CurrentCourse/GetCurrentQualificationYear",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "langID",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.CurrentCourseController",
+    "Method": "GetPreSchoolRecords",
+    "RelativePath": "applicant-service/api/CurrentCourse/GetPreSchoolRecords",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.CurrentCourseController",
+    "Method": "GetQualificationByuserId",
+    "RelativePath": "applicant-service/api/CurrentCourse/GetQualificationByuserId",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.CurrentCourseController",
+    "Method": "Getqualificationtype",
+    "RelativePath": "applicant-service/api/CurrentCourse/Getqualificationtype",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "caller",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.CurrentCourseController",
+    "Method": "IsCapRequired",
+    "RelativePath": "applicant-service/api/CurrentCourse/IsCapRequired",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.CurrentCourseController",
+    "Method": "IsNewApplicant",
+    "RelativePath": "applicant-service/api/CurrentCourse/IsNewApplicant",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.CurrentCourseController",
+    "Method": "Getpersonaldetails",
+    "RelativePath": "applicant-service/api/CurrentCourse/persona_info",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.CurrentCourseController",
+    "Method": "persona_reservedCategory",
+    "RelativePath": "applicant-service/api/CurrentCourse/persona_reservedCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.CurrentCourseController",
+    "Method": "PreSchoolList",
+    "RelativePath": "applicant-service/api/CurrentCourse/pre-school",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stateId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "districtId",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "talukaId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.CurrentCourseController",
+    "Method": "PreStandard",
+    "RelativePath": "applicant-service/api/CurrentCourse/pre-standard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "caller",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.CurrentCourseController",
+    "Method": "SaveApplicantPreSchoolRecord",
+    "RelativePath": "applicant-service/api/CurrentCourse/SaveApplicantPreSchoolRecord",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.ApplicantPreSchoolRecord",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.CurrentCourseController",
+    "Method": "SaveCurrentQualification",
+    "RelativePath": "applicant-service/api/CurrentCourse/SaveCurrentQualification",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.CurrentCourseDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.CurrentCourseController",
+    "Method": "SaveMulApplicantPreSchoolRecord",
+    "RelativePath": "applicant-service/api/CurrentCourse/SaveMulApplicantPreSchoolRecord",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "System.Collections.Generic.List\u00601[[Model.ApplicantPreSchoolRecord, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.CurrentCourseController",
+    "Method": "taluka",
+    "RelativePath": "applicant-service/api/CurrentCourse/taluka",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "distid",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "lang",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.DashboardController",
+    "Method": "Get",
+    "RelativePath": "applicant-service/api/Dashboard",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.DownloadAllocateLetterController",
+    "Method": "GenerateData",
+    "RelativePath": "applicant-service/api/DownloadAllocateLetter/GenerateData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.DownloadAllocateLetterController",
+    "Method": "GeneratePdf",
+    "RelativePath": "applicant-service/api/DownloadAllocateLetter/GeneratePdf",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.HostelApplyController",
+    "Method": "Post",
+    "RelativePath": "applicant-service/api/HostelApply",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.HostelPreferenceController",
+    "Method": "Get",
+    "RelativePath": "applicant-service/api/HostelPreference",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.HostelPreferenceController",
+    "Method": "Post",
+    "RelativePath": "applicant-service/api/HostelPreference",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "System.Collections.Generic.List\u00601[[Model.HostelPreferenceModel2, Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.HostelPreferenceController",
+    "Method": "HostelList",
+    "RelativePath": "applicant-service/api/HostelPreference/HostelList/{Lang}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Lang",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.HostelPreferenceController",
+    "Method": "v2",
+    "RelativePath": "applicant-service/api/HostelPreference/v2/{lang}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lang",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.NoticesController",
+    "Method": "Get",
+    "RelativePath": "applicant-service/api/Notices",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.OtherInfoController",
+    "Method": "get",
+    "RelativePath": "applicant-service/api/OtherInfo",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.OtherInfoController",
+    "Method": "Post",
+    "RelativePath": "applicant-service/api/OtherInfo",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.OtherDetailsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.PastCourseController",
+    "Method": "CheckIsPreOrPost",
+    "RelativePath": "applicant-service/api/PastCourse/CheckIsPreOrPost",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.PastCourseController",
+    "Method": "deletePreSchoolRecord",
+    "RelativePath": "applicant-service/api/PastCourse/delete_pastPre",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "m",
+        "Type": "System.ComponentModel.reqModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.PastCourseController",
+    "Method": "deletepastcurse",
+    "RelativePath": "applicant-service/api/PastCourse/delete-pastCourse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "m",
+        "Type": "System.ComponentModel.reqModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.PastCourseController",
+    "Method": "Getpasteducation",
+    "RelativePath": "applicant-service/api/PastCourse/get-pasteducation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.PastCourseController",
+    "Method": "GetMininumEntryYear",
+    "RelativePath": "applicant-service/api/PastCourse/GetMininumEntryYear",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.PastCourseController",
+    "Method": "GetPre_pastSchoolRecords",
+    "RelativePath": "applicant-service/api/PastCourse/GetPre_pastSchoolRecords",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.PastCourseController",
+    "Method": "SaveApplicantPrepastSchoolRecord",
+    "RelativePath": "applicant-service/api/PastCourse/SaveApplicantPrepastSchoolRecord",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.ApplicantPreschoolRecordPast",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.PastCourseController",
+    "Method": "saveeducationdetails",
+    "RelativePath": "applicant-service/api/PastCourse/saveeducationdetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.EducationDetails",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.PersonalDetailsController",
+    "Method": "Get",
+    "RelativePath": "applicant-service/api/PersonalDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.PersonalDetailsController",
+    "Method": "Post",
+    "RelativePath": "applicant-service/api/PersonalDetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.PersonalDetailsModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.PreviewController",
+    "Method": "Get",
+    "RelativePath": "applicant-service/api/Preview",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.PreviewController",
+    "Method": "Get",
+    "RelativePath": "applicant-service/api/Preview/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int64",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.ProfileController",
+    "Method": "Get",
+    "RelativePath": "applicant-service/api/Profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.ProfileController",
+    "Method": "Post",
+    "RelativePath": "applicant-service/api/Profile",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "Model.ProfileVerifyModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.ProfileController",
+    "Method": "CheckEmailExists",
+    "RelativePath": "applicant-service/api/Profile/check-email-exists",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.ProfileController",
+    "Method": "CheckMobileExists",
+    "RelativePath": "applicant-service/api/Profile/check-mobile-exists",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mobile",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.ProfileController",
+    "Method": "HostelGenderWise",
+    "RelativePath": "applicant-service/api/Profile/hostel-genderwise",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dist",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "taluka",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.ProfileController",
+    "Method": "GetProfileImage",
+    "RelativePath": "applicant-service/api/Profile/profile-image",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.ProgressStatusController",
+    "Method": "Get",
+    "RelativePath": "applicant-service/api/ProgressStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.UploadDocumentController",
+    "Method": "Get",
+    "RelativePath": "applicant-service/api/UploadDocument",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApplicantService.Controllers.UploadDocumentController",
+    "Method": "Post",
+    "RelativePath": "applicant-service/api/UploadDocument",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "DocumentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "File",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "FileKey",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

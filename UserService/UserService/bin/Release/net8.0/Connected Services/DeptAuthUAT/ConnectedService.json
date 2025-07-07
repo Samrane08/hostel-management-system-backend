@@ -1,0 +1,17 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "https://testcitizenservices.mahaitgov.in/Dept_Authentication.asmx"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, DeptAuthUAT"
+    ],
+    "sync": true,
+    "targetFramework": "net8.0",
+    "typeReuseMode": "Specified"
+  }
+}

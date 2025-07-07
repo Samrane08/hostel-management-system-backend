@@ -1,0 +1,8 @@
+2025-05-15 13:07:03 - :
+Request GET /swagger/index.html executed in 54 ms
+2025-05-15 13:07:05 - :
+Request GET /swagger/ApplicantService/swagger.json executed in 22 ms
+2025-05-15 13:12:55 - :
+Request POST /applicant-service/api/account/save-login-details executed in 28297 ms
+2025-05-15 13:21:19 - :
+Request POST /applicant-service/api/account/save-login-details executed in 10693 ms

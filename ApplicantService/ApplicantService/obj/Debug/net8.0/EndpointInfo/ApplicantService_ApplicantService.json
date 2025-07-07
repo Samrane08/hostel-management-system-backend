@@ -1,0 +1,2112 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Applicant Service API",
+    "version": "v1"
+  },
+  "paths": {
+    "/v_applicant-service/api/Aadhaar/verify-otp": {
+      "post": {
+        "tags": [
+          "Aadhaar"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VerifyOTP"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VerifyOTP"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VerifyOTP"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/Aadhaar/forgot-username-verify-otp": {
+      "post": {
+        "tags": [
+          "Aadhaar"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VerifyOTP"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/VerifyOTP"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/VerifyOTP"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/Account/get-login-details": {
+      "get": {
+        "tags": [
+          "Account"
+        ],
+        "parameters": [
+          {
+            "name": "UserId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/Account/save-login-details": {
+      "post": {
+        "tags": [
+          "Account"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WebServiceUserModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/WebServiceUserModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/WebServiceUserModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/Account/check-verified-status": {
+      "get": {
+        "tags": [
+          "Account"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/Address": {
+      "get": {
+        "tags": [
+          "Address"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Address"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddressDetailsModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddressDetailsModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddressDetailsModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/Address/parent-address": {
+      "get": {
+        "tags": [
+          "Address"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Address"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ParentAddressModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ParentAddressModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ParentAddressModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/Application": {
+      "get": {
+        "tags": [
+          "Application"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/Application/payment-status": {
+      "get": {
+        "tags": [
+          "Application"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/Application/cancel-application": {
+      "post": {
+        "tags": [
+          "Application"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/Application/accept-allocation": {
+      "post": {
+        "tags": [
+          "Application"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HostelAcceptanceModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HostelAcceptanceModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/HostelAcceptanceModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/Application/download-call-letter": {
+      "get": {
+        "tags": [
+          "Application"
+        ],
+        "parameters": [
+          {
+            "name": "applnId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/Application/get-application-status-AtDesk": {
+      "get": {
+        "tags": [
+          "Application"
+        ],
+        "parameters": [
+          {
+            "name": "appln",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/Application/get-application-installment-details": {
+      "get": {
+        "tags": [
+          "Application"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/Application/application-status-commondesk": {
+      "get": {
+        "tags": [
+          "Application"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/CurrentCourse/SaveCurrentQualification": {
+      "post": {
+        "tags": [
+          "CurrentCourse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CurrentCourseDetails"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CurrentCourseDetails"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CurrentCourseDetails"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/CurrentCourse/GetQualificationByuserId": {
+      "get": {
+        "tags": [
+          "CurrentCourse"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/CurrentCourse/deletecoursebyid": {
+      "post": {
+        "tags": [
+          "CurrentCourse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/reqModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/reqModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/reqModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/CurrentCourse/CalculateYearGap": {
+      "get": {
+        "tags": [
+          "CurrentCourse"
+        ],
+        "parameters": [
+          {
+            "name": "courseYr",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "selectedYear",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/CurrentCourse/VerifyYears": {
+      "get": {
+        "tags": [
+          "CurrentCourse"
+        ],
+        "parameters": [
+          {
+            "name": "CourseId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "YearStudy",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/CurrentCourse/CheckIsCurrentAvailable": {
+      "get": {
+        "tags": [
+          "CurrentCourse"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/CurrentCourse/VerifyHostel": {
+      "get": {
+        "tags": [
+          "CurrentCourse"
+        ],
+        "parameters": [
+          {
+            "name": "district",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/CurrentCourse/UpdateServiceType": {
+      "get": {
+        "tags": [
+          "CurrentCourse"
+        ],
+        "parameters": [
+          {
+            "name": "district",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/Dashboard": {
+      "get": {
+        "tags": [
+          "Dashboard"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/DownloadAllocateLetter/GeneratePdf": {
+      "post": {
+        "tags": [
+          "DownloadAllocateLetter"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/DownloadAllocateLetter/GenerateData": {
+      "get": {
+        "tags": [
+          "DownloadAllocateLetter"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/HostelApply": {
+      "post": {
+        "tags": [
+          "HostelApply"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/HostelApply/installment-document-final-submit": {
+      "post": {
+        "tags": [
+          "HostelApply"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InstallmentDocFinalSubmitModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/InstallmentDocFinalSubmitModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/InstallmentDocFinalSubmitModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/HostelPreference": {
+      "get": {
+        "tags": [
+          "HostelPreference"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "HostelPreference"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/HostelPreferenceModel2"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/HostelPreferenceModel2"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/components/schemas/HostelPreferenceModel2"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/HostelPreference/v2/{lang}": {
+      "get": {
+        "tags": [
+          "HostelPreference"
+        ],
+        "parameters": [
+          {
+            "name": "lang",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/HostelPreference/HostelList/{Lang}": {
+      "get": {
+        "tags": [
+          "HostelPreference"
+        ],
+        "parameters": [
+          {
+            "name": "Lang",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/Notices": {
+      "get": {
+        "tags": [
+          "Notices"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/OtherInfo": {
+      "get": {
+        "tags": [
+          "OtherInfo"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "OtherInfo"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OtherDetailsModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OtherDetailsModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/OtherDetailsModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/PastCourse/saveeducationdetails": {
+      "post": {
+        "tags": [
+          "PastCourse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EducationDetails"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/EducationDetails"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/EducationDetails"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/PastCourse/get-pasteducation": {
+      "get": {
+        "tags": [
+          "PastCourse"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/PastCourse/delete-pastCourse": {
+      "post": {
+        "tags": [
+          "PastCourse"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/reqModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/reqModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/reqModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/PersonalDetails": {
+      "get": {
+        "tags": [
+          "PersonalDetails"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "PersonalDetails"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PersonalDetailsModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PersonalDetailsModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/PersonalDetailsModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/Preview": {
+      "get": {
+        "tags": [
+          "Preview"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/Preview/{Id}": {
+      "get": {
+        "tags": [
+          "Preview"
+        ],
+        "parameters": [
+          {
+            "name": "Id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int64"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/Profile": {
+      "get": {
+        "tags": [
+          "Profile"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Profile"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProfileVerifyModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProfileVerifyModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ProfileVerifyModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/Profile/profile-image": {
+      "get": {
+        "tags": [
+          "Profile"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/Profile/check-email-exists": {
+      "post": {
+        "tags": [
+          "Profile"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/Profile/check-mobile-exists": {
+      "post": {
+        "tags": [
+          "Profile"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/Profile/hostel-genderwise": {
+      "get": {
+        "tags": [
+          "Profile"
+        ],
+        "parameters": [
+          {
+            "name": "dist",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "taluka",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/Profile/check-applicant-data-availble": {
+      "get": {
+        "tags": [
+          "Profile"
+        ],
+        "parameters": [
+          {
+            "name": "academicYear",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/ProgressStatus": {
+      "get": {
+        "tags": [
+          "ProgressStatus"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/UploadDocument": {
+      "get": {
+        "tags": [
+          "UploadDocument"
+        ],
+        "parameters": [
+          {
+            "name": "deptId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 2
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "UploadDocument"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "DocumentId",
+                  "File"
+                ],
+                "type": "object",
+                "properties": {
+                  "DocumentId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "File": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "FileKey": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "DocumentId": {
+                  "style": "form"
+                },
+                "File": {
+                  "style": "form"
+                },
+                "FileKey": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/v_applicant-service/api/UploadDocument/installment-document-upload": {
+      "post": {
+        "tags": [
+          "UploadDocument"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "required": [
+                  "DocumentId",
+                  "File"
+                ],
+                "type": "object",
+                "properties": {
+                  "DocumentId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "File": {
+                    "type": "string",
+                    "format": "binary"
+                  },
+                  "FileKey": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "DocumentId": {
+                  "style": "form"
+                },
+                "File": {
+                  "style": "form"
+                },
+                "FileKey": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AddressDetailsModel": {
+        "type": "object",
+        "properties": {
+          "UserId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "PermanentAddress1": {
+            "type": "string",
+            "nullable": true
+          },
+          "PermanentAddress2": {
+            "type": "string",
+            "nullable": true
+          },
+          "PermanentAddress3": {
+            "type": "string",
+            "nullable": true
+          },
+          "PermanentState": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "PermanentDistrict": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "PermanentTaluka": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "PermanentVillage": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "PermanentPincode": {
+            "type": "string",
+            "nullable": true
+          },
+          "IsPresentSameAsPermanent": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "PresentAddress1": {
+            "type": "string",
+            "nullable": true
+          },
+          "PresentAddress2": {
+            "type": "string",
+            "nullable": true
+          },
+          "PresentAddress3": {
+            "type": "string",
+            "nullable": true
+          },
+          "PresentState": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "PresentDistrict": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "PresentTaluka": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "PresentVillage": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "PresentPincode": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CurrentCourseDetails": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "UserId": {
+            "type": "string",
+            "nullable": true
+          },
+          "AdmissionYear": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "StateID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "DistrictID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "TalukaID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "VillageID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "QualificationTypeID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "StreamID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "CollegeTypeID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "CourseTypeID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "AdmissionTypeID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "IsCompletedOrContinue": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "CourseYrID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "CourseCategoryId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "IsAdmissionThroughOpenOrResID": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "GapYears": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "IsCompleted": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "GapReason": {
+            "type": "string",
+            "nullable": true
+          },
+          "EducationMode": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Percentage": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "Result": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "StartYear": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Admissiondate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "IsActive": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "IsDeleted": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "CreatedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "CreatedOn": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "UpdatedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "UpdatedOn": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "CGPA": {
+            "type": "number",
+            "format": "double"
+          },
+          "CGPAFileId": {
+            "type": "string",
+            "nullable": true
+          },
+          "CollegeName": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EducationDetails": {
+        "type": "object",
+        "properties": {
+          "rowId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "QualificationLevel": {
+            "type": "string",
+            "nullable": true
+          },
+          "StreamID": {
+            "type": "string",
+            "nullable": true
+          },
+          "CompletedOrContinue": {
+            "type": "string",
+            "nullable": true
+          },
+          "StateID": {
+            "type": "string",
+            "nullable": true
+          },
+          "DistrictID": {
+            "type": "string",
+            "nullable": true
+          },
+          "TalukaID": {
+            "type": "string",
+            "nullable": true
+          },
+          "CollegeID": {
+            "type": "string",
+            "nullable": true
+          },
+          "CourseID": {
+            "type": "string",
+            "nullable": true
+          },
+          "BoardUniversity": {
+            "type": "string",
+            "nullable": true
+          },
+          "Mode": {
+            "type": "string",
+            "nullable": true
+          },
+          "AdmissionYear": {
+            "type": "string",
+            "nullable": true
+          },
+          "PassingYear": {
+            "type": "string",
+            "nullable": true
+          },
+          "Result": {
+            "type": "string",
+            "nullable": true
+          },
+          "Percentage": {
+            "type": "string",
+            "nullable": true
+          },
+          "Attempts": {
+            "type": "string",
+            "nullable": true
+          },
+          "IsGap": {
+            "type": "string",
+            "nullable": true
+          },
+          "GapYears": {
+            "type": "string",
+            "nullable": true
+          },
+          "CollegeName": {
+            "type": "string",
+            "nullable": true
+          },
+          "CourseName": {
+            "type": "string",
+            "nullable": true
+          },
+          "UniversityName": {
+            "type": "string",
+            "nullable": true
+          },
+          "CreatedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "ModifiedBy": {
+            "type": "string",
+            "nullable": true
+          },
+          "CGPA": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "CGPAFileId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "HostelAcceptanceModel": {
+        "type": "object",
+        "properties": {
+          "ApplicationNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "Preference": {
+            "type": "string",
+            "nullable": true
+          },
+          "Hostelid": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "HostelPreferenceModel2": {
+        "type": "object",
+        "properties": {
+          "Value": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Text": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "InstallmentDocFinalSubmitModel": {
+        "type": "object",
+        "properties": {
+          "p_DocId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "p_ApplicationId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OtherDetailsModel": {
+        "type": "object",
+        "properties": {
+          "UserId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "isAvailedMaintainaceAllowance": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "AvailedMaintainaceAllowanceUserId": {
+            "type": "string",
+            "nullable": true
+          },
+          "AreYouSalariedOrSelfEmployed": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "DoYouDoAnyKindOfBusiness": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "IsLivedInGovermentHostel": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "NameOfHostel": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "HostelDistrict": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "DurationFrom": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "DurationTo": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "IsMaterialsReturn": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ParentAddressModel": {
+        "type": "object",
+        "properties": {
+          "UserId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ParentsPresentAddress1": {
+            "type": "string",
+            "nullable": true
+          },
+          "ParentsPresentAddress2": {
+            "type": "string",
+            "nullable": true
+          },
+          "ParentsPresentAddress3": {
+            "type": "string",
+            "nullable": true
+          },
+          "ParentsPresentState": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ParentsPresentDistrict": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ParentsPresentTaluka": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ParentsPresentVillage": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ParentsPresentPincode": {
+            "type": "string",
+            "nullable": true
+          },
+          "ParentsEmailId": {
+            "type": "string",
+            "nullable": true
+          },
+          "ParentsMobileNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "IsGuardianSameAsParent": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "GuardianAddress1": {
+            "type": "string",
+            "nullable": true
+          },
+          "GuardianAddress2": {
+            "type": "string",
+            "nullable": true
+          },
+          "GuardianAddress3": {
+            "type": "string",
+            "nullable": true
+          },
+          "GuardianState": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "GuardianDistrict": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "GuardianTaluka": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "GuardianVillage": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "GuardianPincode": {
+            "type": "string",
+            "nullable": true
+          },
+          "GuardianEmailId": {
+            "type": "string",
+            "nullable": true
+          },
+          "GuardianMobileNo": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "PersonalDetailsModel": {
+        "type": "object",
+        "properties": {
+          "ServiceType": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "IsNewApplicant": {
+            "type": "boolean"
+          },
+          "TypeOfCourse": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "HostelDistId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "HostelTalukaId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "HostelId": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "ApplicantName": {
+            "type": "string",
+            "nullable": true
+          },
+          "err_message": {
+            "type": "string",
+            "nullable": true
+          },
+          "DOB": {
+            "type": "string",
+            "nullable": true
+          },
+          "DOBFormat": {
+            "type": "string",
+            "nullable": true,
+            "readOnly": true
+          },
+          "Mobile": {
+            "type": "string",
+            "nullable": true
+          },
+          "Gender": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Age": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true,
+            "readOnly": true
+          },
+          "MaritalStatus": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "IsOrphan": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "FatherName": {
+            "type": "string",
+            "nullable": true
+          },
+          "MotherName": {
+            "type": "string",
+            "nullable": true
+          },
+          "GuardianName": {
+            "type": "string",
+            "nullable": true
+          },
+          "IsFatherAlive": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "IsMotherAlive": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "CasteCategory": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "Caste": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "CertificateNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "CastCertificateApplicantName": {
+            "type": "string",
+            "nullable": true
+          },
+          "CertificateIssueDistrict": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "IssuingAuthority": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "IssueDate": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "DisablePercentage": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "IsMaharastraDomicile": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "DomicileCertificateNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "DomicileIssuingAuthority": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "IsIncomeDeclare": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "IncomeAmount": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ProfileVerifyModel": {
+        "required": [
+          "EmailID",
+          "MobileNo"
+        ],
+        "type": "object",
+        "properties": {
+          "MobileNo": {
+            "maxLength": 10,
+            "minLength": 0,
+            "type": "string"
+          },
+          "EmailID": {
+            "minLength": 1,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "VerifyOTP": {
+        "type": "object",
+        "properties": {
+          "AadhaarNumber": {
+            "type": "string",
+            "nullable": true
+          },
+          "OTP": {
+            "type": "string",
+            "nullable": true
+          },
+          "OTPTxn": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "WebServiceUserModel": {
+        "type": "object",
+        "properties": {
+          "ID": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "UserName": {
+            "type": "string",
+            "nullable": true
+          },
+          "Password": {
+            "type": "string",
+            "nullable": true
+          },
+          "EmailID": {
+            "type": "string",
+            "nullable": true
+          },
+          "MobileNo": {
+            "type": "string",
+            "nullable": true
+          },
+          "FullName": {
+            "type": "string",
+            "nullable": true
+          },
+          "FullNameInMarathi": {
+            "type": "string",
+            "nullable": true
+          },
+          "Gender": {
+            "type": "string",
+            "nullable": true
+          },
+          "DateofBirth": {
+            "type": "string",
+            "nullable": true
+          },
+          "UIDNO": {
+            "type": "string",
+            "nullable": true
+          },
+          "PANNO": {
+            "type": "string",
+            "nullable": true
+          },
+          "TrackID": {
+            "type": "string",
+            "nullable": true
+          },
+          "UserID": {
+            "type": "string",
+            "nullable": true
+          },
+          "NumericID": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "UserIdentity": {
+            "type": "string",
+            "nullable": true
+          },
+          "Domain": {
+            "type": "string",
+            "nullable": true
+          },
+          "IsEmailVerified": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "IsMobileVerified": {
+            "type": "boolean",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "reqModel": {
+        "type": "object",
+        "properties": {
+          "rowId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Please enter token",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

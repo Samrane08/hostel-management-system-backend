@@ -1,0 +1,12 @@
+2025-05-13 18:01:44 - :
+System.FormatException: Could not find any recognizable digits.
+   at System.ParseNumbers.StringToInt(ReadOnlySpan`1 s, Int32 radix, Int32 flags, Int32& currPos)
+   at System.Convert.ToByte(String value, Int32 fromBase)
+   at Helper.Utility.StringToByteArray(String hex) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\UserService\Helper\Utility.cs:line 91
+   at Helper.Utility.SimpleTripleDesDecrypt(String Data, String strKey, String striv) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\UserService\Helper\Utility.cs:line 75
+   at UserService.Controllers.AccountController.Auth(String str) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\UserService\UserService\Controllers\AccountController.cs:line 82
+2025-05-13 18:05:48 - :
+System.ArgumentException: Column 'Username' does not belong to table ResMessage.
+   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at UserService.Controllers.AccountController.Auth(String str) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\UserService\UserService\Controllers\AccountController.cs:line 140

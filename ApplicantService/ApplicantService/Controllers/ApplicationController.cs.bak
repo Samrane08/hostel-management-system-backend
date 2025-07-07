@@ -1,0 +1,79 @@
+﻿using Microsoft.AspNetCore.Mvc;
+using Model;
+using Service.Interface;
+
+namespace ApplicantService.Controllers
+{
+    public class ApplicationController : APIBaseController
+    {
+        private readonly IProfileService profileService;
+        public ApplicationController(IProfileService profileService)
+        {
+            this.profileService = profileService;
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Get()
+        {
+            var ApplicationList = await profileService.GetApplicationList();
+            return Ok(ApplicationList);
+        }
+        [HttpGet("payment-status")]
+        public async Task<IActionResult> PaymentStatus()
+        {
+            var paymentStatus = await profileService.GetPaymentParams();
+            if (paymentStatus != null)
+            {
+                if (paymentStatus.PaymentStatusId == 1)
+                    return Ok(new { Status = true,ApplicatioNo=paymentStatus.AppId, Message = "Application applied successfully." });
+                else if (paymentStatus.PaymentStatusId == 2)
+                    return Ok(new { Status = true, ApplicatioNo = paymentStatus.AppId, Message = "Application applied , kindly make  payment to complete your application." });
+                else if (paymentStatus.PaymentStatusId == 3)
+                    return Ok(new { Status = true, ApplicatioNo = paymentStatus.AppId, Message = "Application applied , kindly make  payment to complete your application." });
+                else if (!string.IsNullOrEmpty(paymentStatus.AppId))
+                    return Ok(new { Status = true, ApplicatioNo = paymentStatus.AppId, Message = "Application already generated." });
+                else
+                    return Ok(new { Status = false, Message = "Application not initiated yet." });
+            }
+            else
+            {
+                return Ok(new { Status = false, Message = "Application not initiated yet." });
+            }
+        }
+
+        [HttpPost("cancel-application")]
+        public async Task<IActionResult> CancelApplication([FromBody] string ApplicationNo)
+        {
+            var ApplicationList = await profileService.CancelApplication(ApplicationNo);
+            return Ok(new { Status = true, Message = "Profile saved success." });
+        }
+
+        [HttpPost("accept-allocation")]
+        public async Task<IActionResult> Acceptallocation([FromBody] HostelAcceptanceModel model)
+        {
+            var Message = await profileService.Acceptallocation(model);
+            if (Message == 1)
+            {
+                return Ok(new { Status = true, Message = "Hostel alloted successfully." });
+            }
+            else if (Message == 2)
+            {
+                return Ok(new { Status = false, Message = "Hostel already alloted." });
+            }
+            else
+            {
+                return Ok(new { Status = false, Message = "Hostel Details incorrect." });
+            }
+        }
+
+        [HttpPost("download-call-letter")]
+        public async Task<IActionResult> DownloadCallLetter([FromBody] HostelAcceptanceModel model)
+        {
+            var ApplicationList = await profileService.DownloadCallLetter(model);
+            if (ApplicationList != null)
+                return Ok(new { Status = true, Message = "Download Call letter successfully." });
+            else
+                return Ok(new { Status = false, Message = "Download Call letter failed." });
+        }
+    }
+}

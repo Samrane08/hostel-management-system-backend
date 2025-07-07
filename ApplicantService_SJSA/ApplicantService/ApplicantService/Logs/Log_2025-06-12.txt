@@ -1,0 +1,162 @@
+2025-06-12 10:48:55 - :
+Request GET /swagger/index.html executed in 94 ms
+2025-06-12 10:48:55 - :
+Request GET /swagger/ApplicantService/swagger.json executed in 59 ms
+2025-06-12 10:49:29 - :
+Request GET /applicant-service/api/Application/payment-status executed in 1863 ms
+2025-06-12 10:49:29 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 2001 ms
+2025-06-12 10:49:29 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 75 ms
+2025-06-12 10:49:29 - :
+Request GET /applicant-service/api/ProgressStatus executed in 2148 ms
+2025-06-12 10:50:03 - :
+Request GET /applicant-service/api/ProgressStatus executed in 29 ms
+2025-06-12 10:50:03 - :
+Request GET /applicant-service/api/Account/check-verified-status executed in 74 ms
+2025-06-12 10:50:03 - :
+Request GET /applicant-service/api/Application/payment-status executed in 81 ms
+2025-06-12 10:50:03 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 73 ms
+2025-06-12 10:50:06 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 19 ms
+2025-06-12 10:50:06 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 79 ms
+2025-06-12 10:50:51 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 34 ms
+2025-06-12 10:52:37 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 14 ms
+2025-06-12 10:53:59 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 47 ms
+2025-06-12 11:02:08 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 114 ms
+2025-06-12 11:04:33 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 24 ms
+2025-06-12 11:04:56 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 207 ms
+2025-06-12 11:04:57 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 1110 ms
+2025-06-12 11:06:03 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 13 ms
+2025-06-12 11:08:07 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 19 ms
+2025-06-12 11:08:44 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 88 ms
+2025-06-12 11:10:48 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 19 ms
+2025-06-12 11:17:46 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 106 ms
+2025-06-12 11:23:15 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 282 ms
+2025-06-12 11:23:16 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 67 ms
+2025-06-12 11:23:16 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 131 ms
+2025-06-12 11:25:05 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 247 ms
+2025-06-12 11:25:05 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 20 ms
+2025-06-12 11:25:05 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 68 ms
+2025-06-12 11:26:11 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 11 ms
+2025-06-12 12:11:15 - :
+Request GET /applicant-service/api/Account/check-verified-status executed in 285 ms
+2025-06-12 12:11:15 - :
+Request GET /applicant-service/api/ProgressStatus executed in 322 ms
+2025-06-12 12:11:15 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 362 ms
+2025-06-12 12:11:16 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 32 ms
+2025-06-12 12:11:16 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 75 ms
+2025-06-12 12:12:09 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 16 ms
+2025-06-12 12:12:09 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 102 ms
+2025-06-12 12:16:25 - :
+Request POST /applicant-service/api/AttendanceDetails/saveAttendanceDetails executed in 8901 ms
+2025-06-12 12:16:25 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 9 ms
+2025-06-12 12:17:57 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 26 ms
+2025-06-12 12:18:36 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 129 ms
+2025-06-12 12:18:36 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 180 ms
+2025-06-12 12:18:39 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 12 ms
+2025-06-12 12:18:39 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 68 ms
+2025-06-12 12:20:04 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 75 ms
+2025-06-12 12:20:05 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 17 ms
+2025-06-12 12:20:05 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 68 ms
+2025-06-12 12:20:23 - :
+Request POST /applicant-service/api/AttendanceDetails/saveAttendanceDetails executed in 1217 ms
+2025-06-12 12:20:23 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 11 ms
+2025-06-12 12:25:27 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 19 ms
+2025-06-12 12:25:30 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 177 ms
+2025-06-12 12:25:31 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 11 ms
+2025-06-12 12:25:31 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 115 ms
+2025-06-12 12:25:44 - :
+Request POST /applicant-service/api/AttendanceDetails/saveAttendanceDetails executed in 1284 ms
+2025-06-12 12:25:44 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 9 ms
+2025-06-12 12:27:09 - :
+Request POST /applicant-service/api/AttendanceDetails/saveAttendanceDetails executed in 33408 ms
+2025-06-12 12:27:09 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 10 ms
+2025-06-12 12:33:04 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 88 ms
+2025-06-12 12:40:36 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 84 ms
+2025-06-12 12:40:44 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 180 ms
+2025-06-12 12:40:45 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 77 ms
+2025-06-12 12:40:45 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 89 ms
+2025-06-12 12:43:47 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 26 ms
+2025-06-12 12:43:56 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 119 ms
+2025-06-12 12:43:57 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 10 ms
+2025-06-12 12:43:57 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 67 ms
+2025-06-12 12:44:17 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 78 ms
+2025-06-12 12:44:17 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 10 ms
+2025-06-12 12:44:17 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 74 ms
+2025-06-12 14:46:20 - :
+Request GET /applicant-service/api/ProgressStatus executed in 174 ms
+2025-06-12 14:46:20 - :
+Request GET /applicant-service/api/Application/payment-status executed in 198 ms
+2025-06-12 14:46:20 - :
+Request GET /applicant-service/api/Account/check-verified-status executed in 190 ms
+2025-06-12 14:46:21 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 34 ms
+2025-06-12 14:46:21 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 69 ms
+2025-06-12 14:47:54 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 76 ms
+2025-06-12 14:47:54 - :
+Request GET /applicant-service/api/PastCourse/CheckIsPreOrPost executed in 68 ms
+2025-06-12 14:47:55 - :
+Request GET /applicant-service/api/address/parent-address executed in 115 ms
+2025-06-12 14:47:56 - :
+Request GET /applicant-service/api/PastCourse/CheckIsPreOrPost executed in 13 ms
+2025-06-12 14:47:57 - :
+Request GET /applicant-service/api/PersonalDetails executed in 86 ms
+2025-06-12 14:47:57 - :
+Request GET /applicant-service/api/CurrentCourse/CheckIsCurrentAvailable executed in 450 ms

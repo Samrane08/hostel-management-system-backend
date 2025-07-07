@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q4W1IHg2fIo=",
+  "success": true,
+  "projectFilePath": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\ApplicantService\\Helper\\Helper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sameer.rane\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

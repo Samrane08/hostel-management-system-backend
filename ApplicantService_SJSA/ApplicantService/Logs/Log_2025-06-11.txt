@@ -1,0 +1,680 @@
+2025-06-11 13:14:42 - :
+Request GET /swagger/index.html executed in 100 ms
+2025-06-11 13:14:42 - :
+Request GET /swagger/ApplicantService/swagger.json executed in 60 ms
+2025-06-11 13:15:09 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 3156 ms
+2025-06-11 13:15:09 - :
+Request GET /applicant-service/api/ProgressStatus executed in 3289 ms
+2025-06-11 13:15:40 - :
+Request GET /applicant-service/api/Account/check-verified-status executed in 121 ms
+2025-06-11 13:15:40 - :
+Request GET /applicant-service/api/ProgressStatus executed in 93 ms
+2025-06-11 13:15:41 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 123 ms
+2025-06-11 13:16:12 - :
+Request GET /applicant-service/api/PastCourse/CheckIsPreOrPost executed in 234 ms
+2025-06-11 13:16:12 - :
+Request GET /applicant-service/api/Address executed in 114 ms
+2025-06-11 14:29:29 - :
+Request GET /applicant-service/api/ProgressStatus executed in 440 ms
+2025-06-11 14:29:29 - :
+Request GET /applicant-service/api/Application/payment-status executed in 521 ms
+2025-06-11 14:29:29 - :
+Request GET /applicant-service/api/Account/check-verified-status executed in 549 ms
+2025-06-11 14:29:29 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 642 ms
+2025-06-11 14:29:40 - :
+Request GET /applicant-service/api/PersonalDetails executed in 267 ms
+2025-06-11 14:29:40 - :
+Request GET /applicant-service/api/CurrentCourse/CheckIsCurrentAvailable executed in 540 ms
+2025-06-11 14:29:56 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 90 ms
+2025-06-11 14:29:56 - :
+Request GET /applicant-service/api/CurrentCourse/GetQualificationByuserId executed in 133 ms
+2025-06-11 15:31:00 - :
+Request GET /swagger/index.html executed in 95 ms
+2025-06-11 15:31:00 - :
+Request GET /swagger/ApplicantService/swagger.json executed in 33 ms
+2025-06-11 15:33:04 - :
+Request GET /applicant-service/api/ProgressStatus executed in 2899 ms
+2025-06-11 15:33:04 - :
+Request GET /applicant-service/api/Application/payment-status executed in 2918 ms
+2025-06-11 15:33:04 - :
+Request GET /applicant-service/api/CurrentCourse/GetQualificationByuserId executed in 371 ms
+2025-06-11 15:33:04 - :
+Request GET /applicant-service/api/Account/check-verified-status executed in 2966 ms
+2025-06-11 15:33:04 - :
+Request GET /applicant-service/api/ProgressStatus executed in 12 ms
+2025-06-11 15:33:04 - :
+Request GET /applicant-service/api/Application/payment-status executed in 64 ms
+2025-06-11 15:33:04 - :
+Request GET /applicant-service/api/Account/check-verified-status executed in 71 ms
+2025-06-11 15:33:06 - :
+Request GET /applicant-service/api/CurrentCourse/GetQualificationByuserId executed in 29 ms
+2025-06-11 15:33:06 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 4519 ms
+2025-06-11 15:33:06 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 156 ms
+2025-06-11 15:33:06 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 104 ms
+2025-06-11 15:33:06 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 101 ms
+2025-06-11 15:33:15 - :
+Request POST /applicant-service/api/AttendanceDeatils executed in 2 ms
+2025-06-11 15:33:26 - :
+Request POST /applicant-service/api/AttendanceDeatils executed in 1 ms
+2025-06-11 15:34:21 - :
+Request GET /applicant-service/api/CurrentCourse/GetQualificationByuserId executed in 14 ms
+2025-06-11 15:34:25 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 136 ms
+2025-06-11 15:34:26 - :
+Request GET /applicant-service/api/CurrentCourse/GetQualificationByuserId executed in 14 ms
+2025-06-11 15:34:26 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 108 ms
+2025-06-11 15:34:30 - :
+Request POST /applicant-service/api/AttendanceDetails executed in 0 ms
+2025-06-11 15:34:35 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 120 ms
+2025-06-11 15:34:36 - :
+Request GET /applicant-service/api/CurrentCourse/GetQualificationByuserId executed in 15 ms
+2025-06-11 15:34:36 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 119 ms
+2025-06-11 15:34:46 - :
+Request POST /applicant-service/api/AttendanceDetails executed in 0 ms
+2025-06-11 15:35:23 - :
+Request GET /applicant-service/api/CurrentCourse/GetQualificationByuserId executed in 20 ms
+2025-06-11 15:35:54 - :
+Request GET /applicant-service/api/CurrentCourse/GetQualificationByuserId executed in 11 ms
+2025-06-11 15:44:49 - :
+Request GET /applicant-service/api/ProgressStatus executed in 890 ms
+2025-06-11 15:44:49 - :
+Request GET /applicant-service/api/Application/payment-status executed in 864 ms
+2025-06-11 15:44:49 - :
+Request GET /applicant-service/api/Account/check-verified-status executed in 937 ms
+2025-06-11 15:44:49 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 959 ms
+2025-06-11 15:44:50 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 100 ms
+2025-06-11 15:44:50 - :
+Request GET /applicant-service/api/CurrentCourse/GetQualificationByuserId executed in 184 ms
+2025-06-11 15:44:55 - :
+Request POST /applicant-service/api/saveAttendanceDetails executed in 1 ms
+2025-06-11 15:45:29 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 138 ms
+2025-06-11 15:45:30 - :
+Request GET /applicant-service/api/CurrentCourse/GetQualificationByuserId executed in 43 ms
+2025-06-11 15:45:31 - :
+Request GET /applicant-service/api/CurrentCourse/GetQualificationByuserId executed in 24 ms
+2025-06-11 15:45:31 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 96 ms
+2025-06-11 15:45:35 - :
+Request POST /applicant-service/api/saveAttendanceDetails executed in 0 ms
+2025-06-11 15:45:37 - :
+Request GET /applicant-service/api/CurrentCourse/GetQualificationByuserId executed in 40 ms
+2025-06-11 15:46:14 - :
+Request GET /applicant-service/api/CurrentCourse/GetQualificationByuserId executed in 33 ms
+2025-06-11 15:46:15 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 102 ms
+2025-06-11 15:46:16 - :
+Request GET /applicant-service/api/CurrentCourse/GetQualificationByuserId executed in 21 ms
+2025-06-11 15:46:16 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 67 ms
+2025-06-11 15:46:16 - :
+Request GET /applicant-service/api/CurrentCourse/GetQualificationByuserId executed in 28 ms
+2025-06-11 15:47:36 - :
+Request GET /applicant-service/api/CurrentCourse/GetQualificationByuserId executed in 19 ms
+2025-06-11 15:47:56 - :
+Request GET /applicant-service/api/ProgressStatus executed in 22 ms
+2025-06-11 15:47:56 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 100 ms
+2025-06-11 15:47:56 - :
+Request GET /applicant-service/api/Application/payment-status executed in 85 ms
+2025-06-11 15:47:56 - :
+Request GET /applicant-service/api/Account/check-verified-status executed in 100 ms
+2025-06-11 15:47:57 - :
+Request GET /applicant-service/api/CurrentCourse/GetQualificationByuserId executed in 25 ms
+2025-06-11 15:47:57 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 90 ms
+2025-06-11 15:48:11 - :
+Request POST /applicant-service/api/AttendanceDetails/saveAttendanceDetails executed in 0 ms
+2025-06-11 15:50:37 - :
+Request GET /swagger/index.html executed in 84 ms
+2025-06-11 15:50:37 - :
+Request GET /swagger/ApplicantService/swagger.json executed in 27 ms
+2025-06-11 15:50:57 - :
+Request POST /applicant-service/api/saveAttendanceDetails executed in 290 ms
+2025-06-11 15:51:18 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 2470 ms
+2025-06-11 15:51:18 - :
+Request GET /applicant-service/api/ProgressStatus executed in 2447 ms
+2025-06-11 15:51:18 - :
+Request GET /applicant-service/api/Application/payment-status executed in 2475 ms
+2025-06-11 15:51:18 - :
+Request GET /applicant-service/api/Account/check-verified-status executed in 2490 ms
+2025-06-11 15:51:21 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 81 ms
+2025-06-11 15:51:21 - :
+Request GET /applicant-service/api/CurrentCourse/GetQualificationByuserId executed in 114 ms
+2025-06-11 15:51:29 - :
+Request POST /applicant-service/api/AttendanceDetails/saveAttendanceDetails executed in 0 ms
+2025-06-11 15:55:49 - :
+Request GET /swagger/index.html executed in 65 ms
+2025-06-11 15:55:50 - :
+Request GET /swagger/ApplicantService/swagger.json executed in 36 ms
+2025-06-11 15:56:42 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 970 ms
+2025-06-11 15:56:42 - :
+Request GET /applicant-service/api/ProgressStatus executed in 1047 ms
+2025-06-11 15:56:42 - :
+Request GET /applicant-service/api/Account/check-verified-status executed in 1062 ms
+2025-06-11 15:56:43 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 106 ms
+2025-06-11 15:56:43 - :
+Request GET /applicant-service/api/CurrentCourse/GetQualificationByuserId executed in 138 ms
+2025-06-11 15:56:53 - :
+Request POST /applicant-service/api/AttendanceDetails/saveAttendanceDetails executed in 1 ms
+2025-06-11 15:59:00 - :
+Request GET /applicant-service/api/AttendanceDetails/AttendanceDetails executed in 3 ms
+2025-06-11 15:59:25 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 136 ms
+2025-06-11 15:59:26 - :
+Request GET /applicant-service/api/AttendanceDetails/AttendanceDetails executed in 1 ms
+2025-06-11 15:59:26 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 93 ms
+2025-06-11 16:01:20 - :
+Request GET /swagger/index.html executed in 70 ms
+2025-06-11 16:01:20 - :
+Request GET /swagger/ApplicantService/swagger.json executed in 32 ms
+2025-06-11 16:01:27 - :
+Request POST /applicant-service/api/AttendanceDetails/saveAttendanceDetails executed in 152 ms
+2025-06-11 16:01:30 - :
+Request GET /applicant-service/api/AttendanceDetails/AttendanceDetails executed in 2 ms
+2025-06-11 16:01:30 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 1481 ms
+2025-06-11 16:01:31 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 81 ms
+2025-06-11 16:04:49 - :
+Request POST /applicant-service/api/AttendanceDetails/saveAttendanceDetails executed in 4 ms
+2025-06-11 16:05:27 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 280 ms
+2025-06-11 16:05:28 - :
+Request GET /applicant-service/api/AttendanceDetails/AttendanceDetails executed in 0 ms
+2025-06-11 16:05:28 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 71 ms
+2025-06-11 16:10:07 - :
+Request GET /swagger/index.html executed in 60 ms
+2025-06-11 16:10:08 - :
+Request GET /swagger/ApplicantService/swagger.json executed in 42 ms
+2025-06-11 16:10:44 - :
+Request POST /api/AttendanceDetails/saveAttendanceDetails executed in 6473 ms
+2025-06-11 16:11:23 - :
+Request POST /applicant-service/api/AttendanceDetails/saveAttendanceDetails executed in 8 ms
+2025-06-11 16:11:45 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 387 ms
+2025-06-11 16:11:45 - :
+Request GET /applicant-service/api/ProgressStatus executed in 451 ms
+2025-06-11 16:11:45 - :
+Request GET /applicant-service/api/Account/check-verified-status executed in 414 ms
+2025-06-11 16:11:45 - :
+Request GET /applicant-service/api/Application/payment-status executed in 436 ms
+2025-06-11 16:11:46 - :
+Request GET /applicant-service/api/AttendanceDetails/AttendanceDetails executed in 0 ms
+2025-06-11 16:11:46 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 83 ms
+2025-06-11 16:12:09 - :
+Request POST /applicant-service/api/AttendanceDetails/saveAttendanceDetails executed in 2 ms
+2025-06-11 16:12:50 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 120 ms
+2025-06-11 16:12:51 - :
+Request GET /applicant-service/api/AttendanceDetails/AttendanceDetails executed in 1 ms
+2025-06-11 16:12:51 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 77 ms
+2025-06-11 16:13:01 - :
+Request POST /applicant-service/api/AttendanceDetails/saveAttendanceDetails executed in 0 ms
+2025-06-11 16:14:21 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 77 ms
+2025-06-11 16:14:22 - :
+Request GET /applicant-service/api/AttendanceDetails/AttendanceDetails executed in 0 ms
+2025-06-11 16:14:22 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 71 ms
+2025-06-11 16:14:53 - :
+Request POST /applicant-service/api/AttendanceDetails/saveAttendanceDetails executed in 2 ms
+2025-06-11 16:14:53 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 2 ms
+2025-06-11 16:15:04 - :
+Request GET /api/AttendanceDetails executed in 1644 ms
+2025-06-11 16:15:23 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 69 ms
+2025-06-11 16:15:24 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 1 ms
+2025-06-11 16:15:24 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 72 ms
+2025-06-11 16:16:08 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 93 ms
+2025-06-11 16:16:09 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 0 ms
+2025-06-11 16:16:09 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 71 ms
+2025-06-11 16:16:43 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 81 ms
+2025-06-11 16:16:44 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 0 ms
+2025-06-11 16:16:44 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 68 ms
+2025-06-11 16:16:51 - :
+Request POST /applicant-service/api/AttendanceDetails/saveAttendanceDetails executed in 0 ms
+2025-06-11 16:19:51 - :
+Request GET /applicant-service/api/ProgressStatus executed in 127 ms
+2025-06-11 16:19:51 - :
+Request GET /applicant-service/api/Account/check-verified-status executed in 168 ms
+2025-06-11 16:19:51 - :
+Request GET /applicant-service/api/Application/payment-status executed in 172 ms
+2025-06-11 16:19:51 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 255 ms
+2025-06-11 16:19:52 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 0 ms
+2025-06-11 16:19:52 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 73 ms
+2025-06-11 16:20:49 - :
+Request GET /swagger/index.html executed in 59 ms
+2025-06-11 16:20:49 - :
+Request GET /swagger/ApplicantService/swagger.json executed in 33 ms
+2025-06-11 16:21:20 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 19833 ms
+2025-06-11 16:21:22 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 19687 ms
+2025-06-11 16:21:25 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 3530 ms
+2025-06-11 16:33:13 - :
+Request POST /applicant-service/api/AttendanceDetails/saveAttendanceDetails executed in 684446 ms
+2025-06-11 16:33:28 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 1384 ms
+2025-06-11 16:33:28 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 2468 ms
+2025-06-11 16:33:29 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 65 ms
+2025-06-11 16:33:53 - :
+Request POST /applicant-service/api/AttendanceDetails/saveAttendanceDetails executed in 18028 ms
+2025-06-11 16:35:23 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 165 ms
+2025-06-11 16:35:26 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 1543 ms
+2025-06-11 16:35:26 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 1511 ms
+2025-06-11 16:37:12 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 8204 ms
+2025-06-11 16:37:46 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 4053 ms
+2025-06-11 16:40:18 - :
+Request POST /applicant-service/api/AttendanceDetails/saveAttendanceDetails executed in 9214 ms
+2025-06-11 16:40:35 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 186 ms
+2025-06-11 16:40:36 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 93 ms
+2025-06-11 16:40:53 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 16190 ms
+2025-06-11 16:41:20 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 9115 ms
+2025-06-11 16:41:25 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 104 ms
+2025-06-11 16:41:28 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 1518 ms
+2025-06-11 16:41:30 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 3936 ms
+2025-06-11 16:43:25 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 1459 ms
+2025-06-11 16:55:31 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 251 ms
+2025-06-11 16:55:32 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 99 ms
+2025-06-11 16:55:32 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 89 ms
+2025-06-11 16:55:47 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 68 ms
+2025-06-11 16:55:48 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 12 ms
+2025-06-11 16:55:48 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 73 ms
+2025-06-11 16:56:38 - :
+Request GET /swagger/index.html executed in 59 ms
+2025-06-11 16:56:38 - :
+Request GET /swagger/ApplicantService/swagger.json executed in 26 ms
+2025-06-11 16:56:52 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 5074 ms
+2025-06-11 16:56:52 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 5092 ms
+2025-06-11 16:57:48 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 105 ms
+2025-06-11 16:57:58 - :
+Request GET /swagger/index.html executed in 56 ms
+2025-06-11 16:57:58 - :
+Request GET /swagger/ApplicantService/swagger.json executed in 30 ms
+2025-06-11 16:58:19 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 19275 ms
+2025-06-11 16:58:33 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 92 ms
+2025-06-11 16:58:38 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 4653 ms
+2025-06-11 16:58:44 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 10397 ms
+2025-06-11 17:00:00 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 68 ms
+2025-06-11 17:00:03 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 1084 ms
+2025-06-11 17:00:03 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 1073 ms
+2025-06-11 17:00:27 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 2548 ms
+2025-06-11 17:00:28 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 2540 ms
+2025-06-11 17:00:34 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 70 ms
+2025-06-11 17:00:35 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 1034 ms
+2025-06-11 17:00:35 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 1090 ms
+2025-06-11 17:02:52 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 48768 ms
+2025-06-11 17:02:53 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 953 ms
+2025-06-11 17:02:54 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 962 ms
+2025-06-11 17:04:29 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 74 ms
+2025-06-11 17:04:32 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 1471 ms
+2025-06-11 17:04:32 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 1529 ms
+2025-06-11 17:12:19 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 308055 ms
+2025-06-11 17:12:22 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 2556 ms
+2025-06-11 17:12:22 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 1357 ms
+2025-06-11 17:13:20 - :
+Request POST /applicant-service/api/AttendanceDetails/saveAttendanceDetails executed in 9892 ms
+2025-06-11 17:13:31 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 106 ms
+2025-06-11 17:13:33 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 1299 ms
+2025-06-11 17:13:33 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 1410 ms
+2025-06-11 17:16:08 - :
+Request GET /swagger/index.html executed in 62 ms
+2025-06-11 17:16:08 - :
+Request GET /swagger/ApplicantService/swagger.json executed in 33 ms
+2025-06-11 17:16:17 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 984 ms
+2025-06-11 17:16:23 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 5433 ms
+2025-06-11 17:16:23 - :
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'FileId' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacketAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.GetResultAsync(Int32 affectedRow, Int64 insertedId, Boolean execAsync)
+   at MySql.Data.MySqlClient.Driver.GetResultAsync(Int32 statementId, Int32 affectedRows, Int64 insertedId, Boolean execAsync)
+   at MySql.Data.MySqlClient.Driver.NextResultAsync(Int32 statementId, Boolean force, Boolean execAsync)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResultAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResultAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1156
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1184
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 815
+   at Repository.Implementation.Dapperr.GetAll[T](String sp, DynamicParameters parms, CommandType commandType) in E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Repository\Implementation\Dapperr.cs:line 49
+   at Service.Implementation.AttendanceDeatilsService.GetApplicantAttendaceDetails() in E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Service\Implementation\AttendanceDeatilsService.cs:line 56
+2025-06-11 17:16:23 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 5663 ms
+2025-06-11 17:16:44 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 121 ms
+2025-06-11 17:16:47 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 1976 ms
+2025-06-11 17:16:47 - :
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'FileId' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacketAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.GetResultAsync(Int32 affectedRow, Int64 insertedId, Boolean execAsync)
+   at MySql.Data.MySqlClient.Driver.GetResultAsync(Int32 statementId, Int32 affectedRows, Int64 insertedId, Boolean execAsync)
+   at MySql.Data.MySqlClient.Driver.NextResultAsync(Int32 statementId, Boolean force, Boolean execAsync)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResultAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResultAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1156
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1184
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 815
+   at Repository.Implementation.Dapperr.GetAll[T](String sp, DynamicParameters parms, CommandType commandType) in E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Repository\Implementation\Dapperr.cs:line 49
+   at Service.Implementation.AttendanceDeatilsService.GetApplicantAttendaceDetails() in E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Service\Implementation\AttendanceDeatilsService.cs:line 56
+2025-06-11 17:18:03 - :
+MySql.Data.MySqlClient.MySqlException (0x80004005): Unknown column 'FileId' in 'field list'
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacketAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.GetResultAsync(Int32 affectedRow, Int64 insertedId, Boolean execAsync)
+   at MySql.Data.MySqlClient.Driver.GetResultAsync(Int32 statementId, Int32 affectedRows, Int64 insertedId, Boolean execAsync)
+   at MySql.Data.MySqlClient.Driver.NextResultAsync(Int32 statementId, Boolean force, Boolean execAsync)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResultAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResultAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1156
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1184
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 815
+   at Repository.Implementation.Dapperr.GetAll[T](String sp, DynamicParameters parms, CommandType commandType) in E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Repository\Implementation\Dapperr.cs:line 49
+   at Service.Implementation.AttendanceDeatilsService.GetApplicantAttendaceDetails() in E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Service\Implementation\AttendanceDeatilsService.cs:line 56
+2025-06-11 17:18:03 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 77910 ms
+2025-06-11 17:18:09 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 77 ms
+2025-06-11 17:18:13 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 3768 ms
+2025-06-11 17:18:13 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 3762 ms
+2025-06-11 17:20:35 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 48292 ms
+2025-06-11 17:20:36 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 1432 ms
+2025-06-11 17:27:50 - :
+MySql.Data.MySqlClient.MySqlException (0x80004005): Got timeout reading communication packets
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacketAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.MySqlStream.SendPacketAsync(MySqlPacket packet, Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.Driver.CreateAsync(MySqlConnectionStringBuilder settings, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriverAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlPool.GetConnectionAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.OpenAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at Repository.Implementation.Dapperr.Insert[T](String sp, DynamicParameters parms, CommandType commandType) in E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Repository\Implementation\Dapperr.cs:line 61
+   at Service.Implementation.LoginDetailsService.GetRegisterDetails() in E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Service\Implementation\LoginDetailsService.cs:line 176
+2025-06-11 17:27:50 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 27633 ms
+2025-06-11 17:27:51 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 759 ms
+2025-06-11 17:27:51 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 28456 ms
+2025-06-11 17:36:00 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 3679 ms
+2025-06-11 17:40:33 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 1796 ms
+2025-06-11 17:40:33 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 1858 ms
+2025-06-11 17:42:06 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 4394 ms
+2025-06-11 17:45:21 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 82 ms
+2025-06-11 17:45:23 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 1291 ms
+2025-06-11 17:45:23 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 1256 ms
+2025-06-11 17:48:41 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 139 ms
+2025-06-11 17:48:44 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 2511 ms
+2025-06-11 17:48:44 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 2487 ms
+2025-06-11 17:49:45 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 88 ms
+2025-06-11 17:49:47 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 1407 ms
+2025-06-11 17:49:47 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 1386 ms
+2025-06-11 17:52:05 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 4750 ms
+2025-06-11 17:52:54 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 209 ms
+2025-06-11 17:53:00 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 2660 ms
+2025-06-11 17:53:10 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 12584 ms
+2025-06-11 17:54:05 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 9145 ms
+2025-06-11 17:54:57 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 72 ms
+2025-06-11 17:55:03 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 5326 ms
+2025-06-11 17:55:03 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 5281 ms
+2025-06-11 17:56:13 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 102 ms
+2025-06-11 17:56:14 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 10 ms
+2025-06-11 17:56:14 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 70 ms
+2025-06-11 17:59:22 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 40 ms
+2025-06-11 17:59:24 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 72 ms
+2025-06-11 17:59:25 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 92 ms
+2025-06-11 17:59:25 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 42 ms
+2025-06-11 17:59:48 - :
+Request POST /applicant-service/api/AttendanceDetails/saveAttendanceDetails executed in 2753 ms
+2025-06-11 18:01:06 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 13 ms
+2025-06-11 18:01:12 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 106 ms
+2025-06-11 18:01:12 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 14 ms
+2025-06-11 18:01:12 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 66 ms
+2025-06-11 18:02:00 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 21 ms
+2025-06-11 18:06:11 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 74 ms
+2025-06-11 18:06:12 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 84 ms
+2025-06-11 18:06:12 - :
+MySql.Data.MySqlClient.MySqlException (0x80004005): Column 'Id' in field list is ambiguous
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacketAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.GetResultAsync(Int32 affectedRow, Int64 insertedId, Boolean execAsync)
+   at MySql.Data.MySqlClient.Driver.GetResultAsync(Int32 statementId, Int32 affectedRows, Int64 insertedId, Boolean execAsync)
+   at MySql.Data.MySqlClient.Driver.NextResultAsync(Int32 statementId, Boolean force, Boolean execAsync)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResultAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResultAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1156
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1184
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 815
+   at Repository.Implementation.Dapperr.GetAll[T](String sp, DynamicParameters parms, CommandType commandType) in E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Repository\Implementation\Dapperr.cs:line 49
+   at Service.Implementation.AttendanceDeatilsService.GetApplicantAttendaceDetails() in E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Service\Implementation\AttendanceDeatilsService.cs:line 56
+2025-06-11 18:06:12 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 216 ms
+2025-06-11 18:07:28 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 83 ms
+2025-06-11 18:07:28 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 19 ms
+2025-06-11 18:07:29 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 88 ms
+2025-06-11 18:08:15 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 20 ms
+2025-06-11 18:09:55 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 16 ms
+2025-06-11 18:11:40 - :
+Request POST /applicant-service/api/AttendanceDetails/saveAttendanceDetails executed in 1507 ms
+2025-06-11 18:15:52 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 14 ms
+2025-06-11 18:16:19 - :
+Request POST /applicant-service/api/AttendanceDetails/saveAttendanceDetails executed in 4836 ms
+2025-06-11 18:16:19 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 15 ms
+2025-06-11 18:17:56 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 191 ms
+2025-06-11 18:17:57 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 124 ms
+2025-06-11 18:17:58 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 215 ms
+2025-06-11 18:18:27 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 18 ms
+2025-06-11 18:21:25 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 17 ms
+2025-06-11 18:41:21 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 99 ms
+2025-06-11 18:44:31 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 20 ms
+2025-06-11 18:44:34 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 152 ms
+2025-06-11 18:44:35 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 78 ms
+2025-06-11 18:44:35 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 107 ms
+2025-06-11 18:46:01 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 90 ms
+2025-06-11 18:46:02 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 10 ms
+2025-06-11 18:46:02 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 65 ms
+2025-06-11 18:46:43 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 20 ms
+2025-06-11 18:47:21 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 85 ms
+2025-06-11 18:47:23 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 18 ms
+2025-06-11 18:47:23 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 95 ms
+2025-06-11 18:49:13 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 21 ms
+2025-06-11 18:49:23 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 20 ms
+2025-06-11 18:49:26 - :
+Request GET /applicant-service/api/BankAccount/GetBankAccountDetails executed in 509 ms
+2025-06-11 18:49:26 - :
+Request GET /applicant-service/api/BankAccount/CheckIfSwadharAppExist executed in 653 ms
+2025-06-11 18:49:26 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 73 ms
+2025-06-11 18:49:27 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 88 ms
+2025-06-11 18:49:27 - :
+Request GET /applicant-service/api/Application/payment-status executed in 123 ms
+2025-06-11 18:49:27 - :
+Request GET /applicant-service/api/ProgressStatus executed in 187 ms
+2025-06-11 18:49:27 - :
+Request GET /applicant-service/api/Account/check-verified-status executed in 219 ms
+2025-06-11 18:49:28 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 11 ms
+2025-06-11 18:49:28 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 70 ms
+2025-06-11 18:55:35 - :
+Request GET /applicant-service/api/AttendanceDetails executed in 104 ms

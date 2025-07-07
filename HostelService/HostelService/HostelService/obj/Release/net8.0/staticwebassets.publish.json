@@ -1,0 +1,220 @@
+{
+  "Version": 1,
+  "Hash": "oYdxt4VRiIGcDkWYrtGlEYv0j5hSSqy4aNBnKJNRPUQ=",
+  "Source": "HostelService",
+  "BasePath": "_content/HostelService",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [
+    {
+      "Identity": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\HostelService\\HostelService\\HostelService\\obj\\Release\\net8.0\\scopedcss\\bundle\\HostelService.styles.css",
+      "SourceId": "HostelService",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\HostelService\\HostelService\\HostelService\\obj\\Release\\net8.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/HostelService",
+      "RelativePath": "HostelService#[.{fingerprint}]?.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "Fingerprint": "npf3w7c6dt",
+      "Integrity": "S07swuiE4EAVbRzVIXaH9cG/KJVqpMg7CWHXxde7XUc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\HostelService\\HostelService\\HostelService\\obj\\Release\\net8.0\\scopedcss\\bundle\\HostelService.styles.css"
+    },
+    {
+      "Identity": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\HostelService\\HostelService\\HostelService\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\HostelService.bundle.scp.css",
+      "SourceId": "HostelService",
+      "SourceType": "Computed",
+      "ContentRoot": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\HostelService\\HostelService\\HostelService\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/HostelService",
+      "RelativePath": "HostelService#[.{fingerprint}]!.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "Fingerprint": "npf3w7c6dt",
+      "Integrity": "S07swuiE4EAVbRzVIXaH9cG/KJVqpMg7CWHXxde7XUc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\HostelService\\HostelService\\HostelService\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\HostelService.bundle.scp.css"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "HostelService.bundle.scp.css",
+      "AssetFile": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\HostelService\\HostelService\\HostelService\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\HostelService.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S07swuiE4EAVbRzVIXaH9cG/KJVqpMg7CWHXxde7XUc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 13:09:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S07swuiE4EAVbRzVIXaH9cG/KJVqpMg7CWHXxde7XUc="
+        }
+      ]
+    },
+    {
+      "Route": "HostelService.npf3w7c6dt.bundle.scp.css",
+      "AssetFile": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\HostelService\\HostelService\\HostelService\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\HostelService.bundle.scp.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S07swuiE4EAVbRzVIXaH9cG/KJVqpMg7CWHXxde7XUc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 13:09:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "npf3w7c6dt"
+        },
+        {
+          "Name": "label",
+          "Value": "HostelService.bundle.scp.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S07swuiE4EAVbRzVIXaH9cG/KJVqpMg7CWHXxde7XUc="
+        }
+      ]
+    },
+    {
+      "Route": "HostelService.npf3w7c6dt.styles.css",
+      "AssetFile": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\HostelService\\HostelService\\HostelService\\obj\\Release\\net8.0\\scopedcss\\bundle\\HostelService.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S07swuiE4EAVbRzVIXaH9cG/KJVqpMg7CWHXxde7XUc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 13:09:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "npf3w7c6dt"
+        },
+        {
+          "Name": "label",
+          "Value": "HostelService.styles.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S07swuiE4EAVbRzVIXaH9cG/KJVqpMg7CWHXxde7XUc="
+        }
+      ]
+    },
+    {
+      "Route": "HostelService.styles.css",
+      "AssetFile": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\HostelService\\HostelService\\HostelService\\obj\\Release\\net8.0\\scopedcss\\bundle\\HostelService.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S07swuiE4EAVbRzVIXaH9cG/KJVqpMg7CWHXxde7XUc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 13:09:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S07swuiE4EAVbRzVIXaH9cG/KJVqpMg7CWHXxde7XUc="
+        }
+      ]
+    }
+  ]
+}

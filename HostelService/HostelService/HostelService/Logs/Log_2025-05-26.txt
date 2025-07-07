@@ -1,0 +1,4 @@
+2025-05-26 15:19:58 - :
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Repository.Implementation.SJSADapperr.MultiResult(String sp, DynamicParameters parms, CommandType commandType) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Repository\Implementation\Dapperr.cs:line 147
+   at Service.Implementation.LotteryService.GetMeritAsstRejectList(MeritRejectModel model) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Service\Implementation\LotteryService.cs:line 395

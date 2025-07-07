@@ -1,0 +1,265 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B5E2DF11-A57D-4092-82F5-28AC9DE859C1}|Service\\Service.csproj|e:\\hms\\sjsa\\backend\\hostel-management-system-backend-sjsa\\applicantservice\\service\\implementation\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5E2DF11-A57D-4092-82F5-28AC9DE859C1}|Service\\Service.csproj|solutionrelative:service\\implementation\\profileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103E35C1-85EE-4C62-BDDB-6D4B9CAF7C03}|ApplicantService\\ApplicantService.csproj|e:\\hms\\sjsa\\backend\\hostel-management-system-backend-sjsa\\applicantservice\\applicantservice\\controllers\\pastcoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103E35C1-85EE-4C62-BDDB-6D4B9CAF7C03}|ApplicantService\\ApplicantService.csproj|solutionrelative:applicantservice\\controllers\\pastcoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38691364-8D0A-48B2-9DF5-8F1426D2389D}|Model\\Model.csproj|e:\\hms\\sjsa\\backend\\hostel-management-system-backend-sjsa\\applicantservice\\model\\bankaccountnoreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38691364-8D0A-48B2-9DF5-8F1426D2389D}|Model\\Model.csproj|solutionrelative:model\\bankaccountnoreq.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103E35C1-85EE-4C62-BDDB-6D4B9CAF7C03}|ApplicantService\\ApplicantService.csproj|e:\\hms\\sjsa\\backend\\hostel-management-system-backend-sjsa\\applicantservice\\applicantservice\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103E35C1-85EE-4C62-BDDB-6D4B9CAF7C03}|ApplicantService\\ApplicantService.csproj|solutionrelative:applicantservice\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103E35C1-85EE-4C62-BDDB-6D4B9CAF7C03}|ApplicantService\\ApplicantService.csproj|e:\\hms\\sjsa\\backend\\hostel-management-system-backend-sjsa\\applicantservice\\applicantservice\\controllers\\attendancedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103E35C1-85EE-4C62-BDDB-6D4B9CAF7C03}|ApplicantService\\ApplicantService.csproj|solutionrelative:applicantservice\\controllers\\attendancedetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5E2DF11-A57D-4092-82F5-28AC9DE859C1}|Service\\Service.csproj|e:\\hms\\sjsa\\backend\\hostel-management-system-backend-sjsa\\applicantservice\\service\\implementation\\currentcourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5E2DF11-A57D-4092-82F5-28AC9DE859C1}|Service\\Service.csproj|solutionrelative:service\\implementation\\currentcourseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103E35C1-85EE-4C62-BDDB-6D4B9CAF7C03}|ApplicantService\\ApplicantService.csproj|e:\\hms\\sjsa\\backend\\hostel-management-system-backend-sjsa\\applicantservice\\applicantservice\\controllers\\currentcoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103E35C1-85EE-4C62-BDDB-6D4B9CAF7C03}|ApplicantService\\ApplicantService.csproj|solutionrelative:applicantservice\\controllers\\currentcoursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103E35C1-85EE-4C62-BDDB-6D4B9CAF7C03}|ApplicantService\\ApplicantService.csproj|e:\\hms\\sjsa\\backend\\hostel-management-system-backend-sjsa\\applicantservice\\applicantservice\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103E35C1-85EE-4C62-BDDB-6D4B9CAF7C03}|ApplicantService\\ApplicantService.csproj|solutionrelative:applicantservice\\controllers\\applicationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103E35C1-85EE-4C62-BDDB-6D4B9CAF7C03}|ApplicantService\\ApplicantService.csproj|e:\\hms\\sjsa\\backend\\hostel-management-system-backend-sjsa\\applicantservice\\applicantservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{103E35C1-85EE-4C62-BDDB-6D4B9CAF7C03}|ApplicantService\\ApplicantService.csproj|solutionrelative:applicantservice\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103E35C1-85EE-4C62-BDDB-6D4B9CAF7C03}|ApplicantService\\ApplicantService.csproj|e:\\hms\\sjsa\\backend\\hostel-management-system-backend-sjsa\\applicantservice\\applicantservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103E35C1-85EE-4C62-BDDB-6D4B9CAF7C03}|ApplicantService\\ApplicantService.csproj|solutionrelative:applicantservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{103E35C1-85EE-4C62-BDDB-6D4B9CAF7C03}|ApplicantService\\ApplicantService.csproj|e:\\hms\\sjsa\\backend\\hostel-management-system-backend-sjsa\\applicantservice\\applicantservice\\controllers\\bankaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{103E35C1-85EE-4C62-BDDB-6D4B9CAF7C03}|ApplicantService\\ApplicantService.csproj|solutionrelative:applicantservice\\controllers\\bankaccountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5E2DF11-A57D-4092-82F5-28AC9DE859C1}|Service\\Service.csproj|e:\\hms\\sjsa\\backend\\hostel-management-system-backend-sjsa\\applicantservice\\service\\implementation\\bankaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5E2DF11-A57D-4092-82F5-28AC9DE859C1}|Service\\Service.csproj|solutionrelative:service\\implementation\\bankaccountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5E2DF11-A57D-4092-82F5-28AC9DE859C1}|Service\\Service.csproj|e:\\hms\\sjsa\\backend\\hostel-management-system-backend-sjsa\\applicantservice\\service\\configuration\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5E2DF11-A57D-4092-82F5-28AC9DE859C1}|Service\\Service.csproj|solutionrelative:service\\configuration\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38691364-8D0A-48B2-9DF5-8F1426D2389D}|Model\\Model.csproj|e:\\hms\\sjsa\\backend\\hostel-management-system-backend-sjsa\\applicantservice\\model\\attendancedetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38691364-8D0A-48B2-9DF5-8F1426D2389D}|Model\\Model.csproj|solutionrelative:model\\attendancedetailsmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CurrentCourseService.cs",
+              "DocumentMoniker": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\Service\\Implementation\\CurrentCourseService.cs",
+              "RelativeDocumentMoniker": "Service\\Implementation\\CurrentCourseService.cs",
+              "ToolTip": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\Service\\Implementation\\CurrentCourseService.cs",
+              "RelativeToolTip": "Service\\Implementation\\CurrentCourseService.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAlwG8AAACPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-07T04:33:34.873Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AttendanceDetailsController.cs",
+              "DocumentMoniker": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\ApplicantService\\Controllers\\AttendanceDetailsController.cs",
+              "RelativeDocumentMoniker": "ApplicantService\\Controllers\\AttendanceDetailsController.cs",
+              "ToolTip": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\ApplicantService\\Controllers\\AttendanceDetailsController.cs",
+              "RelativeToolTip": "ApplicantService\\Controllers\\AttendanceDetailsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-02T11:16:01.254Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProfileController.cs",
+              "DocumentMoniker": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\ApplicantService\\Controllers\\ProfileController.cs",
+              "RelativeDocumentMoniker": "ApplicantService\\Controllers\\ProfileController.cs",
+              "ToolTip": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\ApplicantService\\Controllers\\ProfileController.cs",
+              "RelativeToolTip": "ApplicantService\\Controllers\\ProfileController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T13:24:40.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BankAccountNoReq.cs",
+              "DocumentMoniker": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\Model\\BankAccountNoReq.cs",
+              "RelativeDocumentMoniker": "Model\\BankAccountNoReq.cs",
+              "ToolTip": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\Model\\BankAccountNoReq.cs",
+              "RelativeToolTip": "Model\\BankAccountNoReq.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T04:49:35.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PastCourseController.cs",
+              "DocumentMoniker": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\ApplicantService\\Controllers\\PastCourseController.cs",
+              "RelativeDocumentMoniker": "ApplicantService\\Controllers\\PastCourseController.cs",
+              "ToolTip": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\ApplicantService\\Controllers\\PastCourseController.cs",
+              "RelativeToolTip": "ApplicantService\\Controllers\\PastCourseController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T11:17:36.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProfileService.cs",
+              "DocumentMoniker": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\Service\\Implementation\\ProfileService.cs",
+              "RelativeDocumentMoniker": "Service\\Implementation\\ProfileService.cs",
+              "ToolTip": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\Service\\Implementation\\ProfileService.cs",
+              "RelativeToolTip": "Service\\Implementation\\ProfileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T06:05:50.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CurrentCourseController.cs",
+              "DocumentMoniker": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\ApplicantService\\Controllers\\CurrentCourseController.cs",
+              "RelativeDocumentMoniker": "ApplicantService\\Controllers\\CurrentCourseController.cs",
+              "ToolTip": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\ApplicantService\\Controllers\\CurrentCourseController.cs",
+              "RelativeToolTip": "ApplicantService\\Controllers\\CurrentCourseController.cs",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAswKAAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T11:18:10.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\ApplicantService\\Program.cs",
+              "RelativeDocumentMoniker": "ApplicantService\\Program.cs",
+              "ToolTip": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\ApplicantService\\Program.cs",
+              "RelativeToolTip": "ApplicantService\\Program.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T11:56:24.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAAAQTAAAAAAAAAAAMwBYTAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-06-24T11:58:10.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationController.cs",
+              "DocumentMoniker": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\ApplicantService\\Controllers\\ApplicationController.cs",
+              "RelativeDocumentMoniker": "ApplicantService\\Controllers\\ApplicationController.cs",
+              "ToolTip": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\ApplicantService\\Controllers\\ApplicationController.cs",
+              "RelativeToolTip": "ApplicantService\\Controllers\\ApplicationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T09:01:49.556Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\ApplicantService\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "ApplicantService\\Properties\\launchSettings.json",
+              "ToolTip": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\ApplicantService\\Properties\\launchSettings.json",
+              "RelativeToolTip": "ApplicantService\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-24T11:56:56.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BankAccountController.cs",
+              "DocumentMoniker": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\ApplicantService\\Controllers\\BankAccountController.cs",
+              "RelativeDocumentMoniker": "ApplicantService\\Controllers\\BankAccountController.cs",
+              "ToolTip": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\ApplicantService\\Controllers\\BankAccountController.cs",
+              "RelativeToolTip": "ApplicantService\\Controllers\\BankAccountController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAWwDYAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T12:10:47.444Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\Service\\Configuration\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "Service\\Configuration\\DependencyInjection.cs",
+              "ToolTip": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\Service\\Configuration\\DependencyInjection.cs",
+              "RelativeToolTip": "Service\\Configuration\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T06:05:27.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "BankAccountservice.cs",
+              "DocumentMoniker": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\Service\\Implementation\\BankAccountservice.cs",
+              "RelativeDocumentMoniker": "Service\\Implementation\\BankAccountservice.cs",
+              "ToolTip": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\Service\\Implementation\\BankAccountservice.cs",
+              "RelativeToolTip": "Service\\Implementation\\BankAccountservice.cs",
+              "ViewState": "AgIAAOYAAAAAAAAAAAAUwPgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-18T04:50:05.707Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AttendanceDetailsModel.cs",
+              "DocumentMoniker": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\Model\\AttendanceDetailsModel.cs",
+              "RelativeDocumentMoniker": "Model\\AttendanceDetailsModel.cs",
+              "ToolTip": "E:\\HMS\\SJSA\\BackEnd\\hostel-management-system-backend-SJSA\\ApplicantService\\Model\\AttendanceDetailsModel.cs",
+              "RelativeToolTip": "Model\\AttendanceDetailsModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-07T12:22:16.774Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

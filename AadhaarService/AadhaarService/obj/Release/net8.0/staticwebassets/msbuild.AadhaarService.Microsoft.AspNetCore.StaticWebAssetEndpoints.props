@@ -1,0 +1,64 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/AadhaarService/AadhaarService.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AadhaarService.qgtshbx8n0.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KlHXTTCfRz9uZOm4r37WwYK8jShQcIZDc0ZDEpCRtyo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022KlHXTTCfRz9uZOm4r37WwYK8jShQcIZDc0ZDEpCRtyo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 21:59:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AadhaarService/AadhaarService.qgtshbx8n0.bundle.scp.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\AadhaarService.qgtshbx8n0.bundle.scp.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qgtshbx8n0"},{"Name":"integrity","Value":"sha256-KlHXTTCfRz9uZOm4r37WwYK8jShQcIZDc0ZDEpCRtyo="},{"Name":"label","Value":"_content/AadhaarService/AadhaarService.bundle.scp.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1132"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022KlHXTTCfRz9uZOm4r37WwYK8jShQcIZDc0ZDEpCRtyo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 21:59:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AadhaarService/certificates/DCBX_certificate.7a272xjlry.cer">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\certificates\DCBX_certificate.cer'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"7a272xjlry"},{"Name":"integrity","Value":"sha256-T91DdE6iPbMBexVTlxtDH\u002BciyvSDaqGngAAa5XrOUw4="},{"Name":"label","Value":"_content/AadhaarService/certificates/DCBX_certificate.cer"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2570"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022T91DdE6iPbMBexVTlxtDH\u002BciyvSDaqGngAAa5XrOUw4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 18:49:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AadhaarService/certificates/DCBX_certificate.cer">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\certificates\DCBX_certificate.cer'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-T91DdE6iPbMBexVTlxtDH\u002BciyvSDaqGngAAa5XrOUw4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2570"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022T91DdE6iPbMBexVTlxtDH\u002BciyvSDaqGngAAa5XrOUw4=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 18:49:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AadhaarService/certificates/JME.cer">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\certificates\JME.cer'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-NwXinseC8xO2qfQwSSYU4YxTGHrUHXGJ8eWHriDVf7A="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2062"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022NwXinseC8xO2qfQwSSYU4YxTGHrUHXGJ8eWHriDVf7A=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 18:49:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AadhaarService/certificates/JME.hyfg21mkkm.cer">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\certificates\JME.cer'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hyfg21mkkm"},{"Name":"integrity","Value":"sha256-NwXinseC8xO2qfQwSSYU4YxTGHrUHXGJ8eWHriDVf7A="},{"Name":"label","Value":"_content/AadhaarService/certificates/JME.cer"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2062"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022NwXinseC8xO2qfQwSSYU4YxTGHrUHXGJ8eWHriDVf7A=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 18:49:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AadhaarService/certificates/uidai_auth_preprod.cer">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\certificates\uidai_auth_preprod.cer'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-u9czU1glLq5\u002BMWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8104"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022u9czU1glLq5\u002BMWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 18:49:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AadhaarService/certificates/uidai_auth_preprod.nx4fd96jvx.cer">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\certificates\uidai_auth_preprod.cer'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nx4fd96jvx"},{"Name":"integrity","Value":"sha256-u9czU1glLq5\u002BMWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ="},{"Name":"label","Value":"_content/AadhaarService/certificates/uidai_auth_preprod.cer"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8104"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022u9czU1glLq5\u002BMWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 18:49:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AadhaarService/certificates/uidai_auth_prod.cer">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\certificates\uidai_auth_prod.cer'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-u9czU1glLq5\u002BMWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"8104"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022u9czU1glLq5\u002BMWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 18:49:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/AadhaarService/certificates/uidai_auth_prod.nx4fd96jvx.cer">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\certificates\uidai_auth_prod.cer'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nx4fd96jvx"},{"Name":"integrity","Value":"sha256-u9czU1glLq5\u002BMWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ="},{"Name":"label","Value":"_content/AadhaarService/certificates/uidai_auth_prod.cer"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"8104"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022u9czU1glLq5\u002BMWCSuzOyM/vDWReKY7Kxn/hZAezgdCQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 09 Apr 2025 18:49:06 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

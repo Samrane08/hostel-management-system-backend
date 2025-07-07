@@ -1,0 +1,8 @@
+2025-06-13 11:17:20 - :
+Request GET /swagger/index.html executed in 55 ms
+2025-06-13 11:17:20 - :
+Request GET /swagger/ApplicantService/swagger.json executed in 29 ms
+2025-06-13 11:27:34 - :
+Request GET /swagger/index.html executed in 56 ms
+2025-06-13 11:27:34 - :
+Request GET /swagger/ApplicantService/swagger.json executed in 22 ms

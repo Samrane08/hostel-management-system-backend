@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "UserService.bykpffshji.styles.css",
+      "AssetFile": "UserService.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rb6a1wjcCL7ITTB2g4bzsRC8jyGdsnLJ5s3BHwYqcPM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 11:51:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bykpffshji"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rb6a1wjcCL7ITTB2g4bzsRC8jyGdsnLJ5s3BHwYqcPM="
+        },
+        {
+          "Name": "label",
+          "Value": "UserService.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "UserService.styles.css",
+      "AssetFile": "UserService.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1129"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rb6a1wjcCL7ITTB2g4bzsRC8jyGdsnLJ5s3BHwYqcPM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 13 May 2025 11:51:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rb6a1wjcCL7ITTB2g4bzsRC8jyGdsnLJ5s3BHwYqcPM="
+        }
+      ]
+    }
+  ]
+}

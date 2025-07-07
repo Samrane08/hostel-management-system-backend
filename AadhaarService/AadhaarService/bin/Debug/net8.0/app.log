@@ -1,0 +1,522 @@
+2025-04-11 15:57:38.660 [INFO] b4N4XLHK+xCo5Z6xuozb8w==
+2025-04-11 15:57:38.668 [INFO] End of decruypt
+2025-04-11 16:31:16.293 [INFO] b4N4XLHK+xCo5Z6xuozb8w==
+2025-04-11 16:31:25.775 [INFO] End of decruypt
+2025-04-11 16:33:45.423 [INFO] b4N4XLHK+xCo5Z6xuozb8w==
+2025-04-11 16:34:03.592 [INFO] End of decruypt
+2025-04-11 16:41:28.890 [INFO] b4N4XLHK+xCo5Z6xuozb8w==
+2025-04-11 16:41:28.894 [INFO] End of decruypt
+2025-04-11 16:41:37.903 [INFO] ABC
+2025-04-11 16:41:39.183 [INFO] <Auth xmlns="http://aua.maharashtra.gov.in/auth/gom-auth-request">
+                <Txn>AUA-OTP-HMS-4677-2025-04-11T16:41:38:612</Txn>
+                <Ver>2.5</Ver>
+                <SubAUACode>SMADB23060</SubAUACode>
+                <AUAToken>30dd52a4cb1b21d69e35066cb3e79f125b83c14221abca37259b1e4f58232d01</AUAToken>
+
+                <AUASkey>PYkMIXzXnxnGvL3i4/2Eyx7UY5NvA1+ZQPGHIs0/TDgb0WevE+HYFxBao5eM7Ss4a4Y7QD0EZ5xTbzV5dofY/luiuhkG1Mf5EPK2R/T/IM+H4Ze7u2TCZO33H9L+syuS14vBfhTgIQhZ6XxL4r5lUGYtV2pbes2wMRqb5nO9te97G1k2ranBvTXOjLKQhxJCaho0XsqsOGV6jZtW1+BiW2F1HUh/jgZ0MUBHrIJVVqPpYh824MtrPtdX/PRDjz/03QwarcFILmRjgzYUcokOnltOvJZROt2KnkroYRUOaZY+nHXrbQbQQsDqA790ByXATMtvYX4kMd4PLUPXZJFPEw==</AUASkey>
+                <ReqType>otp</ReqType>
+                <DeviceId>TEST</DeviceId> 
+                <UID>D3kCMrupoVg4e7Ela6pLrg==</UID>
+                <type>A</type>
+                <Ch>01</Ch>
+                </Auth>
+2025-04-11 16:43:26.751 [INFO] System.Net.HttpWebResponse
+2025-04-11 16:43:26.857 [INFO] <?xml version="1.0" encoding="UTF-8" standalone="yes"?><AuthRes xmlns:ns2="http://aua.maharashtra.gov.in/auth/gom-auth-request"><DeviceId>TEST</DeviceId><SubAUAtransId>AUA-OTP-HMS-4677-2025-04-11T16:41:38:612</SubAUAtransId><ResponseMsg>01{A,2025-04-11T16:42:09,2.5,a695e5c2f15d22af8e0c72a0627b1f99755870fbcc1d9cb37c1d67c638e5e95d,85bd3fd04c13b2b4dfe9e3bfdb116d9a8e9b55d6a1c68dd2da2b63b73a19ebfa,a8498290e4fa9a7499b030c74e7ee16c08cf7dcae0b6654d7ed023a6be563bee,*******4095,NA}</ResponseMsg><ResponseCode>a29491ff137141618800407806bf5b24</ResponseCode><ResponseTs>2025-04-11T16:41:50.834+05:30</ResponseTs><OtpRet>y</OtpRet></AuthRes>
+2025-04-11 16:44:03.057 [INFO] b4N4XLHK+xCo5Z6xuozb8w==
+2025-04-11 16:44:03.059 [INFO] End of decruypt
+2025-04-11 16:44:03.779 [INFO] ABC
+2025-04-11 16:44:03.798 [INFO] <Auth xmlns="http://aua.maharashtra.gov.in/auth/gom-auth-request">
+                <Txn>AUA-OTP-HMS-5437-2025-04-11T16:44:03:780</Txn>
+                <Ver>2.5</Ver>
+                <SubAUACode>SMADB23060</SubAUACode>
+                <AUAToken>a6d232f7a441b62fe43079d5e119df02b414d60c64804f2e22a8a8f999a97697</AUAToken>
+
+                <AUASkey>m0Dwc60FjDjVhhAnmpDrKnGwBwy21nWNkOen8NPytL8wd4HpOTtwLOm+p5HwTaYXcSACKH5pi9XUvP7IztM51oioDOaxcM8pxVI4cG32ImFUSrDJU6TFDtfJhMnPFa82FfMHEPHMt8nuqBloGLCUI7HIRa2nZYldJ3l/ohRCNkTiOTQJztcC4btqy7cC0dcL7FciBxCXbAM4MA+M8YULADUhOdqEq6nxytG0DDilSJCBX7W07sMR01qdolJf0jxFvjR1Nbb5BlkmafuzFMgny/zfwkMxVu+6Ddk0iasi3T0oxAPTXGbXXTUpbhYaIRS2BJdXnCcFhNTF8UYhwrwKrA==</AUASkey>
+                <ReqType>otp</ReqType>
+                <DeviceId>TEST</DeviceId> 
+                <UID>am72FVXBvHx3UXU+V/2WMg==</UID>
+                <type>A</type>
+                <Ch>01</Ch>
+                </Auth>
+2025-04-11 16:44:03.810 [INFO] <Auth xmlns="http://aua.maharashtra.gov.in/auth/gom-auth-request">
+                <Txn>AUA-OTP-HMS-5437-2025-04-11T16:44:03:780</Txn>
+                <Ver>2.5</Ver>
+                <SubAUACode>SMADB23060</SubAUACode>
+                <AUAToken>a6d232f7a441b62fe43079d5e119df02b414d60c64804f2e22a8a8f999a97697</AUAToken>
+
+                <AUASkey>m0Dwc60FjDjVhhAnmpDrKnGwBwy21nWNkOen8NPytL8wd4HpOTtwLOm+p5HwTaYXcSACKH5pi9XUvP7IztM51oioDOaxcM8pxVI4cG32ImFUSrDJU6TFDtfJhMnPFa82FfMHEPHMt8nuqBloGLCUI7HIRa2nZYldJ3l/ohRCNkTiOTQJztcC4btqy7cC0dcL7FciBxCXbAM4MA+M8YULADUhOdqEq6nxytG0DDilSJCBX7W07sMR01qdolJf0jxFvjR1Nbb5BlkmafuzFMgny/zfwkMxVu+6Ddk0iasi3T0oxAPTXGbXXTUpbhYaIRS2BJdXnCcFhNTF8UYhwrwKrA==</AUASkey>
+                <ReqType>otp</ReqType>
+                <DeviceId>TEST</DeviceId> 
+                <UID>am72FVXBvHx3UXU+V/2WMg==</UID>
+                <type>A</type>
+                <Ch>01</Ch>
+                </Auth>
+2025-04-11 16:44:05.894 [INFO] System.Net.HttpWebResponse
+2025-04-11 16:44:05.920 [INFO] <?xml version="1.0" encoding="UTF-8" standalone="yes"?><AuthRes xmlns:ns2="http://aua.maharashtra.gov.in/auth/gom-auth-request"><DeviceId>TEST</DeviceId><SubAUAtransId>AUA-OTP-HMS-5437-2025-04-11T16:44:03:780</SubAUAtransId><ResponseMsg>01{A,2025-04-11T16:44:07,2.5,a695e5c2f15d22af8e0c72a0627b1f99755870fbcc1d9cb37c1d67c638e5e95d,85bd3fd04c13b2b4dfe9e3bfdb116d9a8e9b55d6a1c68dd2da2b63b73a19ebfa,a8498290e4fa9a7499b030c74e7ee16c08cf7dcae0b6654d7ed023a6be563bee,*******4095,NA}</ResponseMsg><ResponseCode>0590dbad9b2240898bb9e627e658846f</ResponseCode><ResponseTs>2025-04-11T16:43:48.701+05:30</ResponseTs><OtpRet>y</OtpRet></AuthRes>
+2025-04-17 13:51:50.278 [INFO] b4N4XLHK+xCo5Z6xuozb8w==
+2025-04-17 13:51:59.858 [INFO] End of decruypt
+2025-04-17 13:52:06.566 [INFO] ABC
+2025-04-17 13:52:14.908 [INFO] request<Auth xmlns="http://aua.maharashtra.gov.in/auth/gom-auth-request">
+                <Txn>AUA-OTP-HMS-9237-2025-04-17T13:52:07:808</Txn>
+                <Ver>2.5</Ver>
+                <SubAUACode>SMADB23060</SubAUACode>
+                <AUAToken>2c41e754eb470842c14ac1459b9c4b6b0a1f7fe134aab987a82ecb60cf153e5c</AUAToken>
+
+                <AUASkey>GiPItfTB4eL+kcAX/2YjwXHj+IV/aD1yQpD8dOWqGeQSwX7PS+Gkl3riliESD6cicR2GhZAp5SK43Fby/h5r6Ydd2sg9c2WKJMs49iPHtov0vVwKMAPFKWRIexm8+6tMrwvih4ULPcDaiJJoQJ1Wa7Kl+JhE98N7CpAfS9Pj70+wXf1+UfsDSyRrRecupnm7v5hHyX8Y5/18moeGr3RoO5TRNDSNBnGnQ9hfi3IwqN+v1Pg6jHFRBgaMmIfFTTcsdxgBBm3xdgriBHQH6nLzoqUq/rSwYEuB4N2iCIyfUYZbrNOUyPs8Ho4J176tutrbccjDw6QmqvZaDQPjgZeLtA==</AUASkey>
+                <ReqType>otp</ReqType>
+                <DeviceId>TEST</DeviceId> 
+                <UID>cED2+0cM6AFsCxqdrO22Fg==</UID>
+                <type>A</type>
+                <Ch>01</Ch>
+                </Auth>
+2025-04-17 13:52:32.681 [INFO] requestBody<Auth xmlns="http://aua.maharashtra.gov.in/auth/gom-auth-request">
+                <Txn>AUA-OTP-HMS-9237-2025-04-17T13:52:07:808</Txn>
+                <Ver>2.5</Ver>
+                <SubAUACode>SMADB23060</SubAUACode>
+                <AUAToken>2c41e754eb470842c14ac1459b9c4b6b0a1f7fe134aab987a82ecb60cf153e5c</AUAToken>
+
+                <AUASkey>GiPItfTB4eL+kcAX/2YjwXHj+IV/aD1yQpD8dOWqGeQSwX7PS+Gkl3riliESD6cicR2GhZAp5SK43Fby/h5r6Ydd2sg9c2WKJMs49iPHtov0vVwKMAPFKWRIexm8+6tMrwvih4ULPcDaiJJoQJ1Wa7Kl+JhE98N7CpAfS9Pj70+wXf1+UfsDSyRrRecupnm7v5hHyX8Y5/18moeGr3RoO5TRNDSNBnGnQ9hfi3IwqN+v1Pg6jHFRBgaMmIfFTTcsdxgBBm3xdgriBHQH6nLzoqUq/rSwYEuB4N2iCIyfUYZbrNOUyPs8Ho4J176tutrbccjDw6QmqvZaDQPjgZeLtA==</AUASkey>
+                <ReqType>otp</ReqType>
+                <DeviceId>TEST</DeviceId> 
+                <UID>cED2+0cM6AFsCxqdrO22Fg==</UID>
+                <type>A</type>
+                <Ch>01</Ch>
+                </Auth>
+2025-04-17 13:52:42.499 [INFO] responseSystem.Net.HttpWebResponse
+2025-04-17 13:52:46.142 [INFO] xml<?xml version="1.0" encoding="UTF-8" standalone="yes"?><AuthRes xmlns:ns2="http://aua.maharashtra.gov.in/auth/gom-auth-request"><DeviceId>TEST</DeviceId><SubAUAtransId>AUA-OTP-HMS-9237-2025-04-17T13:52:07:808</SubAUAtransId><ResponseMsg>01{A,2025-04-17T13:52:47,2.5,a695e5c2f15d22af8e0c72a0627b1f99755870fbcc1d9cb37c1d67c638e5e95d,85bd3fd04c13b2b4dfe9e3bfdb116d9a8e9b55d6a1c68dd2da2b63b73a19ebfa,a8498290e4fa9a7499b030c74e7ee16c08cf7dcae0b6654d7ed023a6be563bee,*******4095,NA}</ResponseMsg><ResponseCode>50e72780be19405e8057a0036d8fe9f7</ResponseCode><ResponseTs>2025-04-17T13:52:16.558+05:30</ResponseTs><OtpRet>y</OtpRet></AuthRes>
+2025-04-17 13:53:22.199 [INFO] b4N4XLHK+xCo5Z6xuozb8w==
+2025-04-17 13:53:22.200 [INFO] End of decruypt
+2025-04-17 13:56:53.086 [INFO] kORhr09TxLDGN94j9F6FoA==
+2025-04-17 13:56:53.087 [INFO] End of decruypt
+2025-04-17 13:56:54.891 [INFO] ABC
+2025-04-17 13:56:56.149 [INFO] request<Auth xmlns="http://aua.maharashtra.gov.in/auth/gom-auth-request">
+                <Txn>AUA-OTP-HMS-8015-2025-04-17T13:56:55:309</Txn>
+                <Ver>2.5</Ver>
+                <SubAUACode>SMADB23060</SubAUACode>
+                <AUAToken>0315f3e53c89989d04f591260d20a29f4399f7417be03734167a68960acb50f4</AUAToken>
+
+                <AUASkey>WoD67oiHGKHxKLipNKeZrSFCYIezcyC+PMmT8OrtkCEYr60AMuNTF6Oscp/c7gES7Wa/dZ0SDwPjs0BZ4YysCUaydWIDRZh5bpTAvL+01nYRYtEQ1GfR5Dt07Fj7uFkwuBYxJiZwogd38PbKmXJlsdFJhOFUIN2zlsnynUbJfL0wflyKcrjtjjYoYFNBZvyDtFMGyBrrSLLA4DqqerB14x/vaPjomS41uCfkqk/8QYqpk149rSN129CCj0x69wdSAUSiNaFPvznbj2dQc0nnNWDdhVj/+XRLiD9qblY1ow1Qfm07AGzCGeE9smwdJK+3YIefmgOrGN+8DUDDh6xtig==</AUASkey>
+                <ReqType>otp</ReqType>
+                <DeviceId>TEST</DeviceId> 
+                <UID>9SGtl369K1EAadjwoLDFtg==</UID>
+                <type>A</type>
+                <Ch>01</Ch>
+                </Auth>
+2025-04-17 13:57:01.640 [INFO] requestBody<Auth xmlns="http://aua.maharashtra.gov.in/auth/gom-auth-request">
+                <Txn>AUA-OTP-HMS-8015-2025-04-17T13:56:55:309</Txn>
+                <Ver>2.5</Ver>
+                <SubAUACode>SMADB23060</SubAUACode>
+                <AUAToken>0315f3e53c89989d04f591260d20a29f4399f7417be03734167a68960acb50f4</AUAToken>
+
+                <AUASkey>WoD67oiHGKHxKLipNKeZrSFCYIezcyC+PMmT8OrtkCEYr60AMuNTF6Oscp/c7gES7Wa/dZ0SDwPjs0BZ4YysCUaydWIDRZh5bpTAvL+01nYRYtEQ1GfR5Dt07Fj7uFkwuBYxJiZwogd38PbKmXJlsdFJhOFUIN2zlsnynUbJfL0wflyKcrjtjjYoYFNBZvyDtFMGyBrrSLLA4DqqerB14x/vaPjomS41uCfkqk/8QYqpk149rSN129CCj0x69wdSAUSiNaFPvznbj2dQc0nnNWDdhVj/+XRLiD9qblY1ow1Qfm07AGzCGeE9smwdJK+3YIefmgOrGN+8DUDDh6xtig==</AUASkey>
+                <ReqType>otp</ReqType>
+                <DeviceId>TEST</DeviceId> 
+                <UID>9SGtl369K1EAadjwoLDFtg==</UID>
+                <type>A</type>
+                <Ch>01</Ch>
+                </Auth>
+2025-04-17 13:57:07.530 [INFO] responseSystem.Net.HttpWebResponse
+2025-04-17 13:57:09.806 [INFO] xml<?xml version="1.0" encoding="UTF-8" standalone="yes"?><AuthRes xmlns:ns2="http://aua.maharashtra.gov.in/auth/gom-auth-request"><DeviceId>TEST</DeviceId><SubAUAtransId>AUA-OTP-HMS-8015-2025-04-17T13:56:55:309</SubAUAtransId><ResponseMsg>01{A,2025-04-17T13:57:12,2.5,a695e5c2f15d22af8e0c72a0627b1f99755870fbcc1d9cb37c1d67c638e5e95d,85bd3fd04c13b2b4dfe9e3bfdb116d9a8e9b55d6a1c68dd2da2b63b73a19ebfa,a8498290e4fa9a7499b030c74e7ee16c08cf7dcae0b6654d7ed023a6be563bee,*******0236,NA}</ResponseMsg><ResponseCode>b75167ef1e5a49a092c21091b3844d67</ResponseCode><ResponseTs>2025-04-17T13:56:41.098+05:30</ResponseTs><OtpRet>y</OtpRet></AuthRes>
+2025-04-17 13:57:28.542 [INFO] kORhr09TxLDGN94j9F6FoA==
+2025-04-17 13:57:28.544 [INFO] End of decruypt
+2025-04-17 18:11:48.694 [INFO] phsRIL3j1/UpUoPYy0PwaQ==
+2025-04-17 18:11:48.711 [INFO] End of decruypt
+2025-04-17 18:11:51.701 [INFO] ABC
+2025-04-17 18:11:53.765 [INFO] request<Auth xmlns="http://aua.maharashtra.gov.in/auth/gom-auth-request">
+                <Txn>AUA-OTP-HMS-5202-2025-04-17T18:11:53:664</Txn>
+                <Ver>2.5</Ver>
+                <SubAUACode>SMADB23060</SubAUACode>
+                <AUAToken>71a5356f98e78f4732407aabc4de0514cea89de9d5235da202b68e8747a22dc5</AUAToken>
+
+                <AUASkey>UnPF/hINGGp7w0IBAX5Gmpz8qwPYoHx/bAfeGtYkmBJZDbTWiNt2CZDRe7FaYZFfr6uQgtQWn5EgItdXy2FmIn0o2dXnon4wH4JEbia1XqXCvUAMrhV1XgyVA+J7OLY8ZRdKOpQqX3YCkaa18l5EENsV+Aw+S+z1I81g7Y8+KVz7PEmx6OsbM/patJ+q+bb9ECDeOstD6qkdFDZJPvvqSUcCgCSgl6JpdEBKGw3rQHLWE7VeoZA5wxj+s3DNGmMq1ysTJiX0+KUil2ijMlSnWOL6r9WHKW01af3O0a3/iDBFwTLKsGs+LVT0n7bIIORCLp4G0uxvZnkxoxXKOYMLqQ==</AUASkey>
+                <ReqType>otp</ReqType>
+                <DeviceId>TEST</DeviceId> 
+                <UID>S1ourVPksfa4HprHwyNnng==</UID>
+                <type>A</type>
+                <Ch>01</Ch>
+                </Auth>
+2025-04-17 18:11:53.787 [INFO] requestBody<Auth xmlns="http://aua.maharashtra.gov.in/auth/gom-auth-request">
+                <Txn>AUA-OTP-HMS-5202-2025-04-17T18:11:53:664</Txn>
+                <Ver>2.5</Ver>
+                <SubAUACode>SMADB23060</SubAUACode>
+                <AUAToken>71a5356f98e78f4732407aabc4de0514cea89de9d5235da202b68e8747a22dc5</AUAToken>
+
+                <AUASkey>UnPF/hINGGp7w0IBAX5Gmpz8qwPYoHx/bAfeGtYkmBJZDbTWiNt2CZDRe7FaYZFfr6uQgtQWn5EgItdXy2FmIn0o2dXnon4wH4JEbia1XqXCvUAMrhV1XgyVA+J7OLY8ZRdKOpQqX3YCkaa18l5EENsV+Aw+S+z1I81g7Y8+KVz7PEmx6OsbM/patJ+q+bb9ECDeOstD6qkdFDZJPvvqSUcCgCSgl6JpdEBKGw3rQHLWE7VeoZA5wxj+s3DNGmMq1ysTJiX0+KUil2ijMlSnWOL6r9WHKW01af3O0a3/iDBFwTLKsGs+LVT0n7bIIORCLp4G0uxvZnkxoxXKOYMLqQ==</AUASkey>
+                <ReqType>otp</ReqType>
+                <DeviceId>TEST</DeviceId> 
+                <UID>S1ourVPksfa4HprHwyNnng==</UID>
+                <type>A</type>
+                <Ch>01</Ch>
+                </Auth>
+2025-04-17 18:11:56.191 [INFO] responseSystem.Net.HttpWebResponse
+2025-04-17 18:11:56.306 [INFO] xml<?xml version="1.0" encoding="UTF-8" standalone="yes"?><AuthRes xmlns:ns2="http://aua.maharashtra.gov.in/auth/gom-auth-request"><DeviceId>TEST</DeviceId><SubAUAtransId>AUA-OTP-HMS-5202-2025-04-17T18:11:53:664</SubAUAtransId><ResponseMsg>01{A,2025-04-17T18:12:03,2.5,a695e5c2f15d22af8e0c72a0627b1f99755870fbcc1d9cb37c1d67c638e5e95d,85bd3fd04c13b2b4dfe9e3bfdb116d9a8e9b55d6a1c68dd2da2b63b73a19ebfa,a8498290e4fa9a7499b030c74e7ee16c08cf7dcae0b6654d7ed023a6be563bee,*******1883,NA}</ResponseMsg><ResponseCode>c64ad26600b44761964e2a2102ea1eb1</ResponseCode><ResponseTs>2025-04-17T18:11:31.594+05:30</ResponseTs><OtpRet>y</OtpRet></AuthRes>
+2025-04-17 18:19:08.107 [INFO] phsRIL3j1/UpUoPYy0PwaQ==
+2025-04-17 18:19:08.109 [INFO] End of decruypt
+2025-04-17 18:19:08.860 [INFO] ABC
+2025-04-17 18:19:08.880 [INFO] request<Auth xmlns="http://aua.maharashtra.gov.in/auth/gom-auth-request">
+                <Txn>AUA-OTP-HMS-9687-2025-04-17T18:19:08:864</Txn>
+                <Ver>2.5</Ver>
+                <SubAUACode>SMADB23060</SubAUACode>
+                <AUAToken>03c80bc7acb095eb4faadba8606d24daebd7ae07fd3bb211731a119db2880374</AUAToken>
+
+                <AUASkey>l211ZhlYEEDI4xaAF4t5W2pCsr9Jd5qgrJzhzKU1bNUGQdhs1jL1xDG0t80KmOU+3j48jUAznrWRjPnEHDEVWoIrU18RNh5BJ7y6NjKh1EXUSF/bHtWLgoKK4gQ+UDqluU0dcZZm/eVQi18AsDil2tz4u9D4IxwEgw5kK4d0IUBipWU39vWnlwpPhv+vLDpB2+4Wf2vdMwlXlfqCXuh93qEvonUmzGVFinS+qRz9EzIatPUUelJu1SWkJfo2fO9IGLMVJSVGWIzewukOXFXUDfOnMrzJuKhMIfGtYNqJPMc5qJdCIYglgqXOsSgGjVi0InrsrtMn3yIPZbKiRnhaDQ==</AUASkey>
+                <ReqType>otp</ReqType>
+                <DeviceId>TEST</DeviceId> 
+                <UID>Stg8Z5crWa+1kaKxsn6OPQ==</UID>
+                <type>A</type>
+                <Ch>01</Ch>
+                </Auth>
+2025-04-17 18:19:08.888 [INFO] requestBody<Auth xmlns="http://aua.maharashtra.gov.in/auth/gom-auth-request">
+                <Txn>AUA-OTP-HMS-9687-2025-04-17T18:19:08:864</Txn>
+                <Ver>2.5</Ver>
+                <SubAUACode>SMADB23060</SubAUACode>
+                <AUAToken>03c80bc7acb095eb4faadba8606d24daebd7ae07fd3bb211731a119db2880374</AUAToken>
+
+                <AUASkey>l211ZhlYEEDI4xaAF4t5W2pCsr9Jd5qgrJzhzKU1bNUGQdhs1jL1xDG0t80KmOU+3j48jUAznrWRjPnEHDEVWoIrU18RNh5BJ7y6NjKh1EXUSF/bHtWLgoKK4gQ+UDqluU0dcZZm/eVQi18AsDil2tz4u9D4IxwEgw5kK4d0IUBipWU39vWnlwpPhv+vLDpB2+4Wf2vdMwlXlfqCXuh93qEvonUmzGVFinS+qRz9EzIatPUUelJu1SWkJfo2fO9IGLMVJSVGWIzewukOXFXUDfOnMrzJuKhMIfGtYNqJPMc5qJdCIYglgqXOsSgGjVi0InrsrtMn3yIPZbKiRnhaDQ==</AUASkey>
+                <ReqType>otp</ReqType>
+                <DeviceId>TEST</DeviceId> 
+                <UID>Stg8Z5crWa+1kaKxsn6OPQ==</UID>
+                <type>A</type>
+                <Ch>01</Ch>
+                </Auth>
+2025-04-17 18:19:12.568 [INFO] responseSystem.Net.HttpWebResponse
+2025-04-17 18:19:12.570 [INFO] xml<?xml version="1.0" encoding="UTF-8" standalone="yes"?><AuthRes xmlns:ns2="http://aua.maharashtra.gov.in/auth/gom-auth-request"><DeviceId>TEST</DeviceId><SubAUAtransId>AUA-OTP-HMS-9687-2025-04-17T18:19:08:864</SubAUAtransId><ResponseMsg>01{A,2025-04-17T18:19:18,2.5,a695e5c2f15d22af8e0c72a0627b1f99755870fbcc1d9cb37c1d67c638e5e95d,85bd3fd04c13b2b4dfe9e3bfdb116d9a8e9b55d6a1c68dd2da2b63b73a19ebfa,a8498290e4fa9a7499b030c74e7ee16c08cf7dcae0b6654d7ed023a6be563bee,*******1883,NA}</ResponseMsg><ResponseCode>96d88acf147b4930a001d12acb76acd3</ResponseCode><ResponseTs>2025-04-17T18:18:47.357+05:30</ResponseTs><OtpRet>y</OtpRet></AuthRes>
+2025-04-18 23:30:37.846 [INFO] aadharPlainTextb4N4XLHK+xCo5Z6xuozb8w==
+2025-04-18 23:30:44.753 [INFO] b4N4XLHK+xCo5Z6xuozb8w==
+2025-04-18 23:30:44.761 [INFO] End of decruypt
+2025-04-18 23:30:45.909 [INFO] dec837933612405
+2025-04-18 23:30:53.487 [INFO] ABC
+2025-04-18 23:30:54.928 [INFO] request<Auth xmlns="http://aua.maharashtra.gov.in/auth/gom-auth-request">
+                <Txn>AUA-OTP-HMS-3222-2025-04-18T23:30:54:446</Txn>
+                <Ver>2.5</Ver>
+                <SubAUACode>SMADB23060</SubAUACode>
+                <AUAToken>4b835265786149fcd6eeb5c7192d48f4341c4e4bfe9b077c65686a8a57deeafd</AUAToken>
+
+                <AUASkey>XZKMCoQN0saqoFxtH6gGekGWDneGt+0PNZBoSIaG8sknFmf4E9/AMDlmfFOyd7NuzZ7A6eE7rXuZaCuiDw/0A09iQgyRD6SXLWjz73bVxUjz3Ib+3Ed8lV2TfDzMUzKMB6UdT3swkuiTOloEWRy9QdL7/Z1DkS3g15gTLehVgA9DX94x7ppixp1Mft8pM2QoxrcSnrC7ni3HlFKsC+f0lP/B/Aj3m9QbX2FppORNslW41T87JWbrKT6g3lT6PhXZNAU8t53XZa1tO4uEtBw+LImgJnj7F1lm9QB7lFzZWgl+lokvIH5wz/loIWM4GIvDtAG+nN9LSQLOqNW1xmv82Q==</AUASkey>
+                <ReqType>otp</ReqType>
+                <DeviceId>TEST</DeviceId> 
+                <UID>GpyR/osaUflkz3BVqxd0IA==</UID>
+                <type>A</type>
+                <Ch>01</Ch>
+                </Auth>
+2025-04-18 23:31:06.136 [INFO] requestBody<Auth xmlns="http://aua.maharashtra.gov.in/auth/gom-auth-request">
+                <Txn>AUA-OTP-HMS-3222-2025-04-18T23:30:54:446</Txn>
+                <Ver>2.5</Ver>
+                <SubAUACode>SMADB23060</SubAUACode>
+                <AUAToken>4b835265786149fcd6eeb5c7192d48f4341c4e4bfe9b077c65686a8a57deeafd</AUAToken>
+
+                <AUASkey>XZKMCoQN0saqoFxtH6gGekGWDneGt+0PNZBoSIaG8sknFmf4E9/AMDlmfFOyd7NuzZ7A6eE7rXuZaCuiDw/0A09iQgyRD6SXLWjz73bVxUjz3Ib+3Ed8lV2TfDzMUzKMB6UdT3swkuiTOloEWRy9QdL7/Z1DkS3g15gTLehVgA9DX94x7ppixp1Mft8pM2QoxrcSnrC7ni3HlFKsC+f0lP/B/Aj3m9QbX2FppORNslW41T87JWbrKT6g3lT6PhXZNAU8t53XZa1tO4uEtBw+LImgJnj7F1lm9QB7lFzZWgl+lokvIH5wz/loIWM4GIvDtAG+nN9LSQLOqNW1xmv82Q==</AUASkey>
+                <ReqType>otp</ReqType>
+                <DeviceId>TEST</DeviceId> 
+                <UID>GpyR/osaUflkz3BVqxd0IA==</UID>
+                <type>A</type>
+                <Ch>01</Ch>
+                </Auth>
+2025-04-18 23:31:17.170 [INFO] responseSystem.Net.HttpWebResponse
+2025-04-18 23:31:20.938 [INFO] xml<?xml version="1.0" encoding="UTF-8" standalone="yes"?><AuthRes xmlns:ns2="http://aua.maharashtra.gov.in/auth/gom-auth-request"><DeviceId>TEST</DeviceId><SubAUAtransId>AUA-OTP-HMS-3222-2025-04-18T23:30:54:446</SubAUAtransId><ResponseMsg>01{A,2025-04-18T23:31:25,2.5,a695e5c2f15d22af8e0c72a0627b1f99755870fbcc1d9cb37c1d67c638e5e95d,85bd3fd04c13b2b4dfe9e3bfdb116d9a8e9b55d6a1c68dd2da2b63b73a19ebfa,a8498290e4fa9a7499b030c74e7ee16c08cf7dcae0b6654d7ed023a6be563bee,*******4095,NA}</ResponseMsg><ResponseCode>7002053fb46244fe870ad1b1c322a351</ResponseCode><ResponseTs>2025-04-18T23:30:51.145+05:30</ResponseTs><OtpRet>y</OtpRet></AuthRes>
+2025-04-18 23:34:35.152 [INFO] strPidXml<Pid ts="2025-04-18T23:33:23" ver="2.0">                
+                                <Pv otp="131412"/> 
+                                </Pid>
+2025-04-18 23:34:47.492 [INFO] strEncryptedXML<KUAData  xmlns="http://kua.maharashtra.gov.in/kyc/gom-kyc-request">
+                                <uid>ytuleAwXaD8kQ0AkiV72Dhlg2ZjrXAs+M4RniTAfI0M=</uid>
+                                <appCode>KYCApp</appCode> 
+                                <Token>1654a9a0534bab296016a3429a24e980972fff195b71a3a7078cd60e90abcca7</Token>
+                                <KUASkey>U47V42OnXyUSnGhh9IKVaisYK2YNNwAZ7c3bNUXVNqCB26gUMdoFo+PegKg3YzPVp9zyzdlvWeCjJGILgG9kWgtC7fUD5ZPN2VL70W2KSBKh96CTZrKOfJLTjTOMCRYUWJF0XxVsQoh2oyU2KFM2trUeJUO7Pw9Cjij0ZEr3qeE15Hih7NuX9eAjZ8NxfAWGHH0Cwxwn78m/AZwXBg377IaZXn6oSyk1EqkDY8zj5W8AHuJU+FessTh+9CXvlC118B67hLDDYujqz2WoSSnWSzGbYfzPiWdLJ4Gqe+3ISWvfkelE22rou9xdUw3/t+NBsNjlLTRudEHbK8iM9SXxOw==</KUASkey> 
+                                <sa>SMADB23060</sa>
+                                <saTxn>UKC:AUA-OTP-HMS-3222-2025-04-18T23:30:54:446</saTxn>
+                                <Data type="X">MjAyNS0wNC0xOFQyMzozNDozNx9QBcMve1OMdSpXiEeIokFSEX1ocPUrm7C0ncAJL8XDbsoYN3SKEPcfY/gezUbhycbQz+yPi4XMDbB5AMPRvvLwUoLctb7YwjJtOQcb+lFSd2vqC96iY3dtxyqBANr/wPLYfI5lu1NABq+IOsK9GvU9XOgfNBpVRPVuP/1X6jjymmdLeGq5QUuKRaT+P1yURCnjrhLu++B38omuOrHNHyy9xg5TnQ==</Data> 
+                                <Hmac>5/9uYpzMiYELucKl+6braiPsXoHhLV75aY9zaxt9LT43ZaBOZ9qdgpmzFPFb39CM</Hmac> 
+                                <Skey ci="20250928">0OKbR9kwt8NBVanW5+jSN1uB/0RmBC5X+iz+E/9P19+tmddDkhDdCUq40rNoLI31k+nXrQD45i0SnZBfGYsIW5QlpwgUZ6WOCROdRXBNPJuVJlaef2cjdiYf30hQa7ggd5JLAWVCHogK8rCqx8QeduTOQMIcaEy+w0fwtuJoYAZZBZ8jon8oM8dm7byZUjChkcMrMpOQVLRdSIuC+Lw6/qVtG0I2ncMmFLvgbCUDXa6bg2YPx6bEJkY4dOJrkfSzSNttkZtJwltvcv0vpazkj97BvWYgXfQ8eKjk66g5GoD7UC69nSWrkusYF7hY7WmpybQ09e/vbM6v74X921G8/w==</Skey> 
+                                <Uses otp="y" pin="n"  bio="n" pfa="n" pa="n"  pi="n"/>
+                                <Meta rdsId="" rdsVer="" dpId="" dc="" mi="" mc=""/>
+                                <type>A</type>
+                                <rc>Y</rc>
+                                <lr>Y</lr>
+                                <pfr>N</pfr>
+                </KUAData>
+2025-04-18 23:34:57.007 [INFO] strResultERROR|There is some problem in authenticating your Aadhaar Number. Please try again after sometime.|113ba23b4924448dbd491ded2c24eda1|UKC:AUA-OTP-HMS-3222-2025-04-18T23:30:54:446|N|
+2025-04-18 23:35:50.572 [INFO] b4N4XLHK+xCo5Z6xuozb8w==
+2025-04-18 23:35:50.573 [INFO] End of decruypt
+2025-04-18 23:35:50.971 [INFO] AadhaarNumber837933612405
+2025-04-18 23:35:51.377 [INFO] OTP131412
+2025-04-18 23:35:51.977 [INFO] OTPTxnAUA-OTP-HMS-3222-2025-04-18T23:30:54:446
+2025-04-18 23:36:11.829 [INFO] strPidXml<Pid ts="2025-04-18T23:35:41" ver="2.0">                
+                                <Pv otp="131412"/> 
+                                </Pid>
+2025-04-18 23:36:17.731 [INFO] strEncryptedXML<KUAData  xmlns="http://kua.maharashtra.gov.in/kyc/gom-kyc-request">
+                                <uid>CiBFrynQG78E2c2/+Og06w==</uid>
+                                <appCode>KYCApp</appCode> 
+                                <Token>d61308721b8067ebb8132d6a4dd53cfe0dac82aabec1c080d16272e1fc94d64e</Token>
+                                <KUASkey>tXMZb5elvXiYW4n6HKAGAIXsS64660gaEdhSCpZhVMUpp5LsuEoAXSXASWLzzJR0ROe/co/IwLp+QwRFKiL+vyOfPBtG2dZGtRdgJq9v7KjftlXHOGNJoCArRCwmQIw0xLWnoqVGg3d9RVOUOxf64sgnOoAFdUfKQAMd6WUIrxkbRLYtc8hBe1HQUNjKbb2Sre/9lkRUTWmPQkxEU0kEE1aObXLQLXdnXPDmAfTsE9UDrww+JvktYGmPIDjk8i/pxMVgJnuxNl1Z8up3l56p15/Ru1I63VxxRZJrYsOfVgnByggtOTz/FlwsBts/GL+DbeV4sNGQESOBSaMQghipfg==</KUASkey> 
+                                <sa>SMADB23060</sa>
+                                <saTxn>UKC:AUA-OTP-HMS-3222-2025-04-18T23:30:54:446</saTxn>
+                                <Data type="X">MjAyNS0wNC0xOFQyMzozNjoxM4uv65kuZxwoOPcHukLfbOc/Yj+4TNJ/KzRX8HdvYGurNVQB7/Ib8eKI1bXWemN2YA5x4GsJFrqzuLUIexuG77v8sVV+BmfUmb2I362UgYjw4ZoFUAI4A7Xt2voW26dGuS1qELvMIZIHQ/qS3m/kt/ur1MmBUegQUvnATQVoh7hUVUKI4uk7KkcVdC5Hc5l/Lnu59K+t07gArMljgpkEsH8Jl5aVWQ==</Data> 
+                                <Hmac>/B+5C1UY6nkNB066nB/mydfaF9tN2GzmIoTXcnB3IvGl+OjZ7EGKoAJEmMCOWwHH</Hmac> 
+                                <Skey ci="20250928">cq5OL2ykmW66NTKoqTfuBRmb99VtCXCDVfhQefKSzDMDDTpxDZixU84NJzMlN85r3O8+iQgp6Ky82YACoA751AphH7PS/rTGA2Mo82EAaPSDvcMIityaUdeC1D5bHeF3AA39Q3E2AjE5niRZUee6+qJs3cqK3Nf0NTEplLOdkXbUczFFEQN8skM//BUd8W/7XneWfy0YmXC41Z2FKFhqjnYx22CQkfnkVKuKXfTkpjNPM67VKxfIw6yThP8aq2VqP5Mfx0/GTmhl3jZtDosC9X4670JmKUQ9zm98r4hF8nQnNCf1VLeGqhV+HpiJ5VXLEsuYbEwzcrKyHYAQswy0MA==</Skey> 
+                                <Uses otp="y" pin="n"  bio="n" pfa="n" pa="n"  pi="n"/>
+                                <Meta rdsId="" rdsVer="" dpId="" dc="" mi="" mc=""/>
+                                <type>A</type>
+                                <rc>Y</rc>
+                                <lr>Y</lr>
+                                <pfr>N</pfr>
+                </KUAData>
+2025-04-18 23:36:22.177 [INFO] strResultERROR|There is some problem in authenticating your Aadhaar Number. Please try again after sometime.|2f08661da67f431db23d118fbaa7877c|UKC:AUA-OTP-HMS-3222-2025-04-18T23:30:54:446|N|
+2025-04-18 23:37:02.954 [INFO] AadhaarResponseRepository.Entity.AadharResponseResult
+2025-04-19 00:01:11.230 [INFO] b4N4XLHK+xCo5Z6xuozb8w==
+2025-04-19 00:01:11.234 [INFO] End of decruypt
+2025-04-19 00:01:11.493 [INFO] AadhaarNumber837933612405
+2025-04-19 00:01:12.424 [INFO] OTP131412
+2025-04-19 00:01:13.010 [INFO] OTPTxnAUA-OTP-HMS-3222-2025-04-18T23:30:54:446
+2025-04-19 00:01:14.005 [INFO] strPidXml<Pid ts="2025-04-19T00:01:03" ver="2.0">                
+                                <Pv otp="131412"/> 
+                                </Pid>
+2025-04-19 00:01:14.124 [INFO] strEncryptedXML<KUAData  xmlns="http://kua.maharashtra.gov.in/kyc/gom-kyc-request">
+                                <uid>wsQuaVHZiKcnBuBpC1jTKA==</uid>
+                                <appCode>KYCApp</appCode> 
+                                <Token>d92670ff53f0ee7aad6261cce773d5bb4b5d592d98eadc680db5718e9fbc69a4</Token>
+                                <KUASkey>nHCI4Dn2q3+YZhIEYuWoQUX8zQbNG85cvHIMkEuOIft1qdMcxbhBtJorAcx9Hc3drN9ttkEICnhWyPk0qlISozC0Bjvy4XuM+7yYtDme2s+pmE5/W0d7WQhOFZKvpAC4XeKz4fVe5wwy/G+mvmBpfRwnb44PamudH69Q5bpbn4l4ssXkVRp4K00IK2jbp1D44tkTUo58oj8rhaY/e2N0QrOeOQ2OPdROr+H9e7aFnSdBpodvM5xkgZEpQJak8tcyCgb5SgqDLvAREY9WiIkRh/qM3ruvOLXFy49QVj5WkDlvSF1R4ssGYMOpxvtUnf3WBVDMpUxoa9gL/9rE9Mbkmg==</KUASkey> 
+                                <sa>SMADB23060</sa>
+                                <saTxn>UKC:AUA-OTP-HMS-3222-2025-04-18T23:30:54:446</saTxn>
+                                <Data type="X">MjAyNS0wNC0xOVQwMDowMToxNK2wGs5CDaA1qC4m0Xjh7PBDW9FFTSBbBZhIt/sfHIGIF5vxr1Bcl8TxfUapkSxBMeLtWHJ9dg8y+zULyC7X18aIr42CvmQfRjmpC7su+M45T8FwX83zSqxWOn1NuxNtMz9e7mtVL/v7cAhGkP9nXn+5YKbQyqruwrDhE6cFr8UcSHMIYonSZ9EKkHaRelmFwtQtuBkBugS9LFvM4rImUzRTrzWqjg==</Data> 
+                                <Hmac>EYOhRdvS8y45fw7CZRVqHrMpdNefEWUVAEKCARp0nvcLWaRK065+BAwb6AVOCipO</Hmac> 
+                                <Skey ci="20250928">NYsDe+7rIWrrgxAal7r06eKAdFuOU6O//rlRXgPnJWPctonDv42Wi6/2AN6vs78GuDE9loFUMWcG+FT+p4Hl0VX1E4S+DTfjlWwZcspBSI2TYu87efiRhHxx2EigT4Ct+T0DgKiqGlms+oUqorCnqjwmgkz/PX6IPLLwBUGTdRWFjX+fXzFjbxPBeYy4UvdjaI4+a0dzIdN6XgN7LRaPyJJoOeortL5XqDiEi1AbmN0rHosbi2pi2kt9al9PQg02bGk/Jkcx7Pl1KZ32hsSYOtJhKe6/4ZiA0o8eycFHQxlJdvEqS/ZNBa+15ginzIShsZE0uM9HY5TDC1Ey7a7orQ==</Skey> 
+                                <Uses otp="y" pin="n"  bio="n" pfa="n" pa="n"  pi="n"/>
+                                <Meta rdsId="" rdsVer="" dpId="" dc="" mi="" mc=""/>
+                                <type>A</type>
+                                <rc>Y</rc>
+                                <lr>Y</lr>
+                                <pfr>N</pfr>
+                </KUAData>
+2025-04-19 00:01:16.749 [INFO] strResultERROR|There is some problem in authenticating your Aadhaar Number. Please try again after sometime.|42b7529948eb471b9fa9ef8e6f35cf88|UKC:AUA-OTP-HMS-3222-2025-04-18T23:30:54:446|N|
+2025-04-19 00:02:14.125 [INFO] strPidXml<Pid ts="2025-04-19T00:01:03" ver="2.0">                
+                                <Pv otp="131412"/> 
+                                </Pid>
+2025-04-19 00:02:23.267 [INFO] strEncryptedXML<KUAData  xmlns="http://kua.maharashtra.gov.in/kyc/gom-kyc-request">
+                                <uid>+moYXgQU17J3WifOcs+Iwg==</uid>
+                                <appCode>KYCApp</appCode> 
+                                <Token>41693b46d3254fe2421e28a0940fd6f8b1bc617ca4b72de49bdfa2475d102a1c</Token>
+                                <KUASkey>zeaa9EreCg5PNTkCUVUbcYUWU5rNRUmOCYi09rt77JxYR0pNSjKWWLiDipqgBuwt3fXL1I4qQXog61cNhxm2R4P8xl5inFA98lzHtNKe2T0pBvoXIuSO1FjvsqgPqRaOhQuQ2JrspOUqiMrUQ/ZcumoZvtrqR5ylECe/a0CppAi3kiQOlrgIQ9Bik03WClk8nM1/sNTaqW5euh1oSp6NPXzx8PBxa0qfVHjj0PmyZrSgbyXVAm3A1GuFWSmgTsrzD489vn0SBLXRDzmuoIMFM5k+9ZtR1qh54ePk5l+ECml8kxCukG7Eu5U1h+nD+9hFXhvym21IqPecxCXIJQ7G6Q==</KUASkey> 
+                                <sa>SMADB23060</sa>
+                                <saTxn>UKC:AUA-OTP-HMS-3222-2025-04-18T23:30:54:446</saTxn>
+                                <Data type="X">MjAyNS0wNC0xOVQwMDowMjoxN2A4lz1G1mK0yxKFgTPcJ4oFztBC1s5PSwYEwcPVpzxO0DOFkuoccCIMXCHuPWk/RPAFgXQ/lczTCvAYrlz1dyKSeqPx+4wdDx7RYCZZoVHav0w3CNW8Mqdq0X1GKyhfyzvGXx0zGfPRXC3d+4a2rIgudD5m9mEEFDTdwnCMBOwglrA9YMkcQWup9XWRwrk4huiPobTEfKuBAaP2l2x5BREh9ysFrQ==</Data> 
+                                <Hmac>3Asstt8JMa9aQ62SLiihZPW8ddAE/3Fbng70OdDPIzGfCaWjk681QtpqB3BF829e</Hmac> 
+                                <Skey ci="20250928">PpUBjY2sT5zrigmJQIbMSv/Ti9IvcrhyQ/7k/AW7fXh+/6QgTK5aHyu3Zpg5UNC/iRiDpF3IU246wFnbDCbqGgIX4Dge/IFDbYibgA8L/HZGYZpVrL+1pSU+6vp/A3U+yvqQ4vUkQsMNrGHzSR9dRLc+1vliXu0zbjePAWSVj4LXG2vua4WJrnqe3l2FYLodMaC2MIFLR7hYTj17oFSzMa6k7nCRA1IycYY2jX0x4SeT16/zfq2TLXfGOTCwNKFNVSR9xEoBjLBoU5LbQ2ZafwRX7aJx9KEsfv96uCkCwXkKroDnYIguCuzH0VDIUWSi1zPlGGJ0XtE8Kw2+xoI9mg==</Skey> 
+                                <Uses otp="y" pin="n"  bio="n" pfa="n" pa="n"  pi="n"/>
+                                <Meta rdsId="" rdsVer="" dpId="" dc="" mi="" mc=""/>
+                                <type>A</type>
+                                <rc>Y</rc>
+                                <lr>Y</lr>
+                                <pfr>N</pfr>
+                </KUAData>
+2025-04-19 00:03:28.279 [INFO] strEncryptedXML prod<KUAData  xmlns="http://kua.maharashtra.gov.in/kyc/gom-kyc-request">
+                                <uid>837933612405</uid>
+                                <appCode>KYCApp</appCode>  
+                                <sa>KUAMHDSP75</sa>
+                                <saTxn>UKC:AUA-OTP-HMS-3222-2025-04-18T23:30:54:446</saTxn>
+                                <Data type="X">MjAyNS0wNC0xOVQwMDowMTowM1mP4Jv3KXPGkdecT1ls0OfuXyfuoEGLfys/Q4Q1gRR7dIMEfsEsbbaXxl+DORl2RWQd3f14RnIa+XnR2Iz0DfTxN/TSu70doX9cQUPZNL1Y9gGarHCOMMbaTEyVpdcJXvGzaIpRHDBc0y5OHBtD3/l68HbIyCzACZNDzjhGUXEN/lq4QonEgqigWRfd5ANDMVqiEh2q9I1BoChab4r/NzsUvWDQDg==</Data> 
+                                <Hmac>5bxbEG72IN0AhrRcRJhWCR4tgnxycLVvszV2fjDpCwS2YP48h5dvlEXsD613YTS8</Hmac> 
+                                <Skey ci="20250928">bYR8FWHxPgSzvW5XUjXiqpNm1MXaLfkhXi2nH7V2cDP4ztOYzBQR3EgID+0s1LSnPZNNLEk2ggHEy0it1+gmmJ0q1y2uO/BITvSdCk34JVINt5QBOL7YZvvhhT3SoPZkCcU1yMiPEr2ToiR0TAMwM9RKlccdARTPhTc8N3sX1mWvesSbEWxP7y4GZyihRfws55TlTF/aZ3BvyhlZYCoeg+PLTPCFo6wP/tlav1uXIoAzihP1DWYCkOzwEdvTzI1lsuhMO7VIyXIYpHpagAVrLWtzKYmYlaT0Aed6ft/4BAYH9OQyWwz+6NwjpcA9x5azz1fmS5JKghWUsS60VZ5HMw==</Skey> 
+                                <Uses otp="y" pin="n"  bio="n" pfa="n" pa="n"  pi="n"/>
+                                <Meta udc="enBIO10052012XDev09" rdsId="" rdsVer="" dpId="" dc="" mi="" mc=""/>
+                               <rc>Y</rc>
+                               <lr>Y</lr>
+                               <pfr>N</pfr>
+                </KUAData>
+2025-04-19 10:18:31.149 [INFO] aadharPlainTextb4N4XLHK+xCo5Z6xuozb8w==
+2025-04-19 10:18:34.839 [INFO] b4N4XLHK+xCo5Z6xuozb8w==
+2025-04-19 10:18:34.846 [INFO] End of decruypt
+2025-04-19 10:18:35.393 [INFO] dec837933612405
+2025-04-19 10:18:38.818 [INFO] ABC
+2025-04-19 10:18:40.537 [INFO] request<Auth xmlns="http://aua.maharashtra.gov.in/auth/gom-auth-request">
+                <Txn>AUA-OTP-HMS-4877-2025-04-19T10:18:39:483</Txn>
+                <Ver>2.5</Ver>
+                <SubAUACode>SMADB23060</SubAUACode>
+                <AUAToken>e630529b9f8954adb2b10bf7d99565a87b7f45c9fc7c107a250487cc94b7eafa</AUAToken>
+
+                <AUASkey>lVlKovjA3fvxbL1BAeWNDbgLaSq0lQ7Lutgq3Nz9pA7fC69ZwlQN8FPxCiG5AbfGjwvAZ0R1BI7VrR2SbvDn8362hn2EwBbuc5npv66J/pBvRAzL13s5fHQ6ZSlJoOiT7JfqckOPIxaxiScXW1kcszttaiIUscZUHMBbJxK/u97I0jTIG4IsLYo+pfAWLJJ9Npb3cUjwLrg9m275SpICmNHWlCJulUqeS6Fike8qdbgBOFC8SdVCobjp4/mZFA1CkH+fypFI66hZQQUSpSrD6h4jbVBtyRJZGjWNoOqlbgJVqJkVuWFHOlPcm6piopS165pjjto33v4mJ5MbdY/3Bg==</AUASkey>
+                <ReqType>otp</ReqType>
+                <DeviceId>TEST</DeviceId> 
+                <UID>rKVY2ok3ojwFxie5p7VhqA==</UID>
+                <type>A</type>
+                <Ch>01</Ch>
+                </Auth>
+2025-04-19 10:18:46.020 [INFO] requestBody<Auth xmlns="http://aua.maharashtra.gov.in/auth/gom-auth-request">
+                <Txn>AUA-OTP-HMS-4877-2025-04-19T10:18:39:483</Txn>
+                <Ver>2.5</Ver>
+                <SubAUACode>SMADB23060</SubAUACode>
+                <AUAToken>e630529b9f8954adb2b10bf7d99565a87b7f45c9fc7c107a250487cc94b7eafa</AUAToken>
+
+                <AUASkey>lVlKovjA3fvxbL1BAeWNDbgLaSq0lQ7Lutgq3Nz9pA7fC69ZwlQN8FPxCiG5AbfGjwvAZ0R1BI7VrR2SbvDn8362hn2EwBbuc5npv66J/pBvRAzL13s5fHQ6ZSlJoOiT7JfqckOPIxaxiScXW1kcszttaiIUscZUHMBbJxK/u97I0jTIG4IsLYo+pfAWLJJ9Npb3cUjwLrg9m275SpICmNHWlCJulUqeS6Fike8qdbgBOFC8SdVCobjp4/mZFA1CkH+fypFI66hZQQUSpSrD6h4jbVBtyRJZGjWNoOqlbgJVqJkVuWFHOlPcm6piopS165pjjto33v4mJ5MbdY/3Bg==</AUASkey>
+                <ReqType>otp</ReqType>
+                <DeviceId>TEST</DeviceId> 
+                <UID>rKVY2ok3ojwFxie5p7VhqA==</UID>
+                <type>A</type>
+                <Ch>01</Ch>
+                </Auth>
+2025-04-19 10:19:03.444 [INFO] responseSystem.Net.HttpWebResponse
+2025-04-19 10:19:05.419 [INFO] xml<?xml version="1.0" encoding="UTF-8" standalone="yes"?><AuthRes xmlns:ns2="http://aua.maharashtra.gov.in/auth/gom-auth-request"><DeviceId>TEST</DeviceId><SubAUAtransId>AUA-OTP-HMS-4877-2025-04-19T10:18:39:483</SubAUAtransId><ResponseMsg>01{A,2025-04-19T10:19:11,2.5,a695e5c2f15d22af8e0c72a0627b1f99755870fbcc1d9cb37c1d67c638e5e95d,85bd3fd04c13b2b4dfe9e3bfdb116d9a8e9b55d6a1c68dd2da2b63b73a19ebfa,a8498290e4fa9a7499b030c74e7ee16c08cf7dcae0b6654d7ed023a6be563bee,*******4095,NA}</ResponseMsg><ResponseCode>63b9bb88526c4b82b2eb1df24ae0c708</ResponseCode><ResponseTs>2025-04-19T10:18:36.316+05:30</ResponseTs><OtpRet>y</OtpRet></AuthRes>
+2025-04-19 10:20:46.483 [INFO] b4N4XLHK+xCo5Z6xuozb8w==
+2025-04-19 10:20:46.484 [INFO] End of decruypt
+2025-04-19 10:20:46.817 [INFO] AadhaarNumber837933612405
+2025-04-19 10:20:47.000 [INFO] OTP908097
+2025-04-19 10:20:47.162 [INFO] OTPTxnAUA-OTP-HMS-4877-2025-04-19T10:18:39:483
+2025-04-19 10:20:47.298 [INFO] strPidXml<Pid ts="2025-04-19T10:20:41" ver="2.0">                
+                                <Pv otp="908097"/> 
+                                </Pid>
+2025-04-19 10:20:47.387 [INFO] strEncryptedXML<KUAData  xmlns="http://kua.maharashtra.gov.in/kyc/gom-kyc-request">
+                                <uid>Guc63jkXTbTXIfE7GqCFEw==</uid>
+                                <appCode>KYCApp</appCode> 
+                                <Token>760e2788750c9cffbda83f8ab40b9a283d31a8900b9418b7118482c53fac771e</Token>
+                                <KUASkey>EGYNZzTzAMq84StgGEchOBoOWn8P9yvLGa0XdclMdXWpv6/zM67/hU3Sj0AsRDWsW2AZ1U2MaeI9KpeC1mLc81dcwHwVn9Lxk+F/swnfv91V+1PLGdtQauFCZ7yzBZR+1eHRF0WrA+N9gyH5y51Esdzb5jJF3WZ7W6rlrJfkpCtDwYhqka4ryDJ1i9G7oY8aMjYCDK0jMG0kxwgMsQAJ49/DYPrEmDonD9LQuBhRR2ScPqyvsFGo4nIi61vlmzfy80mwZTBNLdSw7H5BPTpb61dMujlEYIxD0D2IcV1+g8I8+DpDX8kLU9KmY39pi1A3Lq9n8WpwSLu6wSjPCE/cqA==</KUASkey> 
+                                <sa>SMADB23060</sa>
+                                <saTxn>UKC:AUA-OTP-HMS-4877-2025-04-19T10:18:39:483</saTxn>
+                                <Data type="X">MjAyNS0wNC0xOVQxMDoyMDo0N37Gt9pj+DNnUyCbDNAq4w4h5MkE+YDGvMgVwVTl5CXkG8nj4lKMY78BdbbJ8rN9Fd1XN6x3p4IcOu3c5hHOlmKqAKquTJ5DPbB6oC0OLY083qRWVZpx+LcNurt8uHPE8Fbj+zYDNJOogW4jxxlc5MSzjMDYYltWwX1CTAwHCzX6DH4muRUIRvznz2WUXI/Sksp2FmZmfsv5IZPOnChRHQdvibfVhQ==</Data> 
+                                <Hmac>RZUUEA8ZWhkCutEBrkgzcumsxW5hvVU61v0jS7LXenNn86huJ73diCX+IsZvsbc7</Hmac> 
+                                <Skey ci="20250928">TUYPmYC+hNqg3sbjmum3SFi8cwRCR7GsAPjj8gKILyDA26LG0YSmkQCxRoh3a00C+rR5vzF0e6sidMGOjGBitNTdaBRL0a7k+sfezPOvGX/weTUCu9wx3ZNfnnkpoH9JJAEZFFgm+i9wi4+V553ngGLR3ZlI6Kit7kBWg6AngPmpzDA8q1aQe6xn6XzYmyZ2GjZ9tku7LC3pbIz1LoBaR0YvUahND2XU/eF51Qac+vPdlNmqZH+S3o27eLAI2fPtfeXjY/fh2VLriZHP6JjbGveSuL4+e+5bnbknHc0YFwWAItB0n3otYB6u4Q++7VLpnADm28wL4TGH4GnAbckHLw==</Skey> 
+                                <Uses otp="y" pin="n"  bio="n" pfa="n" pa="n"  pi="n"/>
+                                <Meta rdsId="" rdsVer="" dpId="" dc="" mi="" mc=""/>
+                                <type>A</type>
+                                <rc>Y</rc>
+                                <lr>Y</lr>
+                                <pfr>N</pfr>
+                </KUAData>
+2025-04-19 10:21:29.407 [INFO] strResultERROR|There is some problem in authenticating your Aadhaar Number. Please try again after sometime.|c81d54b40b1a468781214afcdfc76035|UKC:AUA-OTP-HMS-4877-2025-04-19T10:18:39:483|N|
+2025-04-19 10:21:54.235 [INFO] strPidXml<Pid ts="2025-04-19T10:20:41" ver="2.0">                
+                                <Pv otp="908097"/> 
+                                </Pid>
+2025-04-19 10:24:41.281 [INFO] strEncryptedXML<KUAData  xmlns="http://kua.maharashtra.gov.in/kyc/gom-kyc-request">
+                                <uid>y3MWy8dZs1X6jcECAXZAEQ==</uid>
+                                <appCode>KYCApp</appCode> 
+                                <Token>0aa74a71e7b9fd30e64b0aad4d6f9492008d17a30022ed9dc9c2b60ca15c3af4</Token>
+                                <KUASkey>IDB4QxQXhpmIRDcqL1Se2YGaMVB6h2Mj8pUi23fB2AFOR0dQ6r0lABT/GrVqvbaQM++JdfK8Tm9jjXhrlT63sDQeP+jcG6HbbTY0Fkwv04kbihlBPAs6warcgCol3BLqf5hGpJ+49U2eWfZlE8A6kSJqlM8FgXGpGQQEpUvoLFNKKsTow5/Hvh1fbm/m/h0KF0VpB5xCxUiMZui1bZrfOYORl5ywET/M3xn5z2RYQp+OeD6iWcGqtj8cnMjIdPSVbCytopZu7mjNmqUSjBhRqy7aawkm+RkLxzl0kOYELw6DZ0k5v33piXBJSJLhexGS0UbCqqfPo408ZAk4r+WKiw==</KUASkey> 
+                                <sa>SMADB23060</sa>
+                                <saTxn>UKC:AUA-OTP-HMS-4877-2025-04-19T10:18:39:483</saTxn>
+                                <Data type="X">MjAyNS0wNC0xOVQxMDoyMjozMTPWwCTT29IK1EWcPXi9J/VD8Jl960tutSJAJUml5ZV7NfRz7kNcqY9+I4Vf/NZJmNGyGr6ulFizhINQf5ZBd2A3cI92vnt7sVUOGFS7iBDWyxevD6WjNO3Urc+I2RWeOYDsPVBL9Kl8xMME+LsLIGZYGxxDtPG2cTAgOJO+2+ebuwX98p/H0TXoNtGIRRDui4NtKmFMZUProbrv3uKbNxbVTvcUYw==</Data> 
+                                <Hmac>CIVj7r86u3SF39YwBt/3iYu4lRdzdv0zPKjHVvLWyuw3jy2DnPuPulLdhBaX58Gf</Hmac> 
+                                <Skey ci="20250928">F2SWiyaZprArKacxz5O4FpcadpWDYZQvPDajGJ8m4U+aq3tZFWt1A8lXtsLi3lS09K32owW+Lfe/PYLKQj4phmO3jcBH+YxtSx9pYsegKNedA/R3NFZecxU4anOn00ZMGhrMl0SryYui7pDOaG8wFbJUce7qzkV6U+kMfFYlOmI7VBDXGbnCi58d3/+VMKqnjCM2UPowHLM3tOECYBJaAEPvpnT6j7zoYF9ikMRDLWoV29oG1ZnlBMkmzEDZVHWDZ7o/7PFKR5r/48RxenKFac/fF/DJr7uWxYg898btNeynrtNP6BZgkcNfQqGjb4ms6LAshueMuRYEAdC1g+hr9g==</Skey> 
+                                <Uses otp="y" pin="n"  bio="n" pfa="n" pa="n"  pi="n"/>
+                                <Meta rdsId="" rdsVer="" dpId="" dc="" mi="" mc=""/>
+                                <type>A</type>
+                                <rc>Y</rc>
+                                <lr>Y</lr>
+                                <pfr>N</pfr>
+                </KUAData>
+2025-04-19 10:25:30.109 [INFO] strResultERROR|There is some problem in authenticating your Aadhaar Number. Please try again after sometime.|3953778669ed47958b201d44f17a645f|UKC:AUA-OTP-HMS-4877-2025-04-19T10:18:39:483|N|
+2025-04-20 15:47:43.009 [INFO] strResultERROR|There is some problem in authenticating your Aadhaar Number. Please try again after sometime.|d7bbceb4cbc94238a9a7dc39f69119e8|UKC:AUA-OTP-HMS-4877-2025-04-19T10:18:39:483|N|
+2025-04-20 15:47:43.507 [INFO] AadhaarResponseRepository.Entity.AadharResponseResult
+2025-04-20 16:20:18.644 [INFO] aadharPlainTexthjgjhgh
+2025-04-20 16:20:19.780 [INFO] hjgjhgh
+2025-04-20 16:20:19.890 [INFO] The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.System.Collections.ListDictionaryInternal   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at Helper.AesAlgorithm.DecryptString(String cipherText) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\AadhaarService\Helper\AesAlgorithm.cs:line 97Byte[] FromBase64CharPtr(Char*, Int32)System.Private.CoreLiblogged
+2025-04-20 16:20:19.891 [INFO] End of decruypt
+2025-04-20 16:20:19.892 [INFO] dec
+2025-04-20 16:20:24.366 [INFO] ABC
+2025-04-20 16:20:24.491 [INFO] request<Auth xmlns="http://aua.maharashtra.gov.in/auth/gom-auth-request">
+                <Txn>AUA-OTP-HMS-2414-2025-04-20T16:20:24:368</Txn>
+                <Ver>2.5</Ver>
+                <SubAUACode>SMADB23060</SubAUACode>
+                <AUAToken>5373965639813dd7fbb8ca41ed151b31db39e6d3978a6adb4ba6438f2807a132</AUAToken>
+
+                <AUASkey>ethQgUd+CWrhsCxi0Yf47fCmohN3K9V3m2eM7Wct65mg3jzRvqkl/IzEFDtFXrHGxtMfuHl0oL2iRdZRAPlc3q+js+k9YnggqZSZHmWst+Ab9eoxo7c8sR7eeqsl3yfSW3ZTDFDBJdAGM6UNVWizRkDTnHVrvtjKAT9uyosQB+beEKMblFRXYwEjSx5FDqvqSAkE8C2/0l2Myg1BiuN2VLSOd5BvP8a0yeDBVIgQwBvrwOze8B9CSe9HurPDALlQ6qPrLDzqVjfByswkxfsNT+0zbULSWq8treDi+JdnEbCbYieRNW/9fhEfZLQf+jL3SLqxrGDkJ/v+LJ/PyaSAKw==</AUASkey>
+                <ReqType>otp</ReqType>
+                <DeviceId>TEST</DeviceId> 
+                <UID>Error|bad data</UID>
+                <type>A</type>
+                <Ch>01</Ch>
+                </Auth>
+2025-04-20 16:20:24.519 [INFO] requestBody<Auth xmlns="http://aua.maharashtra.gov.in/auth/gom-auth-request">
+                <Txn>AUA-OTP-HMS-2414-2025-04-20T16:20:24:368</Txn>
+                <Ver>2.5</Ver>
+                <SubAUACode>SMADB23060</SubAUACode>
+                <AUAToken>5373965639813dd7fbb8ca41ed151b31db39e6d3978a6adb4ba6438f2807a132</AUAToken>
+
+                <AUASkey>ethQgUd+CWrhsCxi0Yf47fCmohN3K9V3m2eM7Wct65mg3jzRvqkl/IzEFDtFXrHGxtMfuHl0oL2iRdZRAPlc3q+js+k9YnggqZSZHmWst+Ab9eoxo7c8sR7eeqsl3yfSW3ZTDFDBJdAGM6UNVWizRkDTnHVrvtjKAT9uyosQB+beEKMblFRXYwEjSx5FDqvqSAkE8C2/0l2Myg1BiuN2VLSOd5BvP8a0yeDBVIgQwBvrwOze8B9CSe9HurPDALlQ6qPrLDzqVjfByswkxfsNT+0zbULSWq8treDi+JdnEbCbYieRNW/9fhEfZLQf+jL3SLqxrGDkJ/v+LJ/PyaSAKw==</AUASkey>
+                <ReqType>otp</ReqType>
+                <DeviceId>TEST</DeviceId> 
+                <UID>Error|bad data</UID>
+                <type>A</type>
+                <Ch>01</Ch>
+                </Auth>
+2025-04-20 16:20:24.939 [INFO] responseSystem.Net.HttpWebResponse
+2025-04-20 16:20:25.081 [INFO] xml<?xml version="1.0" encoding="UTF-8" standalone="yes"?><AuthRes xmlns:ns2="http://aua.maharashtra.gov.in/auth/gom-auth-request"><SubAUAtransId>AUA-OTP-HMS-2414-2025-04-20T16:20:24:368</SubAUAtransId><ResponseMsg>Please Refer GOM AUA-ASA API Standards</ResponseMsg><ResponseCode>1019</ResponseCode></AuthRes>
+2025-04-20 16:20:28.136 [INFO] loggedObject reference not set to an instance of an object.System.Collections.ListDictionaryInternal   at Service.Implementation.UIDService.SendOtpAsync(String AadhaarPlainText) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\AadhaarService\Service\Implementation\UIDService.cs:line 110Void MoveNext()Servicelogged
+2025-04-20 16:27:48.511 [INFO] kORhr09TxLDGN94j9F6FoA==
+2025-04-20 16:27:48.518 [INFO] End of decruypt
+2025-04-20 16:27:56.684 [INFO] AadhaarNumber989277384042
+2025-04-20 16:27:57.351 [INFO] OTP263600
+2025-04-20 16:27:58.254 [INFO] OTPTxnAUA-OTP-HMS-1717-2025-04-20T16:22:42:550
+2025-04-20 16:27:59.198 [INFO] strPidXml<Pid ts="2025-04-20T16:27:36" ver="2.0">                
+                                <Pv otp="263600"/> 
+                                </Pid>
+2025-04-20 16:27:59.313 [INFO] strEncryptedXML<KUAData  xmlns="http://kua.maharashtra.gov.in/kyc/gom-kyc-request">
+                                <uid>4v8EEwHg35YYnXv9+nyCJQ==</uid>
+                                <appCode>KYCApp</appCode> 
+                                <Token>fdc78a7e283f0c20c6bd0a21173fbf0fca35d49aaa13b0348864f1f524508879</Token>
+                                <KUASkey>Y2LKbhrWQ/qDVGnzSaZPRjpVvj0n8lKg+kBqNqZoHhITr4wrvvd+TvE4DWovW2baoD2jf8vBFCUkdRsK4fJUa5giGs2e6P/aev3fVWpXwMEwDru4mVMuzgV3fpOXi15zcjAuUbQMmRjiMnM3ijT6wZ2oBQLFZLJ6JkHflXLLsg4+/R3TcdhOM1GHPq+7wbzOCAYIHjTU/b0JaEvXfEAFoZmq1PVgOxbemUDOlu0PrB3WM+PCz0r6hL9iBPuKa/fUpdTpCr5Cm2siXd+TZfEHNDqODyTqPcb9LW3ytIGxQ97vS4dTvr5IFzbd3MDxlrBy+Jwv4dgWYdbfqRvZWo2C7Q==</KUASkey> 
+                                <sa>SMADB23060</sa>
+                                <saTxn>UKC:AUA-OTP-HMS-1717-2025-04-20T16:22:42:550</saTxn>
+                                <Data type="X">MjAyNS0wNC0yMFQxNjoyNzo1OYJiUkwfDDkrR0w6M98RLrSOJ7sTonTeP7mRi62TuhT60xeRHOpo+Jc9QKPn7mGl/eCZMPLoKXp+ohfLOCEqBY8ra/1ecABckfWHxfiWlueGN3dbDUnYSrE4EsEcFbtHi+dLkqbfLR105qd6Fy2E6jL9Q09S7t1/zJRQp/yT83V5LexPgeYMMB5fp7PT1i9jDhakZWz8OOGLT+wor3YusjK+IFKmbg==</Data> 
+                                <Hmac>bwRH6t5djUsUvP7I0bfvstUgz8UFnPLCapIKhYktfy/Sf2PlMbF6Wkn2BWuStOWK</Hmac> 
+                                <Skey ci="20250928">uxHokEUifFrnxVgDe1IWOU3JNYefVRq1TDddQK73qnQSPVN+usq2RBSMgnHgpfHqCj3lIv60kvq7LFDqDF7ev55041/l2klS7j4u7wEe8qSSJ+aQ+OY16Ew580HUIeu/ZYuaLecHu+3BelbxoWpJr+h8YUTeQMo4Se5HL50NZ/tCKLgrBSZ48wq1Kk2/bWtv4BBaApR6xqdCuAeao71f7X0ThYCoq09WevS1ZjmroyVb79IwkttCiTkDMw4LF1x+v6cWQ3d9p3g6InHxNx4CdUr8Zg9KpsH1fKWgPYA8XcHjwo15GFofbQ6EUabvMYJUE88ZBezdH2JXR0e8xbqEIg==</Skey> 
+                                <Uses otp="y" pin="n"  bio="n" pfa="n" pa="n"  pi="n"/>
+                                <Meta rdsId="" rdsVer="" dpId="" dc="" mi="" mc=""/>
+                                <type>A</type>
+                                <rc>Y</rc>
+                                <lr>Y</lr>
+                                <pfr>N</pfr>
+                </KUAData>
+2025-04-20 16:28:01.107 [INFO] strResultERROR|There is some problem in authenticating your Aadhaar Number. Please try again after sometime.|67880587915e4ac2b7cfd13e6f1cd70e|UKC:AUA-OTP-HMS-1717-2025-04-20T16:22:42:550|N|
+2025-04-20 16:28:20.605 [INFO] strPidXml<Pid ts="2025-04-20T16:27:36" ver="2.0">                
+                                <Pv otp="263600"/> 
+                                </Pid>
+2025-04-20 16:28:31.170 [INFO] strEncryptedXML<KUAData  xmlns="http://kua.maharashtra.gov.in/kyc/gom-kyc-request">
+                                <uid>6Pcna806HRTmor8MaGJyWA==</uid>
+                                <appCode>KYCApp</appCode> 
+                                <Token>6842d2a722f1bea6c08935aaf3ec52a483e8fa2fc385bcd0cc80d73d6f06999a</Token>
+                                <KUASkey>ekrocbKc1mRlaCDDRnJF/VzuAxz5aUCEfgBNHVjatlggNS9c++yB8KvhwhmY8zJcCyatfaFr+FczhVULT8ROl68qTAiV890kc7zbcirwxr/B7Vj7v/8bxJWwkdpPaYLOLac23JyWzo12Ow4UeojeFZUITehC/aweTI8ugID/X7OYV4bWf8tEMjW6pwsu0P2TgjsAEFewcfFXiMP4nsUz77zwqggj+wk2Fz0l6O3lKvkAsfs7B2tdaqFSjZEfmIuLHbBl10mXgBzS/1+U95S5UAPhsUrmtf4qY7Ni0/xwRNJZ7WyCA3ByWP0uhgRVsEMIs+kfi33wfSyntkXqAk8nJw==</KUASkey> 
+                                <sa>SMADB23060</sa>
+                                <saTxn>UKC:AUA-OTP-HMS-1717-2025-04-20T16:22:42:550</saTxn>
+                                <Data type="X">MjAyNS0wNC0yMFQxNjoyODoyM9THBfncNO09tiLMKEBMCZ8xbsKn0kUfcLa+DzfOGKtK5ke+LYdII9c+3fwkWGHOywYGB97he+JEatCsmWcon0VmTRLQO2+1W26CuWQLPzp/TwQYOX7esbKh47CKQ4xzYgbHJy7rLtw6L8ljok4DFDw9FVwlPjb+iPHYHjRo4dP4qjxx4yNu9FlyAp0JcvR6IVBL1V/Tsqi8x2nCqWlJEMBFYctkhQ==</Data> 
+                                <Hmac>OaEQXx1lWV3l0gjTTurImWpptnF1rTONZb2OH9SPwJ9hVDPIfVEkff+F71oa+L8o</Hmac> 
+                                <Skey ci="20250928">mWhzWwf00/flY3FuJaXjfmBwE1LYzZSBLN/X7gIrCInGhcVnvDqGCyH0c+HhlFukCkKpznOkII3BgrbIZj5Uxl8TdnY2A1Tj6lIgw3oh5qVmvSjdJc+daIAZi6HFjX1Bev2ShyG285UQgUqki6I/e6UQus/T4LnjSsgoQ5nG47Pkh77oI9X7STVm8Xi1DJUGlRWphSKQWOjLATLIj1vzqA7FXTBA4oMr4UNYWZguwF3SX8uXaZWtBwXasXvWlS0iJLkrZnp2p+Yv92AJRa+vRMes5UOsCB3ANP22BlKJ+m8oMF2ok3uHH04r3YsvxVNgEqNOXFE1i0DZ6N8uipOSNQ==</Skey> 
+                                <Uses otp="y" pin="n"  bio="n" pfa="n" pa="n"  pi="n"/>
+                                <Meta rdsId="" rdsVer="" dpId="" dc="" mi="" mc=""/>
+                                <type>A</type>
+                                <rc>Y</rc>
+                                <lr>Y</lr>
+                                <pfr>N</pfr>
+                </KUAData>
+2025-04-20 16:28:57.459 [INFO] strResultERROR|There is some problem in authenticating your Aadhaar Number. Please try again after sometime.|edc916313d7e4df38c4bbedfd0a05592|UKC:AUA-OTP-HMS-1717-2025-04-20T16:22:42:550|N|
+2025-04-20 16:29:13.035 [INFO] AadhaarResponseRepository.Entity.AadharResponseResult
+2025-05-20 18:03:40.328 [INFO] ABC
+2025-05-20 18:03:40.449 [INFO] request<Auth xmlns="http://aua.maharashtra.gov.in/auth/gom-auth-request">
+                <Txn>AUA-OTP-HMS-9564-2025-05-20T18:03:40:332</Txn>
+                <Ver>2.5</Ver>
+                <SubAUACode>SMADB23060</SubAUACode>
+                <AUAToken>0f3fb9a503417bd68e57fcff8e5cc53f2aa2624d2c8a0a6466dfd86dc68cbf7c</AUAToken>
+
+                <AUASkey>iUPZipgCbwszUnIpOl8ihWjv5cytSpPC20TN6a52/4ibrxHxpZva4GC0g5DOhHMVmiasXaH3wbQ4Zurms/kY3oFU+pMLw/hYubg/DvagV99qVgEFXiy8RlZXCUJSCr+j4bG2kqRATE3TzRdYAUTwkBf8huCPhc/OgI0xn4/GuWUltuVfe2qCXH1NBL6VYWEoIVfCM1yxnQBvt68jtxOKVYxb8EH7X9i4DTj5s1BtvLZJdcwcfnewd0/0CJ+eiKy9YzORvN0z7abREEt3uJU4kmPg/Hdk9cvQ/qlj9KWAYjezT8g9um86DqxZapRyd0fn0uY2zWGPldG8uaLsASSUMQ==</AUASkey>
+                <ReqType>otp</ReqType>
+                <DeviceId>TEST</DeviceId> 
+                <UID>5ptqtjRhm4BPpvM5u/PF1kTNt1C6CXUBaU0IF7ZXrGs=</UID>
+                <type>A</type>
+                <Ch>01</Ch>
+                </Auth>
+2025-05-20 18:03:40.478 [INFO] requestBody<Auth xmlns="http://aua.maharashtra.gov.in/auth/gom-auth-request">
+                <Txn>AUA-OTP-HMS-9564-2025-05-20T18:03:40:332</Txn>
+                <Ver>2.5</Ver>
+                <SubAUACode>SMADB23060</SubAUACode>
+                <AUAToken>0f3fb9a503417bd68e57fcff8e5cc53f2aa2624d2c8a0a6466dfd86dc68cbf7c</AUAToken>
+
+                <AUASkey>iUPZipgCbwszUnIpOl8ihWjv5cytSpPC20TN6a52/4ibrxHxpZva4GC0g5DOhHMVmiasXaH3wbQ4Zurms/kY3oFU+pMLw/hYubg/DvagV99qVgEFXiy8RlZXCUJSCr+j4bG2kqRATE3TzRdYAUTwkBf8huCPhc/OgI0xn4/GuWUltuVfe2qCXH1NBL6VYWEoIVfCM1yxnQBvt68jtxOKVYxb8EH7X9i4DTj5s1BtvLZJdcwcfnewd0/0CJ+eiKy9YzORvN0z7abREEt3uJU4kmPg/Hdk9cvQ/qlj9KWAYjezT8g9um86DqxZapRyd0fn0uY2zWGPldG8uaLsASSUMQ==</AUASkey>
+                <ReqType>otp</ReqType>
+                <DeviceId>TEST</DeviceId> 
+                <UID>5ptqtjRhm4BPpvM5u/PF1kTNt1C6CXUBaU0IF7ZXrGs=</UID>
+                <type>A</type>
+                <Ch>01</Ch>
+                </Auth>
+2025-05-20 18:03:41.577 [INFO] responseSystem.Net.HttpWebResponse
+2025-05-20 18:03:41.709 [INFO] xml<?xml version="1.0" encoding="UTF-8" standalone="yes"?><AuthRes xmlns:ns2="http://aua.maharashtra.gov.in/auth/gom-auth-request"><DeviceId>TEST</DeviceId><SubAUAtransId>AUA-OTP-HMS-9564-2025-05-20T18:03:40:332</SubAUAtransId><ResponseCode>cfc60633353446229d19a8dba5c1e559</ResponseCode><ResponseTs>2025-05-20T18:12:03.608+05:30</ResponseTs><OtpErrorCode>510</OtpErrorCode><OtpRet>n</OtpRet></AuthRes>
+2025-05-20 18:04:34.791 [INFO] b4N4XLHK+xCo5Z6xuozb8w==
+2025-05-20 18:04:34.793 [INFO] End of decruypt

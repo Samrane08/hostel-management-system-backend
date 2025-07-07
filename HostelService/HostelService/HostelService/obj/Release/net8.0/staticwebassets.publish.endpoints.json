@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "ManifestType": "Publish",
+  "Endpoints": [
+    {
+      "Route": "HostelService.npf3w7c6dt.styles.css",
+      "AssetFile": "HostelService.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S07swuiE4EAVbRzVIXaH9cG/KJVqpMg7CWHXxde7XUc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 13:09:50 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "npf3w7c6dt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S07swuiE4EAVbRzVIXaH9cG/KJVqpMg7CWHXxde7XUc="
+        },
+        {
+          "Name": "label",
+          "Value": "HostelService.styles.css"
+        }
+      ]
+    },
+    {
+      "Route": "HostelService.styles.css",
+      "AssetFile": "HostelService.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1131"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S07swuiE4EAVbRzVIXaH9cG/KJVqpMg7CWHXxde7XUc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 24 Jun 2025 13:09:50 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S07swuiE4EAVbRzVIXaH9cG/KJVqpMg7CWHXxde7XUc="
+        }
+      ]
+    }
+  ]
+}

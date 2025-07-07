@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "UploadService.Controllers.FileController",
+    "Method": "Post",
+    "RelativePath": "upload-service/api/File",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "file",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UploadService.Controllers.FileController",
+    "Method": "Get",
+    "RelativePath": "upload-service/api/File/{Key}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Key",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

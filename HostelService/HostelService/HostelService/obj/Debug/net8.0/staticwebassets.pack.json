@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\HostelService\\HostelService\\HostelService\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\HostelService.bundle.scp.css",
+      "PackagePath": "staticwebassets\\HostelService.npf3w7c6dt.bundle.scp.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HostelService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.HostelService.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.HostelService.props",
+      "PackagePath": "build\\HostelService.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.HostelService.props",
+      "PackagePath": "buildMultiTargeting\\HostelService.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.HostelService.props",
+      "PackagePath": "buildTransitive\\HostelService.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

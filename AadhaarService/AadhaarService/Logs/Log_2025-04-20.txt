@@ -1,0 +1,2 @@
+2025-04-20 16:20:28 - :
+loggedObject reference not set to an instance of an object.System.Collections.ListDictionaryInternal   at Service.Implementation.UIDService.SendOtpAsync(String AadhaarPlainText) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\AadhaarService\Service\Implementation\UIDService.cs:line 110Void MoveNext()Servicelogged

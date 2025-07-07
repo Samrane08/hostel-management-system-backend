@@ -1,0 +1,1048 @@
+[
+  {
+    "ContainingType": "MasterService.Controllers.AcademicYearController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/AcademicYear",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.AcademicYearController",
+    "Method": "AvailableAcademicYear",
+    "RelativePath": "master-service/api/AcademicYear/available-academic-year",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.AcademicYearController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/AcademicYear/Dashboard-Manual-Depart-Scheme",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "schemeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.AdmissionTypeController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/AdmissionType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.AdmissionYearController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/AdmissionYear",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.ApplicationServiceTypeController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/ApplicationServiceType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deptId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.AttendanceController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/Attendance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "serviceType",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.AttendanceController",
+    "Method": "AvailableAcademicYear",
+    "RelativePath": "master-service/api/Attendance/available-academic-year",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "departmentId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.CacheController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/Cache",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.CacheController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/Cache/Clear",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Key",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.CasteController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/Caste",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "castecategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.CasteController",
+    "Method": "GetCategoryBasedOnServiceType",
+    "RelativePath": "master-service/api/Caste/CasteBasedOnServiceType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "castecategoryId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "deptId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ServiceType",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.CasteCategoryController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/CasteCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IsSwadhar",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "deptId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.CasteCategoryController",
+    "Method": "GetCategoryBasedOnServiceType",
+    "RelativePath": "master-service/api/CasteCategory/CasteCategoryBasedOnServiceType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "IsSwadhar",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "deptId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ServiceType",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.CollegeOrSchoolController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/CollegeOrSchool",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stream",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "qualificationType",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "districtid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "LangId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.CollegeOrSchoolCurrentController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/CollegeOrSchoolCurrent",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stream",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "qualificationType",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "districtid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "LangId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.CourseController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/Course",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cold",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "strmId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "quaId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "langId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.CourseCategoryController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/CourseCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.CourseResultController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/CourseResult",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "caller",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.CourseStatusController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/CourseStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.CourseTypeController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/CourseType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deptId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsSwadharorHostel",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.CourseTypeController",
+    "Method": "GetAllCourseType",
+    "RelativePath": "master-service/api/CourseType/get-all-coursetype",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.CourseYearController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/CourseYear",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "qualificationTypeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.CourseYearStatusController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/CourseYearStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "yearId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.CurrentCourseInitialDataController",
+    "Method": "GetIntialData",
+    "RelativePath": "master-service/api/CurrentCourseInitialData/GetIntialData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "langId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "stateCode",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.DistrictController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/District",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "state",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "division",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "lang",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.DivisionController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/Division",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lang",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.EducationModeController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/EducationMode",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.GenderController",
+    "Method": "get",
+    "RelativePath": "master-service/api/Gender",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.GenderController",
+    "Method": "GetPremises",
+    "RelativePath": "master-service/api/Gender/get-premises",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.GetStateDistrictTalukaAndVil",
+    "Method": "Get",
+    "RelativePath": "master-service/api/GetStateDistrictTalukaAndVil",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dynamicparams",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "dynamicId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.HostelController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/Hostel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dist",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "taluka",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.HostelController",
+    "Method": "List",
+    "RelativePath": "master-service/api/Hostel/List",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.HostelTypeController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/HostelType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.IssuingAuthorityController",
+    "Method": "get",
+    "RelativePath": "master-service/api/IssuingAuthority",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "drpType",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.MarritalStatusController",
+    "Method": "get",
+    "RelativePath": "master-service/api/MarritalStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.MPSCController",
+    "Method": "GetmpscBasicDetails",
+    "RelativePath": "master-service/api/MPSC/basic-details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.MPSCController",
+    "Method": "CasteCategory",
+    "RelativePath": "master-service/api/MPSC/caste-category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.MPSCController",
+    "Method": "CoachingList",
+    "RelativePath": "master-service/api/MPSC/coaching",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.MPSCController",
+    "Method": "Gender",
+    "RelativePath": "master-service/api/MPSC/gender",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.MPSCController",
+    "Method": "InterviewSponsorship",
+    "RelativePath": "master-service/api/MPSC/interview-sponsorship",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.MPSCController",
+    "Method": "MainSponsorship",
+    "RelativePath": "master-service/api/MPSC/main-sponsorship",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.MPSCController",
+    "Method": "Options",
+    "RelativePath": "master-service/api/MPSC/options",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.MPSCController",
+    "Method": "GetmpscOtherDetails",
+    "RelativePath": "master-service/api/MPSC/other-details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.MPSCController",
+    "Method": "GetmpscPersonalDetails",
+    "RelativePath": "master-service/api/MPSC/personal-details",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.MPSCController",
+    "Method": "Sponsorship",
+    "RelativePath": "master-service/api/MPSC/sponsorship",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.MPSCController",
+    "Method": "Sponsorship_10000",
+    "RelativePath": "master-service/api/MPSC/sponsorship_10000",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.MultipleTalukaController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/MultipleTaluka",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "distid",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.MultipleVillageController",
+    "Method": "Post",
+    "RelativePath": "master-service/api/MultipleVillage",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "talukaId",
+        "Type": "System.Collections.Generic.List\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.PastCourseInitialDataController",
+    "Method": "GetIntialData",
+    "RelativePath": "master-service/api/PastCourseInitialData/GetIntialData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "langId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.PostMatricDataController",
+    "Method": "GetHMS_Address",
+    "RelativePath": "master-service/api/PostMatricData/GetHMS_Address",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.PostMatricDataController",
+    "Method": "GetHMS_CurrentCourseData",
+    "RelativePath": "master-service/api/PostMatricData/GetHMS_CurrentCourseData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.PostMatricDataController",
+    "Method": "GetHMS_ParentAddress",
+    "RelativePath": "master-service/api/PostMatricData/GetHMS_ParentAddress",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.PostMatricDataController",
+    "Method": "GetHMS_PastCourseData",
+    "RelativePath": "master-service/api/PostMatricData/GetHMS_PastCourseData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.PostMatricDataController",
+    "Method": "GetHMS_ProfileData",
+    "RelativePath": "master-service/api/PostMatricData/GetHMS_ProfileData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.PreMatricDataController",
+    "Method": "GetHMS_Address",
+    "RelativePath": "master-service/api/PreMatricData/GetHMS_Address",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.PreMatricDataController",
+    "Method": "GetHMS_CurrentCourseData",
+    "RelativePath": "master-service/api/PreMatricData/GetHMS_CurrentCourseData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.PreMatricDataController",
+    "Method": "GetHMS_ParentAddress",
+    "RelativePath": "master-service/api/PreMatricData/GetHMS_ParentAddress",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.PreMatricDataController",
+    "Method": "Pre_GetHMS_ProfileData",
+    "RelativePath": "master-service/api/PreMatricData/Pre_GetHMS_ProfileData",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.QualificationTypeController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/QualificationType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.ReasonsController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/Reasons",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.ReasonsController",
+    "Method": "GetOfflineScrutinyReasons",
+    "RelativePath": "master-service/api/Reasons/offline-scrutiny-reasons",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.ReservedCategoryController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/ReservedCategory",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.StateController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/State",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "lang",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.StatusController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/Status",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.StreamController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/Stream",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "intID",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "_LangId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.SwadharServiceTypeController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/SwadharServiceType",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.TalukaController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/Taluka",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "distid",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "lang",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.UniversityController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/University",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "courseId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "colId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "qualificationLvl",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "langId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.VillegeController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/Villege",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "taluka",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "lang",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MasterService.Controllers.YearsOfStudyController",
+    "Method": "Get",
+    "RelativePath": "master-service/api/YearsOfStudy",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CourseId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "LangId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

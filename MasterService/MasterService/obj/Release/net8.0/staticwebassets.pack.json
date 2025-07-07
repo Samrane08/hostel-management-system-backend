@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\obj\\Release\\net8.0\\scopedcss\\projectbundle\\MasterService.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MasterService.hkvwc8l4k8.bundle.scp.css"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.MasterService.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.MasterService.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.MasterService.props",
+      "PackagePath": "build\\MasterService.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MasterService.props",
+      "PackagePath": "buildMultiTargeting\\MasterService.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.MasterService.props",
+      "PackagePath": "buildTransitive\\MasterService.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

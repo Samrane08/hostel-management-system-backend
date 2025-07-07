@@ -1,0 +1,1476 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Master Service API",
+    "version": "v1"
+  },
+  "paths": {
+    "/master-service/api/AcademicYear": {
+      "get": {
+        "tags": [
+          "AcademicYear"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/AcademicYear/Dashboard-Manual-Depart-Scheme": {
+      "get": {
+        "tags": [
+          "AcademicYear"
+        ],
+        "parameters": [
+          {
+            "name": "departmentId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "schemeId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/AcademicYear/available-academic-year": {
+      "get": {
+        "tags": [
+          "AcademicYear"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/AdmissionType": {
+      "get": {
+        "tags": [
+          "AdmissionType"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/AdmissionYear": {
+      "get": {
+        "tags": [
+          "AdmissionYear"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/ApplicationServiceType": {
+      "get": {
+        "tags": [
+          "ApplicationServiceType"
+        ],
+        "parameters": [
+          {
+            "name": "deptId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/Attendance": {
+      "get": {
+        "tags": [
+          "Attendance"
+        ],
+        "parameters": [
+          {
+            "name": "departmentId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "serviceType",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/Attendance/available-academic-year": {
+      "get": {
+        "tags": [
+          "Attendance"
+        ],
+        "parameters": [
+          {
+            "name": "departmentId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/Cache": {
+      "get": {
+        "tags": [
+          "Cache"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/Cache/Clear": {
+      "post": {
+        "tags": [
+          "Cache"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/Caste": {
+      "get": {
+        "tags": [
+          "Caste"
+        ],
+        "parameters": [
+          {
+            "name": "castecategoryId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/Caste/CasteBasedOnServiceType": {
+      "get": {
+        "tags": [
+          "Caste"
+        ],
+        "parameters": [
+          {
+            "name": "castecategoryId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "deptId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ServiceType",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/CasteCategory": {
+      "get": {
+        "tags": [
+          "CasteCategory"
+        ],
+        "parameters": [
+          {
+            "name": "IsSwadhar",
+            "in": "query",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "deptId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/CasteCategory/CasteCategoryBasedOnServiceType": {
+      "get": {
+        "tags": [
+          "CasteCategory"
+        ],
+        "parameters": [
+          {
+            "name": "IsSwadhar",
+            "in": "query",
+            "schema": {
+              "type": "boolean"
+            }
+          },
+          {
+            "name": "deptId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ServiceType",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/CollegeOrSchool": {
+      "get": {
+        "tags": [
+          "CollegeOrSchool"
+        ],
+        "parameters": [
+          {
+            "name": "stream",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "qualificationType",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "districtid",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "LangId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/CollegeOrSchoolCurrent": {
+      "get": {
+        "tags": [
+          "CollegeOrSchoolCurrent"
+        ],
+        "parameters": [
+          {
+            "name": "stream",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "qualificationType",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "districtid",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "LangId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/Course": {
+      "get": {
+        "tags": [
+          "Course"
+        ],
+        "parameters": [
+          {
+            "name": "cold",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "strmId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "quaId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "langId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/CourseCategory": {
+      "get": {
+        "tags": [
+          "CourseCategory"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/CourseResult": {
+      "get": {
+        "tags": [
+          "CourseResult"
+        ],
+        "parameters": [
+          {
+            "name": "caller",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/CourseStatus": {
+      "get": {
+        "tags": [
+          "CourseStatus"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/CourseType": {
+      "get": {
+        "tags": [
+          "CourseType"
+        ],
+        "parameters": [
+          {
+            "name": "deptId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "IsSwadharorHostel",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/CourseType/get-all-coursetype": {
+      "get": {
+        "tags": [
+          "CourseType"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/CourseYear": {
+      "get": {
+        "tags": [
+          "CourseYear"
+        ],
+        "parameters": [
+          {
+            "name": "courseId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "qualificationTypeId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/CourseYearStatus": {
+      "get": {
+        "tags": [
+          "CourseYearStatus"
+        ],
+        "parameters": [
+          {
+            "name": "yearId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/CurrentCourseInitialData/GetIntialData": {
+      "get": {
+        "tags": [
+          "CurrentCourseInitialData"
+        ],
+        "parameters": [
+          {
+            "name": "langId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "stateCode",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/District": {
+      "get": {
+        "tags": [
+          "District"
+        ],
+        "parameters": [
+          {
+            "name": "state",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "division",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "lang",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/Division": {
+      "get": {
+        "tags": [
+          "Division"
+        ],
+        "parameters": [
+          {
+            "name": "lang",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/EducationMode": {
+      "get": {
+        "tags": [
+          "EducationMode"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/Gender": {
+      "get": {
+        "tags": [
+          "Gender"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/Gender/get-premises": {
+      "get": {
+        "tags": [
+          "Gender"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/GetStateDistrictTalukaAndVil": {
+      "get": {
+        "tags": [
+          "GetStateDistrictTalukaAndVil"
+        ],
+        "parameters": [
+          {
+            "name": "dynamicparams",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "dynamicId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/Hostel": {
+      "get": {
+        "tags": [
+          "Hostel"
+        ],
+        "parameters": [
+          {
+            "name": "dist",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "taluka",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/Hostel/List": {
+      "get": {
+        "tags": [
+          "Hostel"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/HostelType": {
+      "get": {
+        "tags": [
+          "HostelType"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/IssuingAuthority": {
+      "get": {
+        "tags": [
+          "IssuingAuthority"
+        ],
+        "parameters": [
+          {
+            "name": "drpType",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/MarritalStatus": {
+      "get": {
+        "tags": [
+          "MarritalStatus"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/MPSC/basic-details": {
+      "get": {
+        "tags": [
+          "MPSC"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/MPSC/personal-details": {
+      "get": {
+        "tags": [
+          "MPSC"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/MPSC/other-details": {
+      "get": {
+        "tags": [
+          "MPSC"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/MPSC/caste-category": {
+      "get": {
+        "tags": [
+          "MPSC"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/MPSC/coaching": {
+      "get": {
+        "tags": [
+          "MPSC"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/MPSC/gender": {
+      "get": {
+        "tags": [
+          "MPSC"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/MPSC/interview-sponsorship": {
+      "get": {
+        "tags": [
+          "MPSC"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/MPSC/main-sponsorship": {
+      "get": {
+        "tags": [
+          "MPSC"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/MPSC/options": {
+      "get": {
+        "tags": [
+          "MPSC"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/MPSC/sponsorship": {
+      "get": {
+        "tags": [
+          "MPSC"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/MPSC/sponsorship_10000": {
+      "get": {
+        "tags": [
+          "MPSC"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/MultipleTaluka": {
+      "post": {
+        "tags": [
+          "MultipleTaluka"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/MultipleVillage": {
+      "post": {
+        "tags": [
+          "MultipleVillage"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "format": "int32"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/PastCourseInitialData/GetIntialData": {
+      "get": {
+        "tags": [
+          "PastCourseInitialData"
+        ],
+        "parameters": [
+          {
+            "name": "langId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/PostMatricData/GetHMS_ProfileData": {
+      "get": {
+        "tags": [
+          "PostMatricData"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/PostMatricData/GetHMS_PastCourseData": {
+      "get": {
+        "tags": [
+          "PostMatricData"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/PostMatricData/GetHMS_Address": {
+      "get": {
+        "tags": [
+          "PostMatricData"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/PostMatricData/GetHMS_ParentAddress": {
+      "get": {
+        "tags": [
+          "PostMatricData"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/PostMatricData/GetHMS_CurrentCourseData": {
+      "get": {
+        "tags": [
+          "PostMatricData"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/PreMatricData/Pre_GetHMS_ProfileData": {
+      "get": {
+        "tags": [
+          "PreMatricData"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/PreMatricData/GetHMS_Address": {
+      "get": {
+        "tags": [
+          "PreMatricData"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/PreMatricData/GetHMS_ParentAddress": {
+      "get": {
+        "tags": [
+          "PreMatricData"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/PreMatricData/GetHMS_CurrentCourseData": {
+      "get": {
+        "tags": [
+          "PreMatricData"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/QualificationType": {
+      "get": {
+        "tags": [
+          "QualificationType"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/Reasons": {
+      "get": {
+        "tags": [
+          "Reasons"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/Reasons/offline-scrutiny-reasons": {
+      "get": {
+        "tags": [
+          "Reasons"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/ReservedCategory": {
+      "get": {
+        "tags": [
+          "ReservedCategory"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/State": {
+      "get": {
+        "tags": [
+          "State"
+        ],
+        "parameters": [
+          {
+            "name": "lang",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/Status": {
+      "get": {
+        "tags": [
+          "Status"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/Stream": {
+      "get": {
+        "tags": [
+          "Stream"
+        ],
+        "parameters": [
+          {
+            "name": "intID",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "_LangId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/SwadharServiceType": {
+      "get": {
+        "tags": [
+          "SwadharServiceType"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/Taluka": {
+      "get": {
+        "tags": [
+          "Taluka"
+        ],
+        "parameters": [
+          {
+            "name": "distid",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "lang",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/University": {
+      "get": {
+        "tags": [
+          "University"
+        ],
+        "parameters": [
+          {
+            "name": "courseId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "colId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "qualificationLvl",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "langId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/Villege": {
+      "get": {
+        "tags": [
+          "Villege"
+        ],
+        "parameters": [
+          {
+            "name": "taluka",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "lang",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/master-service/api/YearsOfStudy": {
+      "get": {
+        "tags": [
+          "YearsOfStudy"
+        ],
+        "parameters": [
+          {
+            "name": "CourseId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "LangId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32",
+              "default": 1
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Please enter token",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

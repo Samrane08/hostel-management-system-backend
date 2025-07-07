@@ -1,0 +1,10 @@
+2025-05-28 14:35:18 - :
+Request GET /swagger/index.html executed in 172 ms
+2025-05-28 14:35:18 - :
+Request GET /swagger/ApplicantService/swagger.json executed in 49 ms
+2025-05-28 14:35:43 - :
+Request GET /applicant-service/api/BankAccount/EncryptAllreadyAvailBankAccountNo executed in 7607 ms
+2025-05-28 14:36:45 - :
+Request GET /applicant-service/api/BankAccount/MaskedAllreadyAvailBankAccountNo executed in 4392 ms
+2025-05-28 14:37:50 - :
+Request GET /applicant-service/api/BankAccount/DecryptAllreadyAvailBankAccountNo executed in 20 ms

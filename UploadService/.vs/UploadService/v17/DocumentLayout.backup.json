@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\UploadService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B51B0FC-B217-4C11-B87A-632C1441D388}|UploadService\\UploadService.csproj|e:\\hms\\vjnt\\backend\\hostel-management-system-backend-vjnt\\uploadservice\\uploadservice\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B51B0FC-B217-4C11-B87A-632C1441D388}|UploadService\\UploadService.csproj|solutionrelative:uploadservice\\controllers\\filecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32A8CE1C-B335-477C-95C1-C528FE11407B}|Service\\Service.csproj|e:\\hms\\vjnt\\backend\\hostel-management-system-backend-vjnt\\uploadservice\\service\\implementation\\fileuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32A8CE1C-B335-477C-95C1-C528FE11407B}|Service\\Service.csproj|solutionrelative:service\\implementation\\fileuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B51B0FC-B217-4C11-B87A-632C1441D388}|UploadService\\UploadService.csproj|e:\\hms\\vjnt\\backend\\hostel-management-system-backend-vjnt\\uploadservice\\uploadservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4B51B0FC-B217-4C11-B87A-632C1441D388}|UploadService\\UploadService.csproj|solutionrelative:uploadservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FileUploadService.cs",
+              "DocumentMoniker": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\UploadService\\Service\\Implementation\\FileUploadService.cs",
+              "RelativeDocumentMoniker": "Service\\Implementation\\FileUploadService.cs",
+              "ToolTip": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\UploadService\\Service\\Implementation\\FileUploadService.cs",
+              "RelativeToolTip": "Service\\Implementation\\FileUploadService.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAASwCUAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T07:03:33.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\UploadService\\UploadService\\appsettings.json",
+              "RelativeDocumentMoniker": "UploadService\\appsettings.json",
+              "ToolTip": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\UploadService\\UploadService\\appsettings.json",
+              "RelativeToolTip": "UploadService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-22T06:49:48.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FileController.cs",
+              "DocumentMoniker": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\UploadService\\UploadService\\Controllers\\FileController.cs",
+              "RelativeDocumentMoniker": "UploadService\\Controllers\\FileController.cs",
+              "ToolTip": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\UploadService\\UploadService\\Controllers\\FileController.cs",
+              "RelativeToolTip": "UploadService\\Controllers\\FileController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCMAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T01:52:19.693Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

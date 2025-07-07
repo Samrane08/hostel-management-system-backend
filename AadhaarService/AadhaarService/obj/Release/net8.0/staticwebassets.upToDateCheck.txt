@@ -1,0 +1,4 @@
+wwwroot\certificates\DCBX_certificate.cer
+wwwroot\certificates\JME.cer
+wwwroot\certificates\uidai_auth_preprod.cer
+wwwroot\certificates\uidai_auth_prod.cer

@@ -1,0 +1,16 @@
+2025-05-27 10:54:20 - :
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Repository.Implementation.SJSADapperr.MultiResult(String sp, DynamicParameters parms, CommandType commandType) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Repository\Implementation\Dapperr.cs:line 147
+   at Service.Implementation.LotteryService.GetMeritAsstRejectList(MeritRejectModel model) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Service\Implementation\LotteryService.cs:line 395
+2025-05-27 11:11:35 - :
+System.ArgumentException: Unknown Department ID. Please provide a valid department ID. (Parameter 'departmentId')
+   at Repository.Interface.DapperResolver.Resolve(String departmentId) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Repository\Interface\IDapperResolver.cs:line 39
+   at Service.Implementation.LotteryService.GetApplicantApprovedRejectListAsPerAadhar(MeritRejectModel model) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Service\Implementation\LotteryService.cs:line 458
+2025-05-27 11:13:29 - :
+System.ArgumentException: Unknown Department ID. Please provide a valid department ID. (Parameter 'departmentId')
+   at Repository.Interface.DapperResolver.Resolve(String departmentId) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Repository\Interface\IDapperResolver.cs:line 39
+   at Service.Implementation.LotteryService.GetApplicantApprovedRejectListAsPerAadhar(MeritRejectModel model) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Service\Implementation\LotteryService.cs:line 458
+2025-05-27 11:15:04 - :
+System.ArgumentException: Unknown Department ID. Please provide a valid department ID. (Parameter 'departmentId')
+   at Repository.Interface.DapperResolver.Resolve(String departmentId) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Repository\Interface\IDapperResolver.cs:line 39
+   at Service.Implementation.LotteryService.GetApplicantApprovedRejectListAsPerAadhar(MeritRejectModel model) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Service\Implementation\LotteryService.cs:line 458

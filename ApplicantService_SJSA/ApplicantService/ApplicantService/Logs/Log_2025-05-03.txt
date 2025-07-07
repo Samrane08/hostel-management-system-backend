@@ -1,0 +1,80 @@
+2025-05-03 10:32:04 - :
+Request GET /swagger/index.html executed in 63 ms
+2025-05-03 10:32:09 - :
+Request GET /swagger/ApplicantService/swagger.json executed in 41 ms
+2025-05-03 10:32:31 - :
+Request GET /swagger/index.html executed in 1 ms
+2025-05-03 10:32:31 - :
+Request GET /swagger/ApplicantService/swagger.json executed in 21 ms
+2025-05-03 10:34:37 - :
+Request GET /swagger/index.html executed in 7 ms
+2025-05-03 10:34:38 - :
+Request GET /swagger/ApplicantService/swagger.json executed in 22 ms
+2025-05-03 13:03:21 - :
+Request GET /swagger/index.html executed in 78 ms
+2025-05-03 13:03:22 - :
+Request GET /swagger/ApplicantService/swagger.json executed in 18 ms
+2025-05-03 13:03:44 - :
+Request GET /swagger/index.html executed in 1 ms
+2025-05-03 13:03:44 - :
+Request GET /swagger/ApplicantService/swagger.json executed in 23 ms
+2025-05-03 13:05:04 - :
+Request GET /v_applicant-service/api/Profile/profile-image executed in 465 ms
+2025-05-03 13:05:04 - :
+Request GET /v_applicant-service/api/Application/application-status-commondesk executed in 460 ms
+2025-05-03 13:05:11 - :
+Request GET /applicant-service/api/Application/payment-status executed in 1292 ms
+2025-05-03 13:05:11 - :
+Request GET /applicant-service/api/ProgressStatus executed in 1420 ms
+2025-05-03 13:05:11 - :
+Request GET /applicant-service/api/Account/check-verified-status executed in 1493 ms
+2025-05-03 13:05:13 - :
+Request GET /applicant-service/api/CurrentCourse/CheckIsCurrentAvailable executed in 393 ms
+2025-05-03 13:05:13 - :
+Request GET /applicant-service/api/PersonalDetails executed in 340 ms
+2025-05-03 13:05:14 - :
+Request GET /applicant-service/api/Profile/hostel-genderwise executed in 268 ms
+2025-05-03 13:05:15 - :
+Request GET /applicant-service/api/Profile/profile-image executed in 5995 ms
+2025-05-03 13:05:15 - :
+Request GET /applicant-service/api/PastCourse/CheckIsPreOrPost executed in 46 ms
+2025-05-03 13:05:16 - :
+Request GET /applicant-service/api/CurrentCourse/IsNewApplicant executed in 51 ms
+2025-05-03 13:05:16 - :
+Request GET /applicant-service/api/CurrentCourse/persona_info executed in 58 ms
+2025-05-03 13:05:16 - :
+Request GET /applicant-service/api/CurrentCourse/Getqualificationtype executed in 68 ms
+2025-05-03 13:05:16 - :
+Request GET /applicant-service/api/CurrentCourse/district executed in 83 ms
+2025-05-03 13:05:16 - :
+Request GET /applicant-service/api/CurrentCourse/GetQualificationByuserId executed in 140 ms
+2025-05-03 13:05:17 - :
+Request GET /applicant-service/api/CurrentCourse/IsNewApplicant executed in 13 ms
+2025-05-03 13:06:06 - :
+Request GET /applicant-service/api/CurrentCourse/district executed in 41 ms
+2025-05-03 13:06:09 - :
+Request GET /applicant-service/api/CurrentCourse/taluka executed in 107 ms
+2025-05-03 13:08:45 - :
+MySql.Data.MySqlClient.MySqlException (0x80004005): Table 'hostelmanagement.mst_yearstructure' doesn't exist
+   at MySql.Data.MySqlClient.MySqlStream.ReadPacketAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.NativeDriver.GetResultAsync(Int32 affectedRow, Int64 insertedId, Boolean execAsync)
+   at MySql.Data.MySqlClient.Driver.GetResultAsync(Int32 statementId, Int32 affectedRows, Int64 insertedId, Boolean execAsync)
+   at MySql.Data.MySqlClient.Driver.NextResultAsync(Int32 statementId, Boolean force, Boolean execAsync)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResultAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResultAsync(Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1156
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1184
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 815
+   at Repository.Implementation.Dapperr.GetAll[T](String sp, DynamicParameters parms, CommandType commandType) in E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Repository\Implementation\Dapperr.cs:line 49
+   at Service.Implementation.CurrentCourseService.GetCurrentQualificationYear(Int32 courseId, Nullable`1 langID) in E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Service\Implementation\CurrentCourseService.cs:line 445
+2025-05-03 13:08:45 - :
+Request GET /applicant-service/api/CurrentCourse/GetCurrentQualificationYear executed in 148719 ms
+2025-05-03 13:08:45 - :
+Request GET /applicant-service/api/CurrentCourse/IsCapRequired executed in 148810 ms

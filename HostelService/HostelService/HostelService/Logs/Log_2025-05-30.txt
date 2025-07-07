@@ -1,0 +1,126 @@
+2025-05-30 17:32:04 - :
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MySql.Data.MySqlClient.MySqlConnection.set_Reader(MySqlDataReader value)
+   at MySql.Data.MySqlClient.MySqlCommand.ResetReaderAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1156
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1184
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 815
+   at Repository.Implementation.VJNTDapperr.Get[T](String sp, DynamicParameters parms, CommandType commandType) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Repository\Implementation\Dapperr.cs:line 177
+   at Service.Implementation.SetVacencyService.CheckIfCapacitiesSetAsync() in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Service\Implementation\SetVacencyService.cs:line 208
+2025-05-30 17:32:41 - :
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MySql.Data.MySqlClient.MySqlConnection.set_Reader(MySqlDataReader value)
+   at MySql.Data.MySqlClient.MySqlCommand.ResetReaderAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1156
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1184
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 815
+   at Repository.Implementation.VJNTDapperr.Get[T](String sp, DynamicParameters parms, CommandType commandType) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Repository\Implementation\Dapperr.cs:line 177
+   at Service.Implementation.SetVacencyService.CheckIfCapacitiesSetAsync() in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Service\Implementation\SetVacencyService.cs:line 208
+2025-05-30 17:46:54 - :
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MySql.Data.MySqlClient.MySqlConnection.set_Reader(MySqlDataReader value)
+   at MySql.Data.MySqlClient.MySqlCommand.ResetReaderAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1156
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1184
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 815
+   at Repository.Implementation.VJNTDapperr.Get[T](String sp, DynamicParameters parms, CommandType commandType) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Repository\Implementation\Dapperr.cs:line 177
+   at Service.Implementation.SetVacencyService.CheckIfCapacitiesSetAsync() in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Service\Implementation\SetVacencyService.cs:line 208
+2025-05-30 17:47:01 - :
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MySql.Data.MySqlClient.MySqlConnection.set_Reader(MySqlDataReader value)
+   at MySql.Data.MySqlClient.MySqlCommand.ResetReaderAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1156
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1184
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 815
+   at Repository.Implementation.VJNTDapperr.Get[T](String sp, DynamicParameters parms, CommandType commandType) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Repository\Implementation\Dapperr.cs:line 177
+   at Service.Implementation.SetVacencyService.CheckIfCapacitiesSetAsync() in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Service\Implementation\SetVacencyService.cs:line 208
+2025-05-30 17:47:02 - :
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MySql.Data.MySqlClient.MySqlConnection.set_Reader(MySqlDataReader value)
+   at MySql.Data.MySqlClient.MySqlCommand.ResetReaderAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1156
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1184
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 815
+   at Repository.Implementation.VJNTDapperr.GetAll[T](String sp, DynamicParameters parms, CommandType commandType) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Repository\Implementation\Dapperr.cs:line 182
+   at Service.Implementation.SetVacencyService.FetchQuotaTypeAsync() in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Service\Implementation\SetVacencyService.cs:line 27
+2025-05-30 17:48:41 - :
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MySql.Data.MySqlClient.MySqlConnection.set_Reader(MySqlDataReader value)
+   at MySql.Data.MySqlClient.MySqlCommand.ResetReaderAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1156
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1184
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 815
+   at Repository.Implementation.VJNTDapperr.GetAll[T](String sp, DynamicParameters parms, CommandType commandType) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Repository\Implementation\Dapperr.cs:line 182
+   at Service.Implementation.SetVacencyService.FetchCourseTypeAsync() in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Service\Implementation\SetVacencyService.cs:line 58
+2025-05-30 17:48:43 - :
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MySql.Data.MySqlClient.MySqlConnection.set_Reader(MySqlDataReader value)
+   at MySql.Data.MySqlClient.MySqlCommand.ResetReaderAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1156
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1184
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 815
+   at Repository.Implementation.VJNTDapperr.GetAll[T](String sp, DynamicParameters parms, CommandType commandType) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Repository\Implementation\Dapperr.cs:line 182
+   at Service.Implementation.SetVacencyService.FetchCourseTypeAsync() in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Service\Implementation\SetVacencyService.cs:line 58
+2025-05-30 17:48:47 - :
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MySql.Data.MySqlClient.MySqlConnection.set_Reader(MySqlDataReader value)
+   at MySql.Data.MySqlClient.MySqlCommand.ResetReaderAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1156
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1184
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 815
+   at Repository.Implementation.VJNTDapperr.Get[T](String sp, DynamicParameters parms, CommandType commandType) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Repository\Implementation\Dapperr.cs:line 177
+   at Service.Implementation.SetVacencyService.CheckIfCapacitiesSetAsync() in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Service\Implementation\SetVacencyService.cs:line 208
+2025-05-30 17:48:53 - :
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at MySql.Data.MySqlClient.MySqlConnection.set_Reader(MySqlDataReader value)
+   at MySql.Data.MySqlClient.MySqlCommand.ResetReaderAsync(Boolean execAsync)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReaderAsync(CommandBehavior behavior, Boolean execAsync, CancellationToken cancellationToken)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Dapper.SqlMapper.ExecuteReaderWithFlagsFallback(IDbCommand cmd, Boolean wasClosed, CommandBehavior behavior) in /_/Dapper/SqlMapper.cs:line 1156
+   at Dapper.SqlMapper.QueryImpl[T](IDbConnection cnn, CommandDefinition command, Type effectiveType)+MoveNext() in /_/Dapper/SqlMapper.cs:line 1184
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at Dapper.SqlMapper.Query[T](IDbConnection cnn, String sql, Object param, IDbTransaction transaction, Boolean buffered, Nullable`1 commandTimeout, Nullable`1 commandType) in /_/Dapper/SqlMapper.cs:line 815
+   at Repository.Implementation.VJNTDapperr.Get[T](String sp, DynamicParameters parms, CommandType commandType) in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Repository\Implementation\Dapperr.cs:line 177
+   at Service.Implementation.SetVacencyService.CheckIfCapacitiesSetAsync() in E:\HMS\VJNT\BackEnd\hostel-management-system-backend-VJNT\HostelService\HostelService\Service\Implementation\SetVacencyService.cs:line 208

@@ -1,0 +1,241 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|e:\\hms\\vjnt\\backend\\hostel-management-system-backend-vjnt\\masterservice\\masterservice\\controllers\\admissionyearcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|solutionrelative:masterservice\\controllers\\admissionyearcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|e:\\hms\\vjnt\\backend\\hostel-management-system-backend-vjnt\\masterservice\\masterservice\\controllers\\castecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|solutionrelative:masterservice\\controllers\\castecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|e:\\hms\\vjnt\\backend\\hostel-management-system-backend-vjnt\\masterservice\\masterservice\\controllers\\collegeorschoolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|solutionrelative:masterservice\\controllers\\collegeorschoolcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|e:\\hms\\vjnt\\backend\\hostel-management-system-backend-vjnt\\masterservice\\masterservice\\controllers\\gendercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|solutionrelative:masterservice\\controllers\\gendercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|e:\\hms\\vjnt\\backend\\hostel-management-system-backend-vjnt\\masterservice\\masterservice\\controllers\\castecategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|solutionrelative:masterservice\\controllers\\castecategorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|e:\\hms\\vjnt\\backend\\hostel-management-system-backend-vjnt\\masterservice\\masterservice\\controllers\\coursestatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|solutionrelative:masterservice\\controllers\\coursestatuscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|e:\\hms\\vjnt\\backend\\hostel-management-system-backend-vjnt\\masterservice\\masterservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|solutionrelative:masterservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|e:\\hms\\vjnt\\backend\\hostel-management-system-backend-vjnt\\masterservice\\masterservice\\controllers\\academicyearcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|solutionrelative:masterservice\\controllers\\academicyearcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|e:\\hms\\vjnt\\backend\\hostel-management-system-backend-vjnt\\masterservice\\masterservice\\controllers\\coursetypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|solutionrelative:masterservice\\controllers\\coursetypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|e:\\hms\\vjnt\\backend\\hostel-management-system-backend-vjnt\\masterservice\\masterservice\\controllers\\hostelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|solutionrelative:masterservice\\controllers\\hostelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|e:\\hms\\vjnt\\backend\\hostel-management-system-backend-vjnt\\masterservice\\masterservice\\controllers\\currentcourseinitialdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|solutionrelative:masterservice\\controllers\\currentcourseinitialdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|e:\\hms\\vjnt\\backend\\hostel-management-system-backend-vjnt\\masterservice\\masterservice\\models\\currentcourseinitialdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|solutionrelative:masterservice\\models\\currentcourseinitialdatamodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|e:\\hms\\vjnt\\backend\\hostel-management-system-backend-vjnt\\masterservice\\masterservice\\controllers\\applicationservicetypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{694176D8-6FF9-45BF-A00B-176F537F3DB3}|MasterService\\MasterService.csproj|solutionrelative:masterservice\\controllers\\applicationservicetypecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CollegeOrSchoolController.cs",
+              "DocumentMoniker": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Controllers\\CollegeOrSchoolController.cs",
+              "RelativeDocumentMoniker": "MasterService\\Controllers\\CollegeOrSchoolController.cs",
+              "ToolTip": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Controllers\\CollegeOrSchoolController.cs",
+              "RelativeToolTip": "MasterService\\Controllers\\CollegeOrSchoolController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-03T13:28:34.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CasteController.cs",
+              "DocumentMoniker": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Controllers\\CasteController.cs",
+              "RelativeDocumentMoniker": "MasterService\\Controllers\\CasteController.cs",
+              "ToolTip": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Controllers\\CasteController.cs",
+              "RelativeToolTip": "MasterService\\Controllers\\CasteController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAD4vzsAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T06:46:43.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdmissionYearController.cs",
+              "DocumentMoniker": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Controllers\\AdmissionYearController.cs",
+              "RelativeDocumentMoniker": "MasterService\\Controllers\\AdmissionYearController.cs",
+              "ToolTip": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Controllers\\AdmissionYearController.cs*",
+              "RelativeToolTip": "MasterService\\Controllers\\AdmissionYearController.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T12:27:59.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenderController.cs",
+              "DocumentMoniker": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Controllers\\GenderController.cs",
+              "RelativeDocumentMoniker": "MasterService\\Controllers\\GenderController.cs",
+              "ToolTip": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Controllers\\GenderController.cs",
+              "RelativeToolTip": "MasterService\\Controllers\\GenderController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowDEAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T07:34:39.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CasteCategoryController.cs",
+              "DocumentMoniker": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Controllers\\CasteCategoryController.cs",
+              "RelativeDocumentMoniker": "MasterService\\Controllers\\CasteCategoryController.cs",
+              "ToolTip": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Controllers\\CasteCategoryController.cs",
+              "RelativeToolTip": "MasterService\\Controllers\\CasteCategoryController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAkwDcAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-23T07:27:14.183Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Program.cs",
+              "RelativeDocumentMoniker": "MasterService\\Program.cs",
+              "ToolTip": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Program.cs",
+              "RelativeToolTip": "MasterService\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:27:20.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CourseStatusController.cs",
+              "DocumentMoniker": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Controllers\\CourseStatusController.cs",
+              "RelativeDocumentMoniker": "MasterService\\Controllers\\CourseStatusController.cs",
+              "ToolTip": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Controllers\\CourseStatusController.cs",
+              "RelativeToolTip": "MasterService\\Controllers\\CourseStatusController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:26:33.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AcademicYearController.cs",
+              "DocumentMoniker": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Controllers\\AcademicYearController.cs",
+              "RelativeDocumentMoniker": "MasterService\\Controllers\\AcademicYearController.cs",
+              "ToolTip": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Controllers\\AcademicYearController.cs",
+              "RelativeToolTip": "MasterService\\Controllers\\AcademicYearController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAuwFsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:11:26.408Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CourseTypeController.cs",
+              "DocumentMoniker": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Controllers\\CourseTypeController.cs",
+              "RelativeDocumentMoniker": "MasterService\\Controllers\\CourseTypeController.cs",
+              "ToolTip": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Controllers\\CourseTypeController.cs",
+              "RelativeToolTip": "MasterService\\Controllers\\CourseTypeController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAawDsAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-21T14:26:15.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HostelController.cs",
+              "DocumentMoniker": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Controllers\\HostelController.cs",
+              "RelativeDocumentMoniker": "MasterService\\Controllers\\HostelController.cs",
+              "ToolTip": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Controllers\\HostelController.cs",
+              "RelativeToolTip": "MasterService\\Controllers\\HostelController.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAuwFMAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-28T06:46:53.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CurrentCourseInitialDataModel.cs",
+              "DocumentMoniker": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Models\\CurrentCourseInitialDataModel.cs",
+              "RelativeDocumentMoniker": "MasterService\\Models\\CurrentCourseInitialDataModel.cs",
+              "ToolTip": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Models\\CurrentCourseInitialDataModel.cs",
+              "RelativeToolTip": "MasterService\\Models\\CurrentCourseInitialDataModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAArwA0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:33:51.279Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CurrentCourseInitialDataController.cs",
+              "DocumentMoniker": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Controllers\\CurrentCourseInitialDataController.cs",
+              "RelativeDocumentMoniker": "MasterService\\Controllers\\CurrentCourseInitialDataController.cs",
+              "ToolTip": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Controllers\\CurrentCourseInitialDataController.cs",
+              "RelativeToolTip": "MasterService\\Controllers\\CurrentCourseInitialDataController.cs",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAowHQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T13:27:00.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationServiceTypeController.cs",
+              "DocumentMoniker": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Controllers\\ApplicationServiceTypeController.cs",
+              "RelativeDocumentMoniker": "MasterService\\Controllers\\ApplicationServiceTypeController.cs",
+              "ToolTip": "E:\\HMS\\VJNT\\BackEnd\\hostel-management-system-backend-VJNT\\MasterService\\MasterService\\Controllers\\ApplicationServiceTypeController.cs",
+              "RelativeToolTip": "MasterService\\Controllers\\ApplicationServiceTypeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-12T12:16:30.622Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

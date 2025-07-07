@@ -1,0 +1,16 @@
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Model\bin\Release\net8.0\Model.deps.json
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Model\bin\Release\net8.0\Model.dll
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Model\bin\Release\net8.0\Model.pdb
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Model\bin\Release\net8.0\Helper.dll
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Model\bin\Release\net8.0\Helper.pdb
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Model\obj\Release\net8.0\Model.csproj.AssemblyReference.cache
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Model\obj\Release\net8.0\Model.GeneratedMSBuildEditorConfig.editorconfig
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Model\obj\Release\net8.0\Model.AssemblyInfoInputs.cache
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Model\obj\Release\net8.0\Model.AssemblyInfo.cs
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Model\obj\Release\net8.0\Model.csproj.CoreCompileInputs.cache
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Model\obj\Release\net8.0\Model.sourcelink.json
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Model\obj\Release\net8.0\Model.csproj.Up2Date
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Model\obj\Release\net8.0\Model.dll
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Model\obj\Release\net8.0\refint\Model.dll
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Model\obj\Release\net8.0\Model.pdb
+E:\HMS\SJSA\BackEnd\hostel-management-system-backend-SJSA\ApplicantService\Model\obj\Release\net8.0\ref\Model.dll
